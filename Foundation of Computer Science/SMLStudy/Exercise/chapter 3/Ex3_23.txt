@@ -1,0 +1,4 @@
+fun rowsum([],[])=[]
+    |rowsum(p::ps,q::qs)=(p+q)::rowsum(ps,qs)
+fun matsum([],[])=[]
+    |matsum(ps::pss,qs::qss)=(rowsum(ps,qs))::matsum(pss,qss)

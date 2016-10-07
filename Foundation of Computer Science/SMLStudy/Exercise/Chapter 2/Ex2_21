@@ -1,0 +1,8 @@
+fun introot n = if n < 4 then (1,n-1) else
+let
+val (i,t) = introot(n div 4)
+val t1 = 4*t + n mod 4
+val t2 = t1 - 4*i - 1
+in 
+if t2 < 0 then (2*i,t1) else (2*i+1,t2)
+end	;

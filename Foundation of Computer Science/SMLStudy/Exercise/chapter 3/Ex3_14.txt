@@ -1,0 +1,5 @@
+fun allChange(coc,_,0,res) = coc :: res
+  |allChange(_,[],amo,res) = res
+  |allChange(coc,co::cov,amo,res) =
+    if amo < 0 then res else
+    allChange(co::coc,co::cov,amo-co,allChange(coc,cov,amo,res));

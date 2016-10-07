@@ -1,0 +1,2 @@
+fun nth (x::a,n) = if n = 1 then x else nth (a,n-1)
+   |nth ([],n) = 0;

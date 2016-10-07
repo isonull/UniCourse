@@ -1,0 +1,3 @@
+fun powoftwo n = n = 1 orelse (n mod 2 = 0 andalso powoftwo(n div 2));
+(*reduction step for powoftwo 8 
+ powoftwo 4 powoftwo 2 powoftwo 1 1 = 1 true*);

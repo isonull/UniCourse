@@ -1,0 +1,37 @@
+fun take(ps,0)=[]
+    |take([],i)=[]
+    |take(p::ps,i)=p::take(ps,i-1) 
+fun rtake(ps,0)=ps
+    |rtake([],i)=[]
+    |rtake(p::ps,i)=rtake(ps,i-1)
+fun delxth(ps,i)=take(ps,i-1)@rtake(ps,i)
+fun delxthcol([],i)=[] 
+    |delxthcol(ps::pss,i)=delxth(ps,i)::delxthcol(pss,i)
+fun xth (p::ps,1)=p
+    |xth(p::ps,i)=xth(ps,i-1)
+fun hdcol []=[]
+    |hdcol((a::_)::ass)=a::(hdcol ass)
+fun tlcol []=[]
+    |tlcol(( a :: b)::c)= (b) ::(tlcol c)
+fun sign i = if i mod 2 = 1 then 1 else ~1
+
+fun det([],i,j)=0
+    |det([[x]],_,_)=x
+    |det(a,i,j)= 
+        if i+1=j then 0 
+        else sign(j) * xth(hdcol a,j) * det(delxth(tlcol(a),j),i-1,1) + det(a,i,j+1)
+
+fun ziplists([],[])=[]
+    |ziplists(x::xs,[])=[x]::ziplists(xs,[])
+    |ziplists(x::xs,y::ys)=(x::y)::ziplists(xs,ys)
+fun transp([])=[]
+    |transp(row::rows)=ziplists(row,transp(rows))
+
+fun algcof(a,i,j,n) = sign(i+j) * det(delxthcol(delxth(a,i),j),n-1,1)
+
+fun adj([[]],i,j,n,r)=[[]]
+    |adj(a,i,j,n,[])= adj(a,i,j+1,n,[algcof(a,i,j,n)])
+    |adj(a,i,j,n,rs)= 
+        if j<>n+1 then adj(a,i,j+1,n,algcof(a,i,j,n)::rs)
+        else if i<>n+1 then (rev rs) :: adj(a,i+1,1,n,[])
+        else []

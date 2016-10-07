@@ -1,0 +1,8 @@
+fun oldEnglishMoneyTide(po,sh,pe) = ((po*240 + sh*12 + pe)div 240,
+		(po*240 + sh*12 + pe)mod 240 div 12,
+		(po*240 + sh*12 + pe)mod 12);
+
+fun oldEnglishMoneyAdd((po1,sh1,pe1),(po2,sh2,pe2)) = 
+	oldEnglishMoneyTide(po1+po2,sh1+sh2,pe1+pe2);
+fun oldEnglishMoneySub((po1,sh1,pe1),(po2,sh2,pe2)) =
+	oldEnglishMoneyTide(po1-po2,sh1-sh2,pe1-pe2);

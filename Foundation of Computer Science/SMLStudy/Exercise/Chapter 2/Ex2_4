@@ -1,0 +1,2 @@
+fun digit1 i = String.sub("0123456789",i);
+fun digit2 i = chr(i + ord(#"0"));

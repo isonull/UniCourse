@@ -1,0 +1,3 @@
+fun itfib(n,prev,curr) = if n = 1 then curr 
+						 else itfib(n,curr,prev + curr);
+fun fib n = itfib(n,0,1);

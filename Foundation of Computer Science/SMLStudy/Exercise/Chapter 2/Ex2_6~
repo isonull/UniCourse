@@ -1,0 +1,7 @@
+fun compairTime ((h1,m1,s1),(h2,m2,s2)) = 
+	if (String.compare(s2,"PM") = EQUAL
+		andalso String.compare(s1,"AM")= EQUAL ) then  GREATER 
+	else if h2 > h1 then GREATER
+	else if m2 > m1 then GREATER
+	else if m2 = m1 then EQUAL
+	else LESS;

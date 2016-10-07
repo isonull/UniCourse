@@ -1,0 +1,12 @@
+fun gcd(x,y) = if x = 0 then y else gcd(y mod x, x);
+fun sim(x,y) = (x div gcd(x,y),y div gcd(x,y));
+ 
+structure Rational : ARITH = 
+	struct
+    type t = int * int;
+	val zero = (0,1);
+	fun sum((a,b),(c,d)) = sim(a*d+b*c,b*d): t;
+	fun diff((a,b),(c,d)) = sim(a*d-b*c,b*d): t;
+	fun prod((a,b),(c,d)) = sim(a*c,b*d): t;
+	fun quo ((a,b),(c,d)) = sim(a*d,b*c): t;
+	end;

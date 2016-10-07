@@ -1,0 +1,11 @@
+fun bincarry(false,ps)=ps
+	|bincarry(true,[])=[true]
+	|bincarry(true,p::ps) = (not p) :: bincarry(p,ps);
+fun binsup1(a,b,c) = ((a=b)=c);
+fun binsup2(a,b,c) = 
+	if a=true then
+		if b=true orelse c=true then true else false 
+	else if b=true andalso c=true then true else false;
+fun binsum(c,[],qs)=bincarry(c,qs)
+	|binsum(c,ps,[])=bincarry(c,ps)
+	|binsum(c,p::ps,q::qs)=binsup1(c,p,q)::binsum(binsup2(c,p,q),ps,qs);

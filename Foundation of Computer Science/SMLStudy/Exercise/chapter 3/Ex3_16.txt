@@ -1,0 +1,51 @@
+structure Bin =
+	struct 
+	type t = int list;
+	val zero=[];
+
+		fun bincarry(0,ps)=ps
+			|bincarry(1,[])=[1]
+			|bincarry(1,p::ps)=(1-p)::bincarry(p,ps)
+		fun binsum(c,[],qs)=bincarry(c,qs)
+			|binsum(c,ps,[])=bincarry(c,ps)
+			|binsum(c,p::ps,q::qs)=((c+q+p)mod 2)::binsum((c+p+q)div 2,ps,qs)
+		
+		fun bindiff(0,[],[]) = [] 
+			|bindiff(c,p::ps,[])= 
+				if p+c>=0 then (p+c)::ps
+				else (2+p+c)::bindiff(~1,ps,[])
+			|bindiff(c,p::ps,q::qs)=
+				if c+p-q>=0 then (c+p-q)::bindiff(0,ps,qs)
+				else (2+c+p-q)::bindiff(~1,ps,qs)
+	    	
+		fun binprod([],_)=[]
+			|binprod(0::ps,qs)=0::binprod(ps,qs)
+			|binprod(1::ps,qs)=binsum(0,qs,0::binprod(ps,qs))
+        
+        fun zerorem(0::ps)=zerorem(ps)
+            |zerorem(1::ps)=1::ps
+            |zerorem([])=[]
+
+        fun zeroremback(ps) = rev(zerorem(rev(ps)))
+
+        fun compare(p::ps,q::qs)=
+            if length(p::ps)>length(q::qs) then 0
+            else if length(p::ps)<length(q::qs) then 1
+            else if p<q then 1
+            else if p>q then 0
+            else compare(ps,qs)
+            |compare([],_)=1 
+
+        fun binquo([],qs,[])=[]
+            |binquo([],qs,t)=[compare(rev qs,rev t)]
+            |binquo(p::ps,qs,[])=binquo(ps,qs,p::[])
+            |binquo(p::ps,qs,t)= 
+                if compare(rev qs,rev t)=1 then 1::binquo(ps,qs,p::zeroremback(bindiff(0,t,qs)))
+                else 0::binquo(ps,qs,p::t)
+		
+		fun sum(x,y)=rev(binsum(0,rev x,rev y));
+		fun diff(x,y)=zerorem(rev(bindiff(0,rev x,rev y)));	
+		fun prod(x,y)=rev(binprod(rev x,rev y));
+        fun quo(x,y)=zerorem(binquo(x,rev y,[]));
+
+end;

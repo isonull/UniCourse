@@ -1,0 +1,5 @@
+fun conv(p::ps,i,ip)=p*ip + conv(ps,i,ip*i)
+    |conv([],i,ip)=0
+fun reconv(0,i,ip)=[]
+    |reconv(p,i,ip)=(p mod ip * i div ip)::reconv(p-p mod ip,i,ip*i)
+fun tran(ps,i,j) =rev(reconv(conv(rev ps,i,1),j,j))

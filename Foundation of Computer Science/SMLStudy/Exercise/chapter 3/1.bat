@@ -1,0 +1,2 @@
+ren *. *.txt
+pause

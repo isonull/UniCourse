@@ -1,0 +1,8 @@
+fun fix(m,n):int*int = if m < n then (m,n) else (n,m);
+fun abs m = if m < 0 then ~m else m;
+fun gcd(m,n) = if m = n then m else
+	if m mod 2 = 0 then if n mod 2 = 0 then 2*gcd(fix(m div 2, n div 2))
+								   else gcd (fix(m div 2, n))
+			   else if n mod 2 = 0 then gcd (fix(n div 2, m))
+					else                gcd (fix(abs (n - m) div 2, m));
+			   

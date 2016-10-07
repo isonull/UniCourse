@@ -1,0 +1,13 @@
+fun isDateValid(d,m) = 
+(m = "January" andalso d>0 andalso d<32) orelse 
+(m = "February" andalso d>0 andalso d<29)orelse
+(m = "March" andalso d>0 andalso d<32) orelse
+(m = "April" andalso d>0 andalso d<31) orelse
+(m = "May" andalso d>0 andalso d<32)orelse
+(m = "June" andalso d>0 andalso d<31)orelse
+(m = "July" andalso d>0 andalso d<32)orelse
+(m = "August" andalso d>0 andalso d<32)orelse
+(m = "September" andalso d>0 andalso d<31)orelse
+(m = "October" andalso d>0 andalso d<32)orelse
+(m = "November" andalso d>0 andalso d<31)orelse
+(m = "December" andalso d>0 andalso d<32);

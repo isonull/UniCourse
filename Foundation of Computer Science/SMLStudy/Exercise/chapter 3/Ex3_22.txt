@@ -1,0 +1,4 @@
+fun rowneg []=[]
+    |rowneg(r::row)=(~r)::rowneg(row)
+fun matneg []=[]
+    |matneg(row::rows)=rowneg(row)::matneg(rows)

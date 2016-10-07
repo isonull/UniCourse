@@ -1,0 +1,13 @@
+fun power(x,k) = if k = 1 then x 
+			else if k mod 2 = 0 then power(x * x, k div 2)
+			else                  x *power(x * x, k div 2);
+(*computation step for power(2.0,29)
+ 2 * power(4,14)
+ 2 * power(16,7)
+ 4 * power(256,3)
+ ...
+ 8 * power(...,1);
+ = 536870912
+
+ worst case is log2 2n
+ *)

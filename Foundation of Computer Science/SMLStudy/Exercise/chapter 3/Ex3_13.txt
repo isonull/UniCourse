@@ -1,0 +1,6 @@
+fun allChange(coc,_,0,_) = [coc]
+    |allChange(coc,[],_,_)= []
+	|allChange(coc,co::cov,amo,lim) = 
+		if lim = 0 orelse amo < 0 then [] else
+		allChange(co::coc,co::cov,amo-co,lim-1) @ 
+		allChange(coc,cov,amo,lim);

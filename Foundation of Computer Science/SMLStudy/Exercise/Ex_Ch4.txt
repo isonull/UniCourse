@@ -1,0 +1,89 @@
+datatype person = King
+                | Peer of string*string*int
+                | Knight of string
+                | Esquire of string*string
+                | Peasant of string;
+
+(*4.1*)
+fun person_int (King) = 4
+  | person_int (Peer i) = 3
+  | person_int (Knight i) = 2
+  | person_int (Esquire i) = 1
+  | person_int (Peasant i) = 0;
+
+fun superior1 (a,b) = person_int a > person_int b;
+
+(*4.2*)
+fun title King = "King"
+  | title (Peer(d,t,_)) = "The " ^ d ^ " of " ^ t
+  | title (Knight n) = "Sir " ^ n
+  | title (Esquire(n,v)) = n ^ " of " ^ v
+  | title (Peasant n) = n;
+
+(*4.3*)
+datatype shape = Triangle of real*real
+               | Rectangle of real*real
+               | Circle of real;
+
+fun area (Triangle(b,h)) = 0.5 * b * h
+  | area (Rectangle(a,b)) = a * b
+  | area (Circle r) = 3.14 * r * r;
+
+(*4.4*)
+datatype country = China
+                 | America
+                 | Britain;
+
+fun capital China = "Beijing"
+  | capital America = "Washington"
+  | capital Britain = "London";
+
+(*4.5*)
+fun conjunction (true,true) = true
+  | conjunction (_,_) = false;
+
+fun disjunction (false,false) = false
+  | disjunction (_,_) = true;
+
+(*4.6*)
+(*unit,str*str*int,str,str*)
+
+(*4.7*)
+(*([x], []) ~ Inl(x)
+  ([], [y]) ~ Inr(y)*)
+
+(*4.8*)
+(*Peasant _ to Peasant_ causes error*)
+
+(*4.9*)
+fun title1 per = case per of
+                     King => "King"
+                   | Peer(d,t,_) => "The " ^ d ^ " of " ^ t
+                   | Knight n => "Sir " ^ n
+                   | Esquire(n,v) => n ^ " of " ^ v
+                   | Peasant n => n;
+
+(*4.10*)
+(*   case E of P1 => E1 | ... | Pn => En
+
+by the expression 
+   let fun f(P1) = E1 | ... | f(Pn) = En in f(E) end
+where f is a previously unused identifier. This expression has the same context as the case and performs precisely the same pattern-matching. 
+According to the ML Definition, the case expression above actually expands to (see Chapter 5) 
+  (fn P1 => E1 | ... | Pn => En)(E)   *)
+
+(* 4.11. Yes. Equality testing is not possible in general for exception values, since they may carry values of arbitrary types.
+
+4.12. Several examples appear later in the book. In parsing, exceptions can
+signal syntax errors -- see Section 9.3. In unification, exceptions can signal
+that the two given expressions cannot be unified -- see Section 10.7. In
+  numerical computing, division by zero is almost impossible to predict; all we
+  can do is catch exception Div and try to recover gracefully (perhaps by
+  attempting a different algorithm).*)
+
+(*4.13*)
+
+
+
+                      
+  

@@ -1,0 +1,5 @@
+fun ziplists([],[])=[]
+    |ziplists(x::xs,[])=[x]::ziplists(xs,[])
+    |ziplists(x::xs,y::ys)=(x::y)::ziplists(xs,ys)
+fun transp([])=[]
+    |transp(row::rows)=ziplists(row,transp(rows))
