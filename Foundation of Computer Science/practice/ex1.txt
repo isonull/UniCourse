@@ -1,0 +1,18 @@
+(*ex1.2*)
+
+fun convert a = if a >=50 then a-100 else a
+fun rconvert a = if a < 0 then a + 100 else a
+fun yearCompare (a,b) = convert a > convert b
+fun yearChange (y,c) = rconvert (convert y + c)
+
+(*ex1.5*)
+
+fun multiadd (x,0) = 0
+  | multiadd (x,n) = x + multiadd (x,n-1)
+
+(*ex1.6*)
+
+val goldenRatio = (1.0 + Math.sqrt 5.0) / 2.0
+fun nextRatio (r,0) = r
+  | nextRatio (r,n) = nextRatio (1.0/(r-1.0),n-1)
+val goldenRatio50 = nextRatio(goldenRatio,50)
