@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.9)  11 OCT 2016 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.9)  13 OCT 2016 09:41
 entering extended mode
 **./DigitalDesignSV1.tex
 (DigitalDesignSV1.tex
@@ -874,37 +874,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
-<1-1.JPG, id=35, 2830.575pt x 1980.39874pt>
-File: 1-1.JPG Graphic file (type jpg)
- <use 1-1.JPG>
-Package pdftex.def Info: 1-1.JPG used on input line 117.
-(pdftex.def)             Requested size: 283.07408pt x 198.05147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 114--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-<1-7-a.png, id=36, 248.8798pt x 172.09294pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--145
+
+ []
+
+<1-7-a.png, id=35, 248.8798pt x 172.09294pt>
 File: 1-7-a.png Graphic file (type png)
  <use 1-7-a.png>
-Package pdftex.def Info: 1-7-a.png used on input line 132.
+Package pdftex.def Info: 1-7-a.png used on input line 153.
 (pdftex.def)             Requested size: 124.43959pt x 86.04625pt.
-
-<1-7-b.png, id=38, 244.81462pt x 101.62968pt>
-File: 1-7-b.png Graphic file (type png)
- <use 1-7-b.png>
-Package pdftex.def Info: 1-7-b.png used on input line 136.
-(pdftex.def)             Requested size: 122.407pt x 50.81471pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -914,153 +913,173 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./1-1.JPG> <./1-7-a.png>] <1-8.JPG, id=51, 2386.9175pt x 1617.04124pt>
+ <./1-7-a.png>]
+<1-7-b.png, id=49, 244.81462pt x 101.62968pt>
+File: 1-7-b.png Graphic file (type png)
+ <use 1-7-b.png>
+Package pdftex.def Info: 1-7-b.png used on input line 157.
+(pdftex.def)             Requested size: 122.407pt x 50.81471pt.
+
+<1-8.JPG, id=50, 2386.9175pt x 1617.04124pt>
 File: 1-8.JPG Graphic file (type jpg)
  <use 1-8.JPG>
-Package pdftex.def Info: 1-8.JPG used on input line 141.
+Package pdftex.def Info: 1-8.JPG used on input line 162.
 (pdftex.def)             Requested size: 238.70573pt x 161.7136pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--189
+ [2 <./1-7-b.png> <./1-8.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--221
 
  []
 
-[2 <./1-7-b.png> <./1-8.JPG>] <4-d.JPG, id=60, 2884.7775pt x 1758.57pt>
+<4-d.JPG, id=59, 2884.7775pt x 1758.57pt>
 File: 4-d.JPG Graphic file (type jpg)
-
-<use 4-d.JPG>
-Package pdftex.def Info: 4-d.JPG used on input line 190.
+ <use 4-d.JPG>
+Package pdftex.def Info: 4-d.JPG used on input line 222.
 (pdftex.def)             Requested size: 288.49464pt x 175.8673pt.
- <5-e.JPG, id=61, 3069.4675pt x 1735.48375pt>
+
+<5-e.JPG, id=60, 3069.4675pt x 1735.48375pt>
 File: 5-e.JPG Graphic file (type jpg)
  <use 5-e.JPG>
-Package pdftex.def Info: 5-e.JPG used on input line 210.
+Package pdftex.def Info: 5-e.JPG used on input line 242.
 (pdftex.def)             Requested size: 306.96474pt x 173.55853pt.
 
-<5-f.JPG, id=62, 2457.18pt x 2394.9475pt>
+<5-f.JPG, id=61, 2457.18pt x 2394.9475pt>
 File: 5-f.JPG Graphic file (type jpg)
  <use 5-f.JPG>
-Package pdftex.def Info: 5-f.JPG used on input line 212.
+Package pdftex.def Info: 5-f.JPG used on input line 244.
 (pdftex.def)             Requested size: 368.5611pt x 359.22662pt.
-
-Underfull \vbox (badness 7740) has occurred while \output is active []
-
- [3 <./4-d.JPG>] <6.JPG, id=68, 1870.99pt x 2302.6025pt>
+ [3 <./4-d.JPG>]
+<6.JPG, id=67, 1870.99pt x 2302.6025pt>
 File: 6.JPG Graphic file (type jpg)
  <use 6.JPG>
-Package pdftex.def Info: 6.JPG used on input line 217.
+Package pdftex.def Info: 6.JPG used on input line 249.
 (pdftex.def)             Requested size: 187.10995pt x 230.27374pt.
 
-<6(1).png, id=69, 373.54556pt x 193.32225pt>
+<6(1).png, id=68, 373.54556pt x 193.32225pt>
 File: 6(1).png Graphic file (type png)
  <use 6(1).png>
-Package pdftex.def Info: 6(1).png used on input line 220.
+Package pdftex.def Info: 6(1).png used on input line 252.
 (pdftex.def)             Requested size: 373.54465pt x 193.32178pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--221
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./5-e.JPG> <./5-f.JPG>] <6(2).png, id=75, 241.65282pt x 89.88582pt>
+ [4 <./5-e.JPG> <./5-f.JPG>] <6(2).png, id=74, 241.65282pt x 89.88582pt>
 File: 6(2).png Graphic file (type png)
  <use 6(2).png>
-Package pdftex.def Info: 6(2).png used on input line 226.
+Package pdftex.def Info: 6(2).png used on input line 258.
 (pdftex.def)             Requested size: 241.65222pt x 89.88557pt.
 
-<7.png, id=76, 141.82988pt x 46.9755pt>
+<7.png, id=75, 141.82988pt x 46.9755pt>
 File: 7.png Graphic file (type png)
  <use 7.png>
-Package pdftex.def Info: 7.png used on input line 233.
+Package pdftex.def Info: 7.png used on input line 265.
 (pdftex.def)             Requested size: 141.82951pt x 46.97537pt.
  [5 <./6.JPG> <./6(1).png> <./6(2).png>]
-Overfull \hbox (87.49591pt too wide) in paragraph at lines 236--236
+Overfull \hbox (87.49591pt too wide) in paragraph at lines 268--268
  []\OT1/cmtt/m/n/10 The 0 0 means clear so once the first input is 0 0 then the
  output H should also be clear.[] 
  []
 
 
-Overfull \hbox (24.49646pt too wide) in paragraph at lines 237--237
+Overfull \hbox (24.49646pt too wide) in paragraph at lines 269--269
  []\OT1/cmtt/m/n/10 For C, once b is logical 0 then it must be 0 (no need for a
 dd 1 to next digit)[] 
  []
 
-<7H1.JPG, id=86, 2597.705pt x 1725.44624pt>
+<7H1.JPG, id=85, 2597.705pt x 1725.44624pt>
 File: 7H1.JPG Graphic file (type jpg)
  <use 7H1.JPG>
-Package pdftex.def Info: 7H1.JPG used on input line 252.
+Package pdftex.def Info: 7H1.JPG used on input line 284.
 (pdftex.def)             Requested size: 259.78572pt x 172.55473pt.
 
-<7H0.JPG, id=87, 2478.25874pt x 1669.23625pt>
+<7H0.JPG, id=86, 2478.25874pt x 1669.23625pt>
 File: 7H0.JPG Graphic file (type jpg)
  <use 7H0.JPG>
-Package pdftex.def Info: 7H0.JPG used on input line 254.
+Package pdftex.def Info: 7H0.JPG used on input line 286.
 (pdftex.def)             Requested size: 247.8404pt x 166.9334pt.
 
-<7C1.JPG, id=88, 2298.5875pt x 1608.0075pt>
+<7C1.JPG, id=87, 2298.5875pt x 1608.0075pt>
 File: 7C1.JPG Graphic file (type jpg)
  <use 7C1.JPG>
-Package pdftex.def Info: 7C1.JPG used on input line 256.
+Package pdftex.def Info: 7C1.JPG used on input line 288.
 (pdftex.def)             Requested size: 229.87221pt x 160.81017pt.
 
-<7C0.JPG, id=89, 2533.465pt x 1672.2475pt>
+<7C0.JPG, id=88, 2533.465pt x 1672.2475pt>
 File: 7C0.JPG Graphic file (type jpg)
  <use 7C0.JPG>
-Package pdftex.def Info: 7C0.JPG used on input line 258.
+Package pdftex.def Info: 7C0.JPG used on input line 290.
 (pdftex.def)             Requested size: 228.00201pt x 150.49577pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--260
+Underfull \hbox (badness 10000) in paragraph at lines 284--292
 
  []
 
 
 Underfull \vbox (badness 1248) has occurred while \output is active []
 
- [6 <./7.png> <./7H1.JPG> <./7H0.JPG>] <7(1).png, id=96, 239.84607pt x 266.9473
+ [6 <./7.png> <./7H1.JPG> <./7H0.JPG>] <7(1).png, id=95, 239.84607pt x 266.9473
 1pt>
 File: 7(1).png Graphic file (type png)
 
 <use 7(1).png>
-Package pdftex.def Info: 7(1).png used on input line 261.
+Package pdftex.def Info: 7(1).png used on input line 293.
 (pdftex.def)             Requested size: 239.84547pt x 266.94664pt.
  [7 <./7C1.JPG> <./7C0.JPG> <./7(1).png>]
+<8.png, id=103, 525.31256pt x 381.22424pt>
+File: 8.png Graphic file (type png)
+ <use 8.png>
+Package pdftex.def Info: 8.png used on input line 316.
+(pdftex.def)             Requested size: 420.25063pt x 304.97981pt.
+
+Overfull \hbox (35.25066pt too wide) in paragraph at lines 315--317
+[] 
+ []
+
 
 AED: lastpage setting LastPage
-[8]
+[8 <./8.png>]
 \Changes@OutFile=\write4
 \openout4 = `DigitalDesignSV1.loc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (DigitalDesignSV1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 327.
 Package rerunfilecheck Info: File `DigitalDesignSV1.out' has not changed.
 (rerunfilecheck)             Checksum: 9D86993CA9BE4FE96E22D1CD8317EE51;312.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 327.
  ) 
 Here is how much of TeX's memory you used:
- 18248 strings out of 493334
- 338835 string characters out of 3136660
- 393404 words of memory out of 3000000
- 21557 multiletter control sequences out of 15000+200000
- 9361 words of font info for 39 fonts, out of 3000000 for 9000
+ 18242 strings out of 493334
+ 338742 string characters out of 3136660
+ 395404 words of memory out of 3000000
+ 21552 multiletter control sequences out of 15000+200000
+ 7853 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,13n,47p,10369b,796s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on DigitalDesignSV1.pdf (8 pages, 6959102 bytes).
+ 34i,12n,47p,10369b,862s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{page.9} has been referenced but does not exist, r
+eplaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on DigitalDesignSV1.pdf (8 pages, 6043439 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

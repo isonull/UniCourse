@@ -108,15 +108,26 @@
 
 % Demo text.  This kid was trying to explain what a compiler was.  He's not a very good student.
 
-
-
 \section{Ex1}
 \begin{enumerate}
 \item[1.1.1]
-
-\includegraphics[scale=0.1]{1-1.JPG}
-
+\begin{tabular}{ccccccc}
+$A$ & $B$ & $\bar{a}$ & $\overline{\bar{a}+b}$ & $\bar{b}$ & $\overline{a+\bar{b}}$ & $x$\\
+\hline
+0&0&1&1&1&1&0\\
+0&1&1&0&0&1&1\\
+1&0&0&1&1&0&1\\
+1&1&0&1&0&1&0\\
+\hline
+0&0&1&0&1&0&1\\
+0&1&1&0&0&1&0\\
+1&0&0&1&1&0&0\\
+1&1&0&0&0&0&1\\
+\end{tabular}\newline\
+The first circuit is called XOR.\newline
+the second circuit is called NOR.\newline
 \item[1.2.1] $a.b.c+a.c.\overline{c}=a.b.(c+\bar{c})=ab$ \newline
+
 \item[1.2.2] $a(\bar{a}+b)=a\bar{a}+ab=0+ab=ab$ \newline
 \item[1.2.3] $(a+c)(\overline{a}+b)$ \newline
 	  $\overline{a}c+ab+cb$	\newline
@@ -126,6 +137,16 @@
 	  $\overline{\overline{a}\overline{c}+\overline{a}\overline{d}+\overline{b}\overline{c}+\overline{b}\overline{d}}$ \newline
 	  $\overline{\overline{a}+\overline{b}}+\overline{\overline{c}+\overline{d}}$\newline
 	  $ab+cd$
+\item[1.2.x]
+$x+(\bar{x}y)=(x+\bar{x})(x+y)=1.(x+y)=x+y$\newline
+To prove the second equation,take complement on both side.
+$\overline{x+(\bar{x}y)}=\overline{x+y}$\newline
+Then the LHS will be:$\bar{x}(x+\bar{y}=\bar{x}x+\bar{x}\bar{y}=\bar{x}\bar{y})$\newline
+
+So proved:$\overline{x+y}=\bar{x}\bar{y}$\newline
+To prove the third one, just replace x and y with $\bar{x}$ and $\bar{y}$ \newline
+and take implement on the both side on the second equation.\newline
+so proved:$\bar{x}+\bar{y}=\overline{xy}$
 \item[1.7.a]
 $a\bar{b}+ac=\overline{\overline{a\bar{b}}.\overline{ac}}$
 
@@ -159,10 +180,21 @@ $g=(a+b)(a+c+d)(\bar{a}+\bar{d})$
 
 \end{enumerate}
 \section{Ex2}
-
+I guess those are lists of binary code but no idea how to decode.. 
 \section{Ex3}
 \begin{enumerate}
-\item[(a)]
+\item[(a)] 
+There are 16 possibility.\newline
+\begin{tabular}{ccc}
+$A$ & $B$ & $output$\\
+\hline
+0   & 0   & x\\
+0   & 1   & x\\
+1   & 0   & x\\
+1   & 1   & x\\
+\end{tabular}\newline
+One truth table means one possible function.Then to fill each x with 
+0 or 1.\newline There are $2^4$ possibility.
 \item[(b)]
 $\bar{a}=\overline{0+a}$\newline
 notice $\overline{\bar{a}+\bar{b}}=a.b$\newline
@@ -261,7 +293,7 @@ $C_0 =A_0 + B_0$\newline
 \includegraphics[scale=1]{7(1).png} 
 
 \item[(c)]
-This needs 7 gates. Original one needs 3 gates.
+This needs 7 gates. Original circuit needs 3 gates.
 
 \item[(d)]
 They both have $2T$ (ps) delay.
@@ -271,21 +303,19 @@ They both have $2T$ (ps) delay.
 
 \section{Ex8}
 
+\begin{enumerate}
+\item[(a)]
+$\bar{U}=U\bar{X}+\bar{U}\bar{W}\bar{Y}+\bar{U}\bar{W}\bar{Z}+\bar{U}\bar{Z}Y+X\bar{W}\bar{U}$
+\item[(b)]
+This is exactly the same as Ex5(e).\newline
+As change A to U, B to W, C to X, D to Y, E to X.\newline
+so $P=UX+\bar{U}\bar{Y}W+\bar{U}WZ+\bar{U}\bar{X}YZ$
 
+\item[(c)]
+picture \newline
+\includegraphics[scale=0.8]{8.png} 
 
-\subsection*{notes}
-\begin{align*}
-x + y  &= z                                             \\
-\dots\ &=\ \dots     && \text{a label}                  \\
-  a b  &/ c          && \text{\textsc{exchange} rule}   \\
-p      &< 5          && \text{(note that $p\in\mathbb{R}$)}
-\end{align*}
-
-\begin{verbatim}
-fun fib 0 = 1
-  | fib n = fib (n-1) + fib(n-2);
-\end{verbatim}
-
+\end{enumerate}
 
 
 
