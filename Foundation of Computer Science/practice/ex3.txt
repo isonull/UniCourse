@@ -1,0 +1,10 @@
+fun listSum [] = 0
+  | listSum (l::ls) = l + listSum (ls);
+
+fun listLast ls = hd (rev ls);
+
+fun listEven [] = []
+  | listEven (l::[]) = []
+  | listEven (l1::(l2::ls)) = l2 :: listEven (ls)
+
+

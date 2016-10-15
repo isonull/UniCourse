@@ -1,0 +1,26 @@
+fun isMember (i,[]) = false
+  | isMember (i,l::ls) = (i=l) orelse isMember (i,ls);
+
+fun union_ (ps,[],[]) = ps
+  | union_ (ps,x::xs,ys) = 
+        if isMember (x,ps) 
+        then union_ (ps,xs,ys)
+        else union_ (x::ps,xs,ys)
+  | union_ (ps,[],y::ys) = 
+        if isMember (y,ps) 
+        then union_ (ps,[],ys)
+        else union_ (y::ps,[],ys);
+
+fun union (a,b) = union_ ([],a,b)
+
+fun signSep (ls) = 
+    let 
+        fun signSep_ ([],x,y) = (x,y) 
+          | signSep_ (l::ls,x,y) = 
+            if l < 0 
+            then signSep_ (ls,x,l::y)
+            else signSep_ (ls,l::x,y)
+    in
+        signSep_ (ls,[],[])
+    end;
+

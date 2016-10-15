@@ -1,0 +1,5 @@
+fun ipower (x,0,t) = 1
+  | ipower (x,1,t) = t
+  | ipower (x,n,t) = power (x,n-1,t*x);
+fun power (x,n) = ipower (x,n,x);
+
