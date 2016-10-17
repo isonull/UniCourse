@@ -1,0 +1,15 @@
+The changes-package allows the user to manually markup changes of text, such as additions, deletions, or replacements.
+Changed text is shown in a different colour; deleted text is striked out.
+The package allows free defining of additional authors and their associated colour.
+It also allows you to define a markup for authors or annotations.
+
+Das changes-Paket dient zur manuellen Markierung von geändertem Text, insbesondere Einfügungen, Löschungen und Ersetzungen.
+Der geänderte Text wird farbig markiert und, bei gelöschtem Text, durchgestrichen.
+Das Paket ermöglicht die freie Definition von Autoren und deren zugeordneten Farben.
+Es erlaubt zusätzlich die Definition des Autor- und Anmerkungsmarkups.
+
+This material is subject to the LaTeX Project Public License (LPPL).
+For details see changes_eng.pdf
+
+Dieses Paket steht unter der LaTeX Project Public License (LPPL).
+Details stehen in changes.pdf
