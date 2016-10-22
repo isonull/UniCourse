@@ -1,0 +1,17 @@
+datatype dayOfTheWeek = Day of int * string;
+
+datatype tree = Lf
+              | Br of int * tree * tree;
+fun sumoflable Lf = 0
+  | sumoflable (Br(x,b1,b2)) = x + (sumoflable b1) + (sumoflable b2);
+
+datatype arith = Number of real
+               | Variable of string
+               | Expression of string * arith list;
+exception noVar of string
+fun evaluate (Number r) = r
+  | evaluate (Variable a) = raise (noVar a)
+  | evaluate (Expression (str,l1::[l2])) = 
+    case str of "~" => ~ (evaluate l1)
+              | "+" => (evaluate l1) + (evaluate l2)
+              | "-" => (evaluate l1) + ~ (evaluate l2);

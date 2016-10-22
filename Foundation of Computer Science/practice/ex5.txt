@@ -1,0 +1,29 @@
+fun selectSort [] = []
+  | selectSort ls =
+    let
+        fun select (xs,m,[]) = (m,xs)
+          | select (xs,m,y::ys) = if y<m 
+                                  then select (m::xs,y,ys)
+                                  else select (y::xs,m,ys)
+        fun sort (xs,[]) = xs
+          | sort (xs,y::ys) =
+            let val pa = select ([],y,ys)
+            in sort ((#1 pa) :: xs,#2 pa) end;
+    in
+        rev (sort ([],ls))
+    end;
+
+fun bubbleSort ls = 
+    let 
+        val len = length ls
+        fun bubble (ls,0) = ls
+          | bubble (l::[],_) = [l] 
+          | bubble (l1::l2::ls,n) = if l1 < l2 
+                                    then l1::bubble (l2::ls,n-1)
+                                    else l2::bubble (l1::ls,n-1)
+        fun sort ([],_) = []
+          | sort (ls,0) = ls
+          | sort (ls,n) = sort(bubble (ls,n),n-1)
+    in
+        sort (ls,len)
+    end;
