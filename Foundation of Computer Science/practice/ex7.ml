@@ -30,3 +30,14 @@ fun delete str Lf = raise Empty
          then Br((k,i),delete str b1,b2)
          else Br((k,i),b1,delete str b2);
 
+datatype 'a arr = Lf
+                | Br of 'a * 'a arr * 'a arr;
+
+fun tcon i Lf = Br(i,Lf,Lf)
+  | tcon i (Br(x,b1,b2)) =  Br(i,tcon x b2, b1);
+
+fun rtcon Lf = Lf
+  | rtcon (Br(x,Lf,Lf)) = Lf
+  | rtcon (Br(x,(Br(y,y1,y2)),b2)) = Br(y,b2,rtcon (Br(y,y1,y2)));
+
+
