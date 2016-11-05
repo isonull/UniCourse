@@ -1,0 +1,197 @@
+\documentclass[a4paper]{article}
+
+\def\npart {IA}
+\def\nterm {Michaelmas}
+\def\nyear {2016}
+\def\nlecturer {xxx}
+\def\ncourse {Discrete Mathematics}
+\def\nauthor {Z.Yan}
+
+
+
+\input{header}
+
+\begin{document}
+\maketitle
+
+\begin{itemize}
+\item[*]\textbf{Proof [5 lectures]}\\
+Proofs in practice and mathematical jargon. Mathematical statements: implication, bi-implication, universal quantification, conjunction, existential quantification, disjunction, negation. Logical deduction: proof strategies and patterns, scratch work, logical equivalences. Proof by contradiction. Divisibility and congruences. Fermat’s Little Theorem. 
+
+\item[*]\textbf{Numbers [5 lectures]}\\
+Number systems: natural numbers, integers, rationals, modular integers. The Division Theorem and Algorithm. Modular arithmetic. Sets: membership and comprehension. The greatest common divisor, and Euclid’s Algorithm and Theorem.The Extended Euclid’s Algorithm and multiplicative inverses in modular arithmetic. The Diffie-Hellman cryptographic method. Mathematical induction: Binomial Theorem, Pascal’s Triangle, Fundamental Theorem of Arithmetic, Euclid’s inﬁnity of primes. 
+
+\item[*]\textbf{Sets [7 lectures]}\\
+Extensionality Axiom: subsets and supersets. Separation Principle: Russell’s Paradox, the empty set. Powerset Axiom: the powerset Boolean algebra, Venn and Hasse diagrams. Pairing Axiom: singletons, ordered pairs, products. Union axiom: big unions, big intersections, disjoint unions. Relations: composition, matrices, directed graphs, preorders and partial orders. Partial and (total) functions. Bijections: sections and retractions. Equivalence relations and set partitions. Calculus of bijections: characteristic (or indicator) functions. Finite cardinality and counting. Infinity axiom. Surjections. Enumerable and countable sets. Axiom of choice. Injections. Images: direct and inverse images. Replacement Axiom: set-indexed constructions. Set cardinality: Cantor-Schoeder-Bernstein Theorem, unbounded cardinality, diagonalisation, fixed-points. Foundation Axiom. 
+
+\item[*]\textbf{Formal languages and automata [7 lectures]}\\
+Introduction to inductive definitions using rules and proof by rule induction. Abstract syntax trees. Regular expressions and their algebra. Finite automata and regular languages: Kleene’s theorem and the Pumping Lemma.
+
+
+\end{itemize}
+
+\tableofcontents
+
+\section{Proofs}
+
+. : implication, bi-implication, universal quantiﬁcation, conjunction, existential quantiﬁcation, disjunction, negation. : proof strategies and patterns, scratch work, logical equivalences. . . . 
+
+\subsection{Proofs in practice}
+
+\begin{itemize}
+\item[]
+We are interested in examining the following statement:\\
+\begin{stat}
+The product of two odd integers is odd.\\
+\end{stat}
+This seems innocuous enough, but it is in fact full of baggage.\\
+For instance,it presupposes that you know:
+\begin{itemize}
+
+\item what a statement is;
+\item what the integers (...,$-1$,0,1,...) are,and that amongst them there is a class of odd ones (...,$-3$,$-1$,1,3,...);
+\item what the product of two integers is, and that this is in turn an integer.
+
+\end{itemize}
+
+\item[]
+More precisely put, we may write:
+\begin{stat}
+If m and n are odd integers then so is $m\cdot n$.
+\end{stat}
+which further presupposes that you know:
+\begin{itemize}
+\item what variables are;
+\item what $$if ... then ...$$ statements are, and how one goes about proving them;
+\item that the symbol "." is commonly used to denote the product operation. 
+\end{itemize}
+
+\item[]
+Even more precisely, we should write
+\begin{stat}
+For all integers m and n, if m and n are odd then so is $m\cdot n$.
+\end{stat}
+\begin{itemize}
+\item what $$for\ all ...$$ statements are, and how one goes about proving them.
+\end{itemize}
+
+Thus,in trying to understand and then prove the above statement, we are assuming quite a lot of mathematical jargon that one needs to learn and practice with to make it a useful, and in fact very powerful, tool.
+
+\end{itemize}
+
+\subsection{Mathematical jargon}
+\begin{description}
+\item[Statement] A sentence that is either true or false - but not both.
+
+\begin{eg}[1]\ 
+$$e^{i\pi}+1=0$$
+\end{eg}
+\begin{eg}[Wrong]
+This statement is false.
+\end{eg}
+
+\item[Predicate] A statement whose truth depends on the values of one or more variables.
+
+\begin{eg}[2]\ 
+\begin{enumerate}
+\item $$e^{ix}=\cos x + i\sin x$$
+\item the function f is differentiable
+\end{enumerate}
+\end{eg}
+
+\item[Theorem] A very important true statement.
+\item[Proposition] A less important but nonetheless interesting true statement.
+\item[Lemma] A true statement used in proving other true statements.
+\item[Corollary] A true statement that is a simple deduction from a theorem or proposition.
+
+\begin{eg}[3]\ 
+\begin{enumerate}
+
+\item 
+\begin{description}
+\item[Fermat's Last Theorem] If x,y,z and n are integers satisfying 
+$$x^n+y^n=z^n$$
+then either $n\leq 2$ or $xyz=0$.
+\end{description}
+
+\item \begin{description}
+\item[The Pumping Lemma] Let $\mathcal{L}$ be a regular language. then there is a positive integer p such that any word $w\in \mathcal{L}$ of length exceeding p can expressed as $w=xyz$, $|y|>0,|xy|\leq p$, such that, for all $i>0$, $xy^iz$ is also a word of $\mathcal{L}$.
+\end{description} 
+\end{enumerate}
+\end{eg}
+
+\item[Conjecture] A statement believed to be true, but for which we have no proof.
+
+\begin{eg}[4]\ 
+\begin{enumerate}
+\item Goldbach's Conjecture
+\item The Riemann Hypothesis
+\end{enumerate}
+\end{eg}
+
+\item[Proof] Logical explanation of why a statement is true; a method for establishing truth.
+\item[Logic] The study of methods and principles used to distinguish good (correct) from bad (incorrect) reasoning.
+
+\begin{eg}[5]\ 
+\begin{enumerate}
+\item Classical predicate logic
+\item Hoare logic
+\item Temporal logic
+\end{enumerate}
+\end{eg}
+
+\item[Axiom] A basic assumption about a mathematical situation.\\
+Axioms cam be considered facts that do not need to be proved (just to get us going in a subject) or they can be used in definitions.
+\begin{eg}[6] \ 
+\begin{enumerate}
+\item Euclidean Geometry
+\item Riemannian Geometry
+\item Hyperbolic Geometry
+\end{enumerate}
+\end{eg}
+
+\item[Definition] A explanation of the mathematical meaning of a word (or phase).\\
+The word (or phase) is generally defined in terms of properties.
+
+\begin{wn}
+It is vitally important that you can recall definitions precisely. A common problem is not to be able to advance in some problem because the definition of a word is unknown.
+\end{wn}
+
+\begin{defi}[7]
+An integer is said to be odd whenever it is of the form $2\cdot i + 1$ for some (necessarily unique) integer i.
+\end{defi}
+
+\begin{prop}[8]
+For all integers m and n, if m and n are off then so is $m\cdot n$.
+\end{prop}
+
+\begin{proof}
+Let m and n be arbitrary odd integers. Thus, $m = 2\cdot i +1$ and $n = 2\cdot j +1$ for some integers i and j. Hence, we have that $m\cdot n = 2 \cdot k +1$ for $k = 2\cdot i\cdot j +i +j$, showing that $m\cdot n$ is indeed odd.
+\end{proof}
+
+\begin{wn}
+Though the scratch work contains the idea behind the given proof, it is not a proper proof.
+\end{wn}
+
+\end{description}
+
+\begin{defi}[Mathematical proof]
+A mathematical proof is a sequence of logical deductions from axioms and previously proved statements that concludes with the proposition in the question.\\
+The axioms-and-proof approach is called the axiomatic method. 
+\end{defi}
+
+\subsection{Mathematical statements}
+
+\subsection{Logical deduction}
+\subsection{Proof by contradiction}
+\subsection{Divisibility and congruences}
+\subsection{Fermat’s Little Theorem}
+
+
+\section{Numbers}
+
+\section{Sets}
+
+\section{Regular languages and finite automata}
+
+\end{document}

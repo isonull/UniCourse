@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Proofs}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Proofs in practice}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Mathematical jargon}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Mathematical statements}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Logical deduction}{5}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Proof by contradiction}{5}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Divisibility and congruences}{5}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Fermat’s Little Theorem}{5}{subsection.1.7}
+\contentsline {section}{\numberline {2}Numbers}{6}{section.2}
+\contentsline {section}{\numberline {3}Sets}{7}{section.3}
+\contentsline {section}{\numberline {4}Regular languages and finite automata}{8}{section.4}
