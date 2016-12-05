@@ -1,0 +1,282 @@
+\documentclass[10pt,twoside,a4paper]{article}
+
+% Configure these parameters.
+% Name and email
+\newcommand{\studentname}{Joe Yan}
+\newcommand{\studentemail}{zy275@cam.ac.uk}
+
+% Date work done
+\newcommand{\svworkdate}{2016-11-6}
+
+% Details of supervision
+\newcommand{\svcourse}{CST Part IA: OOP}
+\newcommand{\svnumber}{1}
+\newcommand{\svdate}{2016-11-12}
+\newcommand{\svtime}{19:00}
+\newcommand{\svvenue}{Churchill 1C}
+\newcommand{\svrname}{Dr John Fawcett}
+\newcommand{\svrinit}{JKF}
+% End configuration
+
+\usepackage{a4}             % Adjust margins for A4 media
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyheadoffset[LO,LE,RO,RE]{0pt}
+\fancyfootoffset[LO,LE,RO,RE]{0pt}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LO,RE]{{\bfseries \studentname}\\\studentemail}
+\fancyhead[RO,LE]{{\bfseries \svcourse, SV~\svnumber}\\\svdate\ \svtime, \svvenue}
+\fancyfoot{}
+\fancyfoot[LO,RE]{For: \svrname}
+\fancyfoot[RO,LE]{\thepage\ / \pageref{LastPage}}
+\fancyfoot[C]{\today}
+
+\usepackage{lastpage}       % "n of m" page numbering
+\usepackage{lscape}         % Makes landscape easier
+%\usepackage{portland}      % Switch between portrait and landscape
+\usepackage{graphics}       % Graphics commands
+\usepackage{wrapfig}        % Wrapping text around figures
+\usepackage{epsfig}         % Embed encapsulated postscript
+\usepackage{rotating}       % Extra graphics rotation
+%\usepackage{tables}        % Tabular environments
+\usepackage{longtable}      % Page breaks within tables
+\usepackage{supertabular}   % Page breaks within tables
+\usepackage{multicol}       % Allows table cells to span cols
+\usepackage{multirow}       % Allows table cells to span rows
+\usepackage{texnames}       % Macros for common tex names
+%\usepackage{trees}         % Tree-like layout
+\usepackage{hhline}         % Horizontal lines in tables
+\usepackage{siunitx}        % Correct spacing of units
+
+\usepackage{listings}       % Source code listings
+\usepackage{array}          % Array environment
+\usepackage{hyperref}       % URL formatting
+\usepackage{amsmath}        % American Mathematical Society
+\usepackage{amssymb}        % Maths symbols
+\usepackage{amsthm}         % Theorems
+%\usepackage{mathpartir}    % Proofs and inference rules
+\usepackage{verbatim}       % Verbatim blocks
+\usepackage{ifthen}         % Conditional processing in tex
+\usepackage{xcolor}         % X11 colour names
+
+% control width and vertically align text in table cells
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% make hyperref links not-ugly
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\renewcommand{\oddsidemargin}{-20pt}
+\renewcommand{\evensidemargin}{-20pt}
+\renewcommand{\topmargin}{-30pt}
+\renewcommand{\textwidth}{410pt}
+\renewcommand{\marginparwidth}{100pt}
+
+\setlength{\parindent}{0em}
+\addtolength{\parskip}{1ex}
+
+\usepackage[draft]{changes}
+\setauthormarkup[left]{\textbf{[#1]}~}
+\definechangesauthor[\svrname]{\svrinit}{orange}
+\newcommand{\jkfadd}[1]{\added[\svrinit]{#1}}
+\newcommand{\jkfdel}[1]{\deleted[\svrinit]{#1}}
+\newcommand{\jkfrep}[2]{\replaced[\svrinit]{#1}{#2}}
+\newcommand{\jkfmar}[1]{\marginpar{\jkfadd{#1}}}
+
+\begin{document}
+
+\author{\studentname}
+\title{\svcourse, SV~\svnumber}
+\date{\svworkdate}
+
+\textbf{\svcourse, SV~\svnumber}\\
+\textbf{\studentname}\\
+\textbf{\svworkdate}\\
+
+\section{Example Sheet 1314 3B}
+\begin{lstlisting}
+public static float[][] creatMatrix(int n) {
+	float[][] mat = new float[n][n];
+	return mat;
+}
+public static float[][] transpose(float[][] mat) {
+	float store;
+	int len = mat.length;	for(int i = 0; i < len; ++i) {
+		for(int j = i; j < len; ++j) {
+			store = mat[i][j];
+			mat[i][j] = mat[j][i];
+			mat[j][i] = store;
+		}
+	}
+	return mat;
+}
+\end{lstlisting}
+\section{Example Sheet 1314 6A}
+\includegraphics[scale=0.1]{sv1-2.png}
+
+\section{Example Sheet 1314 11B}
+\begin{enumerate}
+
+\item
+\begin{lstlisting}
+public class Vector2D {
+	public float a;
+	public float b;
+	
+	public Vector2D() {
+		a=0;
+		b=0;
+	}
+	public Vector2D(float x,float y) {
+		a = x;
+		b = y;
+	}
+
+	public static float scalarProduct(Vector2D x, Vector2D y) {
+		float t = x.a*y.a+x.b*y.b;
+		return t;
+	}
+	
+	public static Vector2D normalise(Vector2D x) {
+		float mag = magnitude(x);
+		return new Vector2D(x.a/mag,x.b/mag);
+	}
+	
+	public static float magnitude(Vector2D x) {
+		float t = (float) Math.sqrt(x.a*x.a+x.b*x.b);
+		return t;
+	}
+	
+	public void add(Vector2D v) {
+		this.a = this.a + v.a;
+		this.b = this.b + v.b;
+	}
+}
+\end{lstlisting}
+\item
+\begin{itemize}
+\item Make fields private
+\item Be careful when the reference is passed in or out, when construct the object or provide the specific field, always make a new reference for it. (Not for this example)
+\item Final the class or method preventing it from overriding
+\item Do not provide any methods can mutate the field
+\end{itemize}
+\item
+Mutable:\\
+\begin{lstlisting}
+public void add(Vector2D v) {
+		this.a = this.a + v.a;
+		this.b = this.b + v.b;
+	}
+\end{lstlisting}
+Immutable:\\
+\begin{lstlisting}	
+
+public Vector2D add1(Vector2D v) {
+	return new Vector2D(this.a+v.a,this.b+v.b);
+}
+public Vector2D add(Vector2D v1, Vector2D v2) {
+	return new Vector2D(v1.a+v2.a,v1.b+v2.b);
+}
+public static Vector2D add1(Vector2D v1, Vector2D v2) {
+	return new Vector2D(v1.a+v2.a,v1.b+v2.b);
+}
+\end{lstlisting}
+\item
+Declare in annotation?
+\end{enumerate}
+I do not quite understand what is 3 and 4 asking for..
+
+\section{Example Sheet 1314 12B}
+
+\begin{lstlisting}
+public class OOPLinkedList {
+	protected OOPLinkedListElement hd;
+	
+	public OOPLinkedList() {
+		hd = null;
+	}
+	
+	public void add(int x) {
+		hd = new OOPLinkedListElement(x,hd);
+	}
+	public void remove() {
+		if(hd == null) hd = null;
+		else hd = hd.getnext();
+	}
+	public int get() throws Exception {
+		if(hd==null)throw new Exception("List is null.");
+		else return hd.getele();
+	}
+	
+	public int length() {
+		if(hd == null) return 0;
+		int len = 1;
+		OOPLinkedListElement p = hd;
+		while(p.getnext() != null){
+			++len;
+			p=p.getnext();
+		}
+		return len;
+	}
+}
+
+public class OOPLinkedListElement {
+	private int ele;
+	protected OOPLinkedListElement next;
+	
+	public OOPLinkedListElement(int x) {
+		ele = x;
+		next = null;
+	}
+	
+	public OOPLinkedListElement(int x,OOPLinkedListElement xs) {
+		ele = x;
+		next = xs;
+	}
+	
+	public int getele() {
+		return ele;
+	}
+	
+	public OOPLinkedListElement getnext() {
+		return next;
+	}
+}
+\end{lstlisting}
+
+\section{Example Sheet 1314 18B}
+\begin{lstlisting}
+
+public class OOPSortedLinkedList extends OOPLinkedList{
+
+	public OOPSortedLinkedList() {
+		super();
+	}
+	
+	public void add(int x) {
+		if(hd == null) {
+			hd = new OOPLinkedListElement(x,null);
+			return;
+		}
+		if(x<hd.getele()) {
+			hd = new OOPLinkedListElement(x,hd.getnext());
+			return;
+		}
+		OOPLinkedListElement before = hd;
+		while(before.getnext() != null && x > before.getnext().getele()) {
+			before = before.getnext();
+		}
+		before.next = new OOPLinkedListElement(x,before.getnext());
+	}
+}
+\end{lstlisting}
+
+\end{document}
+

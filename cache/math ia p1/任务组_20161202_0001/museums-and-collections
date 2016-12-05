@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb"
+      dir="ltr"  class="no-js">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="http://www.museums.cam.ac.uk/profiles/cambridge/themes/cambridge_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" href="http://www.museums.cam.ac.uk/profiles/cambridge/themes/cambridge_theme/apple-touch-icon.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.museums.cam.ac.uk/" />
+<link rel="shortlink" href="http://www.museums.cam.ac.uk/" />
+<meta name="dcterms.title" content="Museums and collections" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="http://www.museums.cam.ac.uk/" />
+
+  <title>Museums and collections</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link type="text/css" rel="stylesheet" href="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/css/css_4QodHjYryEaXYrFICqsNfWXh_sHUecUAyaQ_bu4Vy0c.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/css/css_ESLmhPIoRQLAz-ko3MC-m1oNENEJnER9vRXtG_o-_gs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/css/css_chYxrbTy_fKNJeiFgIkln7uN1RLe7my8nGAQ6xgjrag.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/css/css_yADQkrISMzh-PaVEJCdX1xMnAFiRMrLcabsr11FZccc.css" media="all" />
+
+  <script type="text/javascript" src="//use.typekit.com/hyb5bko.js"></script>
+  <script type="text/javascript">try {
+      Typekit.load();
+    } catch (e) {
+    }</script>
+  <script type="text/javascript">document.documentElement.className += " js";</script>
+
+</head>
+
+<body class="html front not-logged-in no-sidebars page-home campl-theme-2" >
+
+<!--[if lt IE 7]>
+<div class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<div class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<div class="lt-ie9">
+<![endif]-->
+
+<a href="#page-content" class="campl-skipTo">skip to content</a>
+
+
+
+<div class="campl-row campl-global-header">
+  <div class="campl-wrap clearfix">
+    <div class="campl-header-container campl-column8" id="global-header-controls">
+      <a href="http://www.cam.ac.uk" class="campl-main-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"/>
+      </a>
+
+      <ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix">
+        <li>
+          <a href="#study-with-us">Study at Cambridge</a>
+        </li>
+        <li>
+          <a href="#about-the-university">About the University</a>
+        </li>
+        <li>
+          <a href="http://www.cam.ac.uk/research" class="campl-no-drawer">Research at Cambridge</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="campl-column2">
+      <div class="campl-quicklinks">
+      </div>
+    </div>
+
+    <div class="campl-column2">
+
+      <div class="campl-site-search" id="site-search-btn">
+
+        <label for="header-search" class="hidden">Search site</label>
+
+        <div class="campl-search-input">
+          <form action="http://search.cam.ac.uk/web" method="get">
+            <input id="header-search" type="text" name="query" value="" placeholder="Search"/>
+
+            
+            <input type="image" class="campl-search-submit"
+                   src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search-header.png"/>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="campl-row campl-global-header campl-search-drawer">
+  <div class="campl-wrap clearfix">
+    <form class="campl-site-search-form" id="site-search-container" action="http://search.cam.ac.uk/web" method="get">
+      <div class="campl-search-form-wrapper clearfix">
+        <input type="text" class="text" name="query" value="" placeholder="Search"/>
+
+        
+        <input type="image" class="campl-search-submit"
+               src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search.png"/>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="campl-row campl-global-navigation-drawer">
+
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-home-link-container">
+      <a href="">Home</a>
+    </div>
+  </div>
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
+      <div class="campl-global-navigation-outer clearfix" id="study-with-us">
+        <ul class="campl-unstyled-list campl-global-navigation-header-container ">
+          <li><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/courses/">Courses</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/apply/">Applying</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/events/">Events and open days</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/finance/">Fees and finance</a>
+                </li>
+                <li>
+                  <a href="http://www.becambridge.com/">Student blogs and videos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/whycam/">Why Cambridge</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/studying/qualifdir/">Qualifications
+                    directory</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/apply/">How to apply</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/studentregistry/fees/">Fees and funding</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/faq/index.html">Frequently asked
+                    questions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list last">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="about-the-university">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="http://www.cam.ac.uk/about-the-university">About the University</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the
+                University and Colleges work</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/history">History</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/term-dates-and-calendars">Term dates and calendars</a>
+            </li>
+            <li class="last">
+              <a href="http://map.cam.ac.uk">Map</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/for-media">For media</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/video-and-audio">Video and audio</a>
+            </li>
+            <li>
+              <a href="http://webservices.admin.cam.ac.uk/faesearch/map.cgi">Find an expert</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/publications">Publications</a>
+            </li>
+            <li class="last">
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge">International Cambridge</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/news">News</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/public-engagement">Public engagement</a>
+            </li>
+            <li>
+              <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+            </li>
+            <li class="last">
+              <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="our-research">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="">Research at Cambridge</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
+      <li>
+        <a href="http://www.cam.ac.uk/for-staff">For staff</a>
+      </li>
+      <li>
+        <a href="http://www.admin.cam.ac.uk/students/gateway">For current students</a>
+      </li>
+      <li>
+        <a href="http://www.alumni.cam.ac.uk">For alumni</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/for-business">For business</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/colleges-and-departments">Colleges &amp; departments</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/libraries-and-facilities">Libraries &amp; facilities</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/museums-and-collections">Museums &amp; collections</a>
+      </li>
+      <li class="last">
+        <a href="http://www.cam.ac.uk/email-and-phone-search">Email &amp; phone search</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="campl-row campl-page-header campl-section-page">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12">
+      <div class="campl-content-container ">
+
+        
+                          
+        
+        <h1 class="campl-page-title">
+          Museums and collections                  </h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap">
+        <div class="region region-horizontal-navigation">
+    <div id="block-menu-block-1" class="block block-menu-block">
+
+  
+  
+  
+  <div>
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <div class="campl-wrap clearfix campl-local-navigation"><div class="campl-local-navigation-container"><ul class="campl-unstyled-list"><li class="first leaf active menu-mlid-289 campl-current-page"><a href="/" class="active">Home</a></li>
+<li class="expanded menu-mlid-1828"><a href="/visit-us">Visit us</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1828"><a href="/visit-us">Visit us overview</a></li>
+<li class="leaf menu-mlid-1829"><a href="/visit-us/our-museums">Our Museums</a></li>
+<li class="expanded menu-mlid-1830"><a href="/visit-us/opening-times">Opening times</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first last leaf menu-mlid-3692"><a href="/visit-us/opening-times/christmas-opening-times-2016">Christmas Opening Times 2016</a></li>
+</ul></li>
+<li class="leaf menu-mlid-1831"><a href="/visit-us/map">Map</a></li>
+<li class="leaf menu-mlid-1832"><a href="/visit-us/access">Access</a></li>
+<li class="expanded menu-mlid-1833"><a href="/visit-us/schools">Schools</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-1845"><a href="/visit-us/schools/discovery-bags">Discovery Bags</a></li>
+<li class="last expanded menu-mlid-1846"><a href="/visit-us/schools/post-16-learning">Post 16 Learning</a><ul class="menu"><li class="first leaf menu-mlid-1847"><a href="/visit-us/schools/post-16-learning/adorning-the-dead-rituals-for-the-afterlife-museum-of-archaeology">Adorning the Dead: Rituals for the afterlife: Museum of Archaeology and Anthropology</a></li>
+<li class="leaf menu-mlid-1848"><a href="/visit-us/schools/post-16-learning/anthropology-archaeology-and-identity-museum-of-archaeology-and">Anthropology, Archaeology and Identity: Museum of Archaeology and Anthropology</a></li>
+<li class="leaf menu-mlid-1849"><a href="/visit-us/schools/post-16-learning/duroliponte-roman-britain-in-cambridgeshire-museum-of-archaeology">Duroliponte: Roman Britain in Cambridgeshire: Museum of Archaeology and Anthropology</a></li>
+<li class="leaf menu-mlid-1850"><a href="/visit-us/schools/post-16-learning/the-modified-body-expressions-of-society-and-culture-museum-of">The Modified Body: Expressions of Society and Culture: Museum of Archaeology and Anthropology</a></li>
+<li class="leaf menu-mlid-1851"><a href="/visit-us/schools/post-16-learning/the-origin-of-species-whipple-museum-of-the-historyof-science">The Origin of Species: Whipple Museum of the Historyof Science</a></li>
+<li class="leaf menu-mlid-1852"><a href="/visit-us/schools/post-16-learning/shakespeares-world-the-fitzwilliam-museum">Shakespeare’s World: The Fitzwilliam Museum</a></li>
+<li class="leaf menu-mlid-1853"><a href="/visit-us/schools/post-16-learning/the-stuarts-crown-and-parliament-1603-1685">The Stuarts: Crown and Parliament 1603 - 1685: The Fitzwilliam Museum</a></li>
+<li class="leaf menu-mlid-1854"><a href="/visit-us/schools/post-16-learning/the-universe-whipple-museum-of-the-history-of-science">The Universe: Whipple Museum of the History of Science</a></li>
+<li class="last leaf menu-mlid-1855"><a href="/visit-us/schools/post-16-learning/visionaries-and-romantics-the-fitzwilliam-museum">Visionaries and Romantics: The Fitzwilliam Museum</a></li>
+</ul></li>
+</ul></li>
+<li class="leaf menu-mlid-1834"><a href="/visit-us/groups">Groups</a></li>
+<li class="leaf menu-mlid-1835"><a href="/visit-us/families-and-children">Families and children</a></li>
+<li class="expanded menu-mlid-1836"><a href="/visit-us/young-people">Young people</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-1857"><a href="/visit-us/young-people/arts-award">Arts Award</a></li>
+<li class="last leaf menu-mlid-1858"><a href="/visit-us/young-people/museum-ambassadors">Museum Ambassadors</a></li>
+</ul></li>
+<li class="leaf menu-mlid-1859"><a href="/visit-us/communities">Communities</a></li>
+<li class="leaf menu-mlid-1860"><a href="/visit-us/shop">Shop</a></li>
+<li class="leaf menu-mlid-1861"><a href="/visit-us/cafes">Cafes</a></li>
+<li class="leaf menu-mlid-1862"><a href="/visit-us/university-collections">University collections</a></li>
+<li class="leaf menu-mlid-1863"><a href="/visit-us/independent-cambridge-collections">Independent Cambridge collections</a></li>
+<li class="last leaf menu-mlid-1864"><a href="/visit-us/hop-on-a-bike-see-more-of-cultural-cambridge">Hop on a bike - see more of cultural Cambridge</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1837"><a href="/whats-on">What&#039;s on</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1837"><a href="/whats-on">What&#039;s on overview</a></li>
+<li class="leaf menu-mlid-3652"><a href="/whats-on/cam-lates">Cam Lates</a></li>
+<li class="leaf menu-mlid-1869"><a href="/whats-on/summer-at-the-museums">Summer at the Museums</a></li>
+<li class="collapsed menu-mlid-1865"><a href="/whats-on/twilight-at-the-museums">Twilight at the Museums</a></li>
+<li class="leaf menu-mlid-1868"><a href="/whats-on/museums-at-night">Museums at Night</a></li>
+<li class="collapsed menu-mlid-1870"><a href="/whats-on/university-festivals">University Festivals</a></li>
+<li class="leaf menu-mlid-1871"><a href="/whats-on/collections-care-conservation-events">Collections Care &amp; Conservation Events</a></li>
+<li class="last collapsed menu-mlid-1872"><a href="/whats-on/newsletters">Newsletters</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1838"><a href="/working-together">Working together</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1838"><a href="/working-together">Working together overview</a></li>
+<li class="leaf menu-mlid-1971"><a href="/working-together/the-museum-as-method">The Museum as Method</a></li>
+<li class="expanded menu-mlid-1878"><a href="/working-together/green-museums">Green Museums</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-1879"><a href="/working-together/green-museums/events">Events</a></li>
+<li class="leaf menu-mlid-1880"><a href="/working-together/green-museums/schools-workshops">Schools Workshops</a></li>
+<li class="leaf menu-mlid-1881"><a href="/working-together/green-museums/the-history-of-environmental-science">The History of Environmental Science</a></li>
+<li class="leaf menu-mlid-1882"><a href="/working-together/green-museums/adapting-to-threat">Adapting to Threat</a></li>
+<li class="leaf menu-mlid-1883"><a href="/working-together/green-museums/straight-science">Straight Science</a></li>
+<li class="leaf menu-mlid-1884"><a href="/working-together/green-museums/green-buildings">Green Buildings</a></li>
+<li class="leaf menu-mlid-1885"><a href="/working-together/green-museums/cultures-under-threat">Cultures Under Threat</a></li>
+<li class="leaf menu-mlid-1886"><a href="/working-together/green-museums/preserving-the-past">Preserving the Past</a></li>
+<li class="leaf menu-mlid-1888"><a href="/working-together/green-museums/earth-based-skills">Earth Based Skills</a></li>
+<li class="last leaf menu-mlid-1887"><a href="/working-together/green-museums/earth-stories-and-imagery">Earth Stories and imagery</a></li>
+</ul></li>
+<li class="leaf menu-mlid-1972"><a href="http://www.artandscienceofcuration.org.uk/" title="">Art &amp; Science of Curation</a></li>
+<li class="leaf menu-mlid-1890"><a href="/working-together/curating-cambridge">Curating Cambridge</a></li>
+<li class="expanded menu-mlid-1891"><a href="/working-together/my-museum-favourite">My Museum Favourite</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-1892"><a href="/working-together/my-museum-favourite/the-argillite-pipe">The Argillite Pipe</a></li>
+<li class="leaf menu-mlid-1893"><a href="/working-together/my-museum-favourite/australiceras-gigas">Australiceras gigas</a></li>
+<li class="leaf menu-mlid-1894"><a href="/working-together/my-museum-favourite/baby-boy-with-an-egyptian-goose">Baby Boy with an Egyptian Goose</a></li>
+<li class="leaf menu-mlid-1895"><a href="/working-together/my-museum-favourite/hendrik-goudt-the-flight-into-egypt-1613">Hendrik Goudt, The Flight into Egypt, 1613</a></li>
+<li class="leaf menu-mlid-1896"><a href="/working-together/my-museum-favourite/henri-gaudier-brzeska-maria-carmi-as-the-madonna-1912">Henri Gaudier-Brzeska, Maria Carmi as the Madonna, 1912</a></li>
+<li class="leaf menu-mlid-1897"><a href="/working-together/my-museum-favourite/ingeborg-bruns-globe">Ingeborg Brun’s Globe</a></li>
+<li class="leaf menu-mlid-1898"><a href="/working-together/my-museum-favourite/kathleen-scott-youth-1920">Kathleen Scott, Youth, 1920</a></li>
+<li class="leaf menu-mlid-1899"><a href="/working-together/my-museum-favourite/osmunda-regalis">Osmunda regalis</a></li>
+<li class="leaf menu-mlid-1900"><a href="/working-together/my-museum-favourite/prayer-preceding-the-mass-marlay-fr-6-and-prime-marlay-fr-4">Prayer preceding the Mass (Marlay Fr. 6) and Prime (Marlay Fr. 4)</a></li>
+<li class="leaf menu-mlid-1901"><a href="/working-together/my-museum-favourite/sir-joshua-reynolds-1723-92-lord-rockingham-and-edmund-burke-c">Sir Joshua Reynolds (1723 – 92), Lord Rockingham and Edmund Burke, c. 1766</a></li>
+<li class="leaf menu-mlid-1902"><a href="/working-together/my-museum-favourite/the-tasmanian-proclamation-board-1829-30">The Tasmanian Proclamation Board 1829 – 30</a></li>
+<li class="leaf menu-mlid-1903"><a href="/working-together/my-museum-favourite/the-whale-bone-plaque">The Whale Bone Plaque</a></li>
+<li class="last expanded menu-mlid-1904"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013">My Museum Favourite 2013</a><ul class="menu"><li class="first leaf menu-mlid-1905"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/totem-pole">Totem Pole</a></li>
+<li class="leaf menu-mlid-1906"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/andrews-gallery">Andrews Gallery</a></li>
+<li class="leaf menu-mlid-1907"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/parrotia-persica">Parrotia persica</a></li>
+<li class="leaf menu-mlid-1908"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/nelumbo-nucifera">Nelumbo nucifera</a></li>
+<li class="leaf menu-mlid-1909"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/the-mayors-chair">The Mayor’s Chair</a></li>
+<li class="leaf menu-mlid-1910"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/docky-bag">Docky Bag</a></li>
+<li class="leaf menu-mlid-1911"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/professor-okeys-bedbug-trap">Professor Okey’s bedbug trap</a></li>
+<li class="leaf menu-mlid-1912"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/the-barberini-faun">The Barberini Faun</a></li>
+<li class="leaf menu-mlid-1913"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/the-cambridge-hoard">The Cambridge Hoard</a></li>
+<li class="leaf menu-mlid-1914"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/poplars-1891-claude-monet-1840-1926">Poplars, 1891, Claude Monet (1840-1926)</a></li>
+<li class="leaf menu-mlid-1915"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/ceiling-domes">Ceiling Domes</a></li>
+<li class="leaf menu-mlid-1916"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/stony-iron-meteorites">Stony Iron Meteorites</a></li>
+<li class="leaf menu-mlid-1917"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/mechanical-calculator">Mechanical Calculator</a></li>
+<li class="leaf menu-mlid-1918"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/1923-babcock-wilcox-boiler">1923 Babcock &amp; Wilcox Boiler</a></li>
+<li class="last leaf menu-mlid-1919"><a href="/working-together/my-museum-favourite/my-museum-favourite-2013/walking-stick-with-leech-compartment">Walking stick with leech compartment</a></li>
+</ul></li>
+</ul></li>
+<li class="leaf menu-mlid-1920"><a href="/working-together/artist-in-residence-north-west-cambridge-development">Artist in Residence; North West Cambridge Development</a></li>
+<li class="leaf menu-mlid-1921"><a href="/working-together/discoveries-art-science-and-exploration">Discoveries: Art, Science and Exploration</a></li>
+<li class="leaf menu-mlid-1922"><a href="/working-together/thresholds">Thresholds</a></li>
+<li class="leaf menu-mlid-1923"><a href="/working-together/house-guests">House Guests</a></li>
+<li class="last leaf menu-mlid-1924"><a href="/working-together/culturefinder">CultureFinder</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1839"><a href="/get-involved">Get involved</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1839"><a href="/get-involved">Get involved overview</a></li>
+<li class="last leaf menu-mlid-2942"><a href="/get-involved/work-experience">Work Experience</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1840"><a href="/collections-care-and-conservation">Care &amp; Conservation</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1840"><a href="/collections-care-and-conservation">Care &amp; Conservation overview</a></li>
+<li class="last expanded menu-mlid-1925"><a href="/care-conservation/collections-care-conservation-professional-events">Collections care &amp; conservation professional events</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first last leaf menu-mlid-1926"><a href="/care-conservation/collections-care-conservation-professional-events/previous-events">Previous Events</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded menu-mlid-1841"><a href="/research">Research</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1841"><a href="/research">Research overview</a></li>
+<li class="leaf menu-mlid-1927"><a href="/research/research-visits">Research Visits</a></li>
+<li class="last leaf menu-mlid-1928"><a href="/research/connecting-with-collections">Connecting with Collections</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1842"><a href="/about-us">About us</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1842"><a href="/about-us">About us overview</a></li>
+<li class="leaf menu-mlid-1843"><a href="/about-us/contact-us">Contact us</a></li>
+<li class="leaf menu-mlid-1929"><a href="/about-us/support-us">Support Us</a></li>
+<li class="leaf menu-mlid-1930"><a href="/about-us/vacancies">Vacancies</a></li>
+<li class="leaf menu-mlid-1931"><a href="/about-us/reports">Reports</a></li>
+<li class="leaf menu-mlid-1932"><a href="/about-us/publications">Publications</a></li>
+<li class="leaf menu-mlid-1933"><a href="/about-us/press">Press</a></li>
+<li class="leaf menu-mlid-1934"><a href="/about-us/value-of-museums">Value of Museums</a></li>
+<li class="leaf menu-mlid-1935"><a href="/about-us/value-of-university-museums">Value of University Museums</a></li>
+<li class="leaf menu-mlid-1936"><a href="/about-us/museums-in-cambridgeshire">Museums in Cambridgeshire</a></li>
+<li class="last expanded menu-mlid-1938"><a href="/about-us/cambridge-arts-and-cultural-leaders">Cambridge Arts and Cultural Leaders</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-1937"><a href="/about-us/cambridge-arts-and-cultural-leaders/inspiring-cambridge-cambridge-arts-and-cultural-leaders">Inspiring Cambridge</a></li>
+<li class="last leaf menu-mlid-1974"><a href="/visit-us/hop-on-a-bike-see-more-of-cultural-cambridge" title="">Hop on a bike - see more of cultural Cambridge </a></li>
+</ul></li>
+</ul></li>
+<li class="leaf menu-mlid-1970"><a href="/about-us/contact-us" title="">Contact Us</a></li>
+<li class="last collapsed menu-mlid-1844"><a href="/staff-pages">Staff Pages</a></li>
+</ul></div></div></div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  </div>
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap clearfix">
+      <div class="campl-column9 campl-recessed-carousel">
+          <div class="region region-carousel">
+    <div id="block-views-carousel-block" class="block block-views">
+
+  
+  
+  
+  <div>
+    <div class="view view-carousel view-id-carousel view-display-id-block section-carousel campl-carousel clearfix campl-banner view-dom-id-9ad5b87672fa14964c530e87ec046c20">
+        
+  
+  
+      <div class="view-content">
+      <div class="campl-carousel-container">    <ul class="campl-unstyled-list campl-slides">          <li class="campl-slide campl-column12">  
+  <div class="views-field views-field-field-carousel-image">        <div class="field-content"><a href="http://www.museums.cam.ac.uk/cam-lates"><img class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/styles/carousel/public/cam-lates-home-page_1.jpg?itok=Tm59JWZY" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-carousel-link campl-slide-caption">        <span class="field-content campl-slide-caption-txt"><a href="http://www.museums.cam.ac.uk/cam-lates">http://www.museums.cam.ac.uk/cam-lates</a></span>  </div></li>
+          <li class="campl-slide campl-column12">  
+  <div class="views-field views-field-field-carousel-image">        <div class="field-content"><a href="http://www.cam.ac.uk/museums-and-collections/visit-us"><img class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/styles/carousel/public/web_carousel.jpg?itok=A3fFZgbj" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-carousel-link campl-slide-caption">        <span class="field-content campl-slide-caption-txt"><a href="http://www.cam.ac.uk/museums-and-collections/visit-us">University of Cambridge Museums</a></span>  </div></li>
+          <li class="campl-slide campl-column12">  
+  <div class="views-field views-field-field-carousel-image">        <div class="field-content"><a href="http://www.cam.ac.uk/museums-and-collections/visit-us"><img class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/styles/carousel/public/science_festival-59_edit.jpg?itok=4cF_hxVX" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-carousel-link campl-slide-caption">        <span class="field-content campl-slide-caption-txt"><a href="http://www.cam.ac.uk/museums-and-collections/visit-us">Explore the world</a></span>  </div></li>
+          <li class="campl-slide campl-column12">  
+  <div class="views-field views-field-field-carousel-image">        <div class="field-content"><a href="http://www.cam.ac.uk/museums-and-collections/get-involved"><img class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/styles/carousel/public/get-involved.jpg?itok=2BtZ0G3A" alt="Get Involved" /></a></div>  </div>  
+  <div class="views-field views-field-field-carousel-link campl-slide-caption">        <span class="field-content campl-slide-caption-txt"><a href="http://www.cam.ac.uk/museums-and-collections/get-involved">http://www.cam.ac.uk/museums-and-collections/get-involved</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+</div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="campl-row campl-content
+    campl-recessed-content">
+    <div class="campl-wrap clearfix">
+                            <div class="campl-column6 campl-main-content" id="page-content">
+
+          <div class="campl-sub-column-right-border">
+
+            
+                                      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+  
+  
+  
+  <div>
+    <div class="view view-home-page view-id-home_page view-display-id-page view-dom-id-4307ceb6a4c02b8db2c81e8f32f0fe9e">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+</div>
+<div id="block-block-3" class="block block-block campl-content-container">
+
+  
+  
+  
+  <div>
+    <div class="campl-horizontal-teaser campl-teaser campl-teaser-border clearfix" id="campl-promo-fix">
+<div class="campl-column6 campl-teasers-borders campl-content-container campl-side-padding campl-vertical-padding"><a href="http://www.museums.cam.ac.uk/visit-us"><img alt="" class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/files/styles/inline/public/sciencefestival-45edit.jpg" /></a></div>
+
+<div class="campl-column6 campl-teasers-borders campl-content-container campl-side-padding campl-vertical-padding">
+<h3 class="cam-teaser-title"><a href="http://www.museums.cam.ac.uk/visit-us">Visit us</a></h3>
+
+<ul><li><a href="http://www.fitzmuseum.cam.ac.uk/" target="_blank">Fitzwilliam Museum</a></li>
+	<li><a href="http://www.kettlesyard.co.uk/" target="_blank">Kettle's Yard</a></li>
+	<li><a href="http://maa.cam.ac.uk/" target="_blank">Museum of Archaeology &amp; Anthropology</a></li>
+	<li><a href="http://www.museum.zoo.cam.ac.uk/" target="_blank">Museum of Zoology</a></li>
+	<li><a href="http://www.classics.cam.ac.uk/museum" target="_blank">Museum of Classical Archaeology</a></li>
+	<li><a href="http://www.hps.cam.ac.uk/whipple/" target="_blank">Whipple Museum of the History of Science</a></li>
+	<li><a href="http://www.sedgwickmuseum.org/" target="_blank">Sedgwick Museum of Earth Sciences</a></li>
+	<li><a href="http://www.spri.cam.ac.uk/museum/" target="_blank">The Polar Museum</a></li>
+	<li><a href="http://www.botanic.cam.ac.uk/Botanic/Home.aspx" target="_blank">Cambridge University Botanic Garden</a></li>
+</ul><a class="campl-primary-cta" href="http://www.museums.cam.ac.uk/visit-us">Read More</a></div>
+</div>
+
+<hr class="campl-teaser-divider" />  </div>
+
+</div>
+<div id="block-views-homepage-teasers-block" class="block block-views">
+
+  
+  
+  
+  <div>
+    <div class="view view-homepage-teasers view-id-homepage_teasers view-display-id-block campl-content-container campl-side-padding clearfix campl-horizontal-teaser campl-teaser view-dom-id-c16e3884a785011c176750990fb762ef">
+        
+  
+  
+      <div class="view-content">
+      
+
+  <div class="campl-row">  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last campl-column12 campl-teasers-borders campl-content-containerZZ campl-side-paddingZZ campl-vertical-paddingZZ">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="campl-horizontal-teaser campl-teaser campl-teaser-border clearfix">
+<div class="campl-column6 campl-teasers-borders campl-content-container campl-side-padding campl-vertical-padding">
+<a href="/whats-on"><img class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/styles/inline/public/sciencefestival-15edit.jpg?itok=DTR14R7D" alt="" /></a>
+</div>
+<div class="campl-column6 campl-teasers-borders campl-content-container campl-side-padding campl-vertical-padding">
+<h3 class="cam-teaser-title"><a href="/whats-on">What&#039;s on</a></h3>
+<p>Find out what's happening at our museums and the Botanic Garden and sign up for our What's On newsletter...</p>
+<p><a href="/whats-on" title="What&#039;s on" class="campl-primary-cta">Read More</a></p>
+</div>
+</div>
+<hr class="campl-teaser-divider"></span>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+</div>
+<div id="block-views-homepage-teasers-block-1" class="block block-views">
+
+  
+  
+  
+  <div>
+    <div class="view view-homepage-teasers view-id-homepage_teasers view-display-id-block_1 campl-content-containerXXX clearfix campl-vertical-teaser campl-teaser campl-teasers-borders view-dom-id-b5ae43301543fe11e4842a255c3428d1">
+        
+  
+  
+      <div class="view-content">
+      
+
+  <div class="campl-row">  <div class="views-row views-row-1 views-row-odd views-row-first campl-column6 campl-teaser-border campl-content-container campl-side-padding campl-vertical-padding">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="campl-vertical-teaser campl-teaser campl-teaser-border campl-content-container campl-side-padding campl-sub-column-left-border">
+<a href="/visit-us/schools"><img class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/styles/inline/public/560055325646f6013e29z.jpg?itok=nI-8k6xG" alt="" /></a>
+
+<h3 class="cam-teaser-title"><a href="/visit-us/schools">Schools</a></h3>
+<p>Inspiring learning for children and students of all ages</p>
+<p><a href="/visit-us/schools" title="Schools" class="campl-primary-cta">Read More</a></p>
+</div></span>  </div>  </div>
+      <div class="views-row views-row-2 views-row-even views-row-last campl-column6 campl-teaser-border campl-content-container campl-side-padding campl-vertical-padding">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="campl-vertical-teaser campl-teaser campl-teaser-border campl-content-container campl-side-padding campl-sub-column-left-border">
+
+<a href="/external/map"><img class="campl-scale-with-grid" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/styles/inline/public/ucm-map-jan-16.jpg?itok=o2-F4bOs" alt="" /></a>
+<h3 class="cam-teaser-title"><a href="/external/map">Map</a></h3>
+<p>The University Museums and Collections are all within short walking distances of the City Centre</p>
+<p><a href="/external/map" title="Map" class="campl-primary-cta">Read More</a></p>
+</div></span>  </div>  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+</div>
+  </div>
+
+          </div>
+
+        </div>
+      
+              <div class="campl-column3 campl-sub-column-left-border campl-main-content-sub-column">
+            <div class="region region-sub-content">
+    <div id="block-views-external-news-feed-block" class="block block-views">
+
+  
+      <div class="campl-content-container">
+      <div class="campl-heading-container">
+        <h2>Museums blog</h2>
+      </div>
+    </div>
+  
+  
+  <div>
+    <div class="view view-external-news-feed view-id-external_news_feed view-display-id-block campl-content-container campl-no-top-padding campl-sub-column-left-border campl-main-content-sub-column view-dom-id-2e5e91a9103013f1e9e51f9862d0f3c1">
+        
+  
+  
+      <div class="view-content">
+      
+
+    <div class="campl-listing-item campl-news-listing clearfix">
+      
+  <div class="views-field views-field-title">        <span class="field-content campl-simple-heading campl-listing-title"><a href="https://camunivmuseums.wordpress.com/2016/11/01/chatterboxes/">Chatterboxes</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">A new programme for homebound older people University of Cambridge Museums are working in partnership with local organisation Care Network Cambridgeshire on a new programme for homebound older people called … <a href="https://camunivmuseums.wordpress.com/2016/11/01/chatterboxes/" class="read-more">Continue reading <span class="meta-nav">→</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=camunivmuseums.wordpress.com&amp;blog=43695983&amp;post=7185&amp;subd=camunivmuseums&amp;ref=&amp;feed=1" width="1" height="1" /></div>  </div>  </div>
+      <div class="campl-listing-item campl-news-listing clearfix">
+      
+  <div class="views-field views-field-title">        <span class="field-content campl-simple-heading campl-listing-title"><a href="https://camunivmuseums.wordpress.com/2016/12/01/stories-statues-and-stillness/">Stories, Statues and Stillness</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Exploring movement and mindfulness with preschoolers at the Museum of Classical Archaeology This year, the Cambridge Festival of Ideas was based around the theme of ‘movement’.  This was very exciting … <a href="https://camunivmuseums.wordpress.com/2016/12/01/stories-statues-and-stillness/" class="read-more">Continue reading <span class="meta-nav">→</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=camunivmuseums.wordpress.com&amp;blog=43695983&amp;post=7262&amp;subd=camunivmuseums&amp;ref=&amp;feed=1" width="1" height="1" /></div>  </div>  </div>
+      <div class="campl-listing-item campl-news-listing clearfix">
+      
+  <div class="views-field views-field-title">        <span class="field-content campl-simple-heading campl-listing-title"><a href="https://camunivmuseums.wordpress.com/2016/11/28/kettles-yard-celebrates-50-years-as-a-university-of-cambridge-museum/">Kettle’s Yard celebrates 50 years as a University of Cambridge Museum</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">There should be a Kettle’s Yard in every university Kettle’s Yard creator, Jim Ede, 1970 Jim Ede, a writer and former curator at the Tate Gallery created Kettle’s Yard in … <a href="https://camunivmuseums.wordpress.com/2016/11/28/kettles-yard-celebrates-50-years-as-a-university-of-cambridge-museum/" class="read-more">Continue reading <span class="meta-nav">→</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=camunivmuseums.wordpress.com&amp;blog=43695983&amp;post=7254&amp;subd=camunivmuseums&amp;ref=&amp;feed=1" width="1" height="1" /></div>  </div>  </div>
+      <div class="campl-listing-item campl-news-listing clearfix">
+      
+  <div class="views-field views-field-title">        <span class="field-content campl-simple-heading campl-listing-title"><a href="https://camunivmuseums.wordpress.com/2016/10/28/cromwell-community-college-arts-award/">Cromwell Community College Arts Award</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">As part of the Fitzwilliam Museum education programme we enjoy working with groups of young people on the Arts Award scheme. If the Arts Award is new to you then … <a href="https://camunivmuseums.wordpress.com/2016/10/28/cromwell-community-college-arts-award/" class="read-more">Continue reading <span class="meta-nav">→</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=camunivmuseums.wordpress.com&amp;blog=43695983&amp;post=7172&amp;subd=camunivmuseums&amp;ref=&amp;feed=1" width="1" height="1" /></div>  </div>  </div>
+      <div class="campl-listing-item campl-news-listing clearfix">
+      
+  <div class="views-field views-field-title">        <span class="field-content campl-simple-heading campl-listing-title"><a href="https://camunivmuseums.wordpress.com/2016/10/27/lining-em-up/">Lining ‘em up</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content">Ina Pruegel, our Digital Engagement Specialist, and Richard White, our Marketing Coordinator, are current Fellows at the Arts Marketing Association’s (AMA) Digital Marketing Academy.  The Digital Marketing Academy (DMA) is an online learning … <a href="https://camunivmuseums.wordpress.com/2016/10/27/lining-em-up/" class="read-more">Continue reading <span class="meta-nav">→</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=camunivmuseums.wordpress.com&amp;blog=43695983&amp;post=7165&amp;subd=camunivmuseums&amp;ref=&amp;feed=1" width="1" height="1" /></div>  </div>  </div>
+  
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+</div>
+  </div>
+        </div>
+      
+              <div class="campl-column3 campl-secondary-content campl-recessed-secondary-content">
+            <div class="region region-sidebar">
+    <div id="block-block-1" class="block block-block">
+
+  
+      <div class="campl-content-container campl-no-bottom-padding">
+      <div class="campl-heading-container">
+        <h2>Get monthly What&#039;s On e-news</h2>
+      </div>
+    </div>
+  
+  
+  <div class="campl-content-container">
+     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css" /><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+#mc_embed_signup{background:#f3f3f3; clear:left; font:14px
+Helvetica,Arial,sans-serif; }
+     /* Add your own MailChimp form style overrides in your site
+stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to
+the HEAD of your HTML file. */
+
+/*--><!]]>*/
+</style><div id="mc_embed_signup">
+<form action="//cam.us3.list-manage.com/subscribe/post?u=84bb9581c06833790a9bdc936&amp;id=c492250e1e" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<div id="mc_embed_signup_scroll">
+<div class="mc-field-group"><label for="mce-EMAIL">Email Address </label> <input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value="" /></div>
+<div class="clear" id="mce-responses">
+<div class="response" id="mce-error-response" style="display:none"> </div>
+<div class="response" id="mce-success-response" style="display:none"> </div>
+</div>
+<!-- real people should not fill this in and expect good
+things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;"><input name="b_84bb9581c06833790a9bdc936_c492250e1e" tabindex="-1" type="text" value="" /></div>
+<div class="clear"><input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" /></div>
+</div>
+</form>
+</div>
+   </div>
+
+</div>
+<div id="block-block-2" class="block block-block">
+
+  
+      <div class="campl-content-container campl-no-bottom-padding">
+      <div class="campl-heading-container">
+        <h2>Follow us on social media</h2>
+      </div>
+    </div>
+  
+  
+  <div class="campl-content-container">
+    <p> </p>
+
+<p><a href="https://twitter.com/camunivmuseums" target="_blank"><img alt="Follow camunievents on Twitter" src="http://www.sciencefestival.cam.ac.uk/system/files/t_logo-a.png" /></a> <a href="https://www.facebook.com/cambridgeuniversitymuseums" target="_blank"><img src="http://www.sciencefestival.cam.ac.uk/system/files/facebook.jpg" /></a> <a class="cam-social" href="https://instagram.com/camunivmuseums/" target="_blank"><img alt="" src="http://www.museums.cam.ac.uk/files/inner-images/instagram-logo-2.png" style="width: 37px; height: 37px;" /></a> <a href="mailto:info@museums.cam.ac.uk"><img alt="Email us" src="http://www.sciencefestival.cam.ac.uk/system/files/email.gif" /></a></p>
+  </div>
+
+</div>
+<div id="block-cam-utilities-museum-twitter" class="block block-cam-utilities">
+
+  
+      <div class="campl-content-container campl-no-bottom-padding">
+      <div class="campl-heading-container">
+        <h2>Twitter Feed</h2>
+      </div>
+    </div>
+  
+  
+  <div class="campl-content-container">
+    <a class="twitter-timeline" href="https://twitter.com/CamUnivMuseums/uni-of-cam-museums" data-widget-id="438243212000370688">Tweets from https://twitter.com/CamUnivMuseums/uni-of-cam-museums</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>  </div>
+
+</div>
+<div id="block-block-4" class="block block-block">
+
+  
+  
+  
+  <div class="campl-content-container">
+    <h2>Our museums</h2>
+
+<ul class="campl-unstyled-list campl-related-links"><li><a href="http://www.fitzmuseum.cam.ac.uk/" target="_blank">Fitzwilliam Museum</a></li>
+	<li><a href="http://www.kettlesyard.co.uk/" target="_blank">Kettle's Yard</a></li>
+	<li><a href="http://maa.cam.ac.uk/" target="_blank">Museum of Archaeology and Anthropology</a></li>
+	<li><a href="http://www.museum.zoo.cam.ac.uk/" target="_blank">Museum of Zoology</a></li>
+	<li><a href="http://www.classics.cam.ac.uk/museum/" target="_blank">Museum of Classical Archaeology</a></li>
+	<li><a href="http://www.hps.cam.ac.uk/whipple/" target="_blank">Whipple Museum of the History of Science</a></li>
+	<li><a href="http://www.sedgwickmuseum.org/" target="_blank">The Sedgwick Museum of Earth Sciences</a></li>
+	<li><a href="http://www.spri.cam.ac.uk/museum/" target="_blank">The Polar Museum</a></li>
+	<li><a href="http://www.botanic.cam.ac.uk/" target="_blank">Botanic Garden</a></li>
+</ul><h2 style="padding-top:24px;">Get involved</h2>
+
+<ul class="campl-unstyled-list campl-related-links"><li><a href="http://www.cam.ac.uk/museums-and-collections/get-involved">Work Experience</a></li>
+	<li><a href="http://www.cam.ac.uk/museums-and-collections/get-involved">Apprenticeships</a></li>
+	<li><a href="http://www.cam.ac.uk/museums-and-collections/get-involved">Internships</a></li>
+	<li><a href="http://www.cam.ac.uk/museums-and-collections/get-involved">Volunteering</a></li>
+</ul>  </div>
+
+</div>
+  </div>
+        </div>
+      
+      
+    </div>
+
+  </div>
+
+  <div class="campl-row campl-local-footer">
+    <div class="campl-wrap clearfix">
+      <div class="campl-column3 campl-footer-navigation">
+                    <div class="region region-footer-1">
+    <div id="block-block-5" class="block block-block campl-content-container campl-navigation-list">
+
+  
+  
+  
+  <div class="content">
+     <p><img alt="" src="http://www.museums.cam.ac.uk/files/inner-images/uoc-mus-bot_0.gif" style="width: 178px; height: 50px; padding-bottom: 15px;" title="University of Cambridge Museums" /></p>
+<p><a href="http://www.artscouncil.org.uk/"><img src="http://www.museums.cam.ac.uk/files/museums-and-collections/museums-and-collections-grant.png" title="Supported using public funding by Arts Council England" /></a></p>
+   </div>
+
+</div>
+  </div>
+              </div>
+      <div class="campl-column3 campl-footer-navigation">
+                                </div>
+      <div class="campl-column3 campl-footer-navigation">
+                                </div>
+      <div class="campl-column3 campl-footer-navigation last">
+                    <div class="region region-footer-4">
+    <div id="block-block-6" class="block block-block campl-content-container campl-navigation-list">
+
+  
+  
+  
+  <div class="content">
+    <ul class="campl-social-media"><li><a href="http://camunivmuseums.wordpress.com/">Museums blog</a></li>
+	<li><a href="http://www.facebook.com/cambridgeuniversitymuseums">Facebook</a></li>
+	<li><a href="http://www.flickr.com/photos/cambridgeuniversitymuseums">Flickr</a></li>
+	<li><a href="https://www.twitter.com/camunivmuseums">Twitter</a></li>
+</ul>  </div>
+
+</div>
+  </div>
+              </div>
+    </div>
+  </div>
+
+<div class="campl-row campl-global-footer">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-footer-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"
+             class="campl-scale-with-grid"/>
+
+        <p>&#169; 2016 University of Cambridge</p>
+        <ul class="campl-unstyled-list campl-global-footer-links">
+          <li>
+            <a href="http://www.cam.ac.uk/university-a-z">University A-Z</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/contact-the-university">Contact the University</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/accessibility">Accessibility</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/univ/information/foi/">Freedom of information</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/terms-and-conditions">Terms and conditions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+
+        <div class="link-list">
+          <h3><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></h3>
+          <ul class="campl-unstyled-list">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/about-the-university">About the University</a></h3>
+        <ul class="campl-unstyled-list campl-page-children">
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the University
+              and Colleges work</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+          </li>
+          <li>
+            <a href="http://map.cam.ac.uk">Map</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+          </li>
+          <li>
+            <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+          </li>
+          <li>
+            <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation last">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/research">Research at Cambridge</a></h3>
+        <ul class="campl-unstyled-list">
+          <li>
+            <a href="http://www.cam.ac.uk/research/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/features">Features</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/discussion">Discussion</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/spotlight-on">Spotlight on...</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/research-at-cambridge">About research at Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/js/js_91-DL07aump5UofwhIpLrC-swpxJD6fJteFXWt-lBE4.js"></script>
+<script type="text/javascript" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/js/js_qd4kUvJvvDOWXtnlXvZBRUAHKOInZNq-NkPkhzve1-4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-77358969-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.museums.cam.ac.uk/sites/www.museums.cam.ac.uk/files/js/js_3cHXfJzrrha6JF0mR7Jn3W3IKhfkhJOFR7O-pVBOmTw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cambridge_theme","theme_token":"-unTg19uezx-_vxbMLz3jlJ70fqZIzetGyTTdYre2bo","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/www.museums.cam.ac.uk\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/www.museums.cam.ac.uk\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/www.museums.cam.ac.uk\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/cambridge\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/custom.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/ios-orientationchange-fix.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/modernizr.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/cambridge\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cambridge\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cambridge\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/www.museums.cam.ac.uk\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/cambridge\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/full-stylesheet.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/drupal.css":1,"public:\/\/css_injector\/css_injector_1.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"better_exposed_filters":{"views":{"home_page":{"displays":{"page":{"filters":[]}}},"carousel":{"displays":{"block":{"filters":[]}}},"homepage_teasers":{"displays":{"block":{"filters":[]},"block_1":{"filters":[]},"block_2":{"filters":[]}}},"external_news_feed":{"displays":{"block":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+
+
+<!--[if lte IE 8]>
+</div>
+<![endif]-->
+
+</body>
+
+</html>

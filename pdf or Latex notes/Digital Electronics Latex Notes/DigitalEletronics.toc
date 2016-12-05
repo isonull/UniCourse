@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Combinational Logic}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Boolean Algebra}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Logic Minimisation}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Sequential Logic}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Memory Elements}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Synchronous State Machines}{6}{subsection.2.2}

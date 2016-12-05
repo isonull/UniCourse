@@ -1,0 +1,83 @@
+package tick4;
+
+public class ArrayWorld extends World implements Cloneable {
+	private boolean[][] mWorld;
+	private boolean[] mDeadRow;
+
+	private boolean onlyContainsFalse(boolean[] bs) {
+		for (boolean b : bs) {
+			if (b) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public ArrayWorld(String serial) throws PatternFormatException {
+		super(serial);
+		// TODO: initialise mWorld
+		mDeadRow = new boolean[this.getWidth()];
+		mWorld = new boolean[getHeight()][getWidth()];
+
+		getPattern().initialise(this);
+		for (boolean[] b : mWorld) {
+			if()
+		}
+	}
+
+	public ArrayWorld(Pattern serial) throws PatternFormatException {
+		super(serial);
+		// TODO: initialise mWorld
+		mDeadRow = new boolean[this.getWidth()];
+		mWorld = new boolean[getHeight()][getWidth()];
+
+		getPattern().initialise(this);
+	}
+
+	public ArrayWorld(ArrayWorld w) {
+		super(w);
+		mDeadRow = w.mDeadRow.clone();
+		mWorld = w.mWorld.clone();
+	}
+
+	@Override
+	public ArrayWorld clone() throws CloneNotSupportedException {
+		ArrayWorld n = (ArrayWorld) super.clone();
+		n.mWorld = this.mWorld.clone();
+		n.mDeadRow = this.mDeadRow.clone();
+		return n;
+	}
+
+	@Override
+	protected void nextGenerationimpl() {
+		// TODO Auto-generated method stub
+		boolean[][] nextGeneration = new boolean[mWorld.length][];
+		for (int y = 0; y < mWorld.length; ++y) {
+			nextGeneration[y] = new boolean[mWorld[y].length];
+			for (int x = 0; x < mWorld[y].length; ++x) {
+				boolean nextCell = computeCell(x, y);
+				nextGeneration[y][x] = nextCell;
+			}
+		}
+		mWorld = nextGeneration;
+
+	}
+
+	@Override
+	public boolean getCell(int x, int y) {
+		// TODO Auto-generated method stub
+		if (y < 0 || y >= getHeight())
+			return false;
+		if (x < 0 || x >= getWidth())
+			return false;
+
+		return mWorld[y][x];
+	}
+
+	@Override
+	public void setCell(int x, int y, boolean val) {
+		// TODO Auto-generated method stub
+		mWorld[y][x] = val;
+	}
+
+}

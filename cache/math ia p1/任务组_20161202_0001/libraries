@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language="JavaScript" type="text/javascript">
+
+location.replace("http://www.lib.cam.ac.uk/camlibraries/index.php");
+
+</script>
+<noscript>
+
+<meta http-equiv="refresh" content="0; url=http://www.lib.cam.ac.uk/camlibraries/index.php" />
+</noscript>
+<body>
+<p>This page has moved to <a href="http://www.lib.cam.ac.uk/camlibraries/index.php">http://www.lib.cam.ac.uk/camlibraries/index.php</a>, 
+  please update your bookmarks</p>
+</body>
+</html>

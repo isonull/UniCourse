@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" href="https://www.maths.cam.ac.uk/profiles/cambridge/themes/cambridge_theme/apple-touch-icon.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.maths.cam.ac.uk/undergrad/catam/news" />
+<link rel="shortlink" href="https://www.maths.cam.ac.uk/node/86532" />
+<meta name="dcterms.title" content="CATAM News" />
+<meta name="dcterms.creator" content="Administrator" />
+<meta name="dcterms.date" content="2015-09-23T16:32+01:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://www.maths.cam.ac.uk/undergrad/catam/news" />
+<meta name="google-site-verification" content="R7bKe4zJXRnbxCKdztfYfsfLMHwH4piwqwb7RdEGnvA" />
+
+  <title>CATAM News | Faculty of Mathematics</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css__4rE469Z2XWRsse5XZiLhe7mD87RaKeeveL-wBeXHKI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_W0NDp-JvBwlSkt99RIMK8rqkJVW-vhEeb6HgHZ6xFcs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_s-KxP8hN6SJBkEDZU-bwgx2umZQJmxdg8JB83kSsP1o.css" media="all" />
+  <script type="text/javascript">document.documentElement.className += " js";</script>
+
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-86532 node-type-page campl-theme-5" >
+
+<!--[if lt IE 7]>
+<div class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<div class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<div class="lt-ie9">
+<![endif]-->
+
+<a href="#page-content" class="campl-skipTo">skip to content</a>
+
+
+<div class="campl-row campl-global-header">
+  <div class="campl-wrap clearfix">
+    <div class="campl-header-container campl-column8" id="global-header-controls">
+      <a href="http://www.cam.ac.uk" class="campl-main-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"/>
+      </a>
+
+      <ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix">
+        <li>
+          <a href="#study-with-us">Study at Cambridge</a>
+        </li>
+        <li>
+          <a href="#about-the-university">About the University</a>
+        </li>
+        <li>
+          <a href="http://www.cam.ac.uk/research" class="campl-no-drawer">Research at Cambridge</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="campl-column2">
+      <div class="campl-quicklinks">
+      </div>
+    </div>
+
+    <div class="campl-column2">
+
+      <div class="campl-site-search" id="site-search-btn">
+
+        <label for="header-search" class="hidden">Search site</label>
+
+        <div class="campl-search-input">
+          <form action="https://search.cam.ac.uk/web" method="get">
+            <input id="header-search" type="text" name="query" value="" placeholder="Search"/>
+
+            <input type="hidden" name="inst" value="MATHS"/><input type="hidden" name="tag" value="mathsfaculty"/>
+            <input type="image" class="campl-search-submit"
+                   src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search-header.png"/>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="campl-row campl-global-header campl-search-drawer">
+  <div class="campl-wrap clearfix">
+    <form class="campl-site-search-form" id="site-search-container" action="https://search.cam.ac.uk/web" method="get">
+      <div class="campl-search-form-wrapper clearfix">
+        <input type="text" class="text" name="query" value="" placeholder="Search"/>
+
+        <input type="hidden" name="inst" value="MATHS"/><input type="hidden" name="tag" value="mathsfaculty"/>
+        <input type="image" class="campl-search-submit"
+               src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search.png"/>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="campl-row campl-global-navigation-drawer">
+
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-home-link-container">
+      <a href="">Home</a>
+    </div>
+  </div>
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
+      <div class="campl-global-navigation-outer clearfix" id="study-with-us">
+        <ul class="campl-unstyled-list campl-global-navigation-header-container ">
+          <li><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/courses/">Courses</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/apply/">Applying</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/events/">Events and open days</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/finance/">Fees and finance</a>
+                </li>
+                <li>
+                  <a href="http://www.becambridge.com/">Student blogs and videos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/whycam/">Why Cambridge</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/studying/qualifdir/">Qualifications
+                    directory</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/apply/">How to apply</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/studentregistry/fees/">Fees and funding</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/faq/index.html">Frequently asked
+                    questions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list last">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="about-the-university">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="http://www.cam.ac.uk/about-the-university">About the University</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the
+                University and Colleges work</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/history">History</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/term-dates-and-calendars">Term dates and calendars</a>
+            </li>
+            <li class="last">
+              <a href="http://map.cam.ac.uk">Map</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/for-media">For media</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/video-and-audio">Video and audio</a>
+            </li>
+            <li>
+              <a href="http://webservices.admin.cam.ac.uk/faesearch/map.cgi">Find an expert</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/publications">Publications</a>
+            </li>
+            <li class="last">
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge">International Cambridge</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/news">News</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/public-engagement">Public engagement</a>
+            </li>
+            <li>
+              <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+            </li>
+            <li class="last">
+              <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="our-research">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="">Research at Cambridge</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
+      <li>
+        <a href="http://www.cam.ac.uk/for-staff">For staff</a>
+      </li>
+      <li>
+        <a href="http://www.admin.cam.ac.uk/students/gateway">For current students</a>
+      </li>
+      <li>
+        <a href="http://www.alumni.cam.ac.uk">For alumni</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/for-business">For business</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/colleges-and-departments">Colleges &amp; departments</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/libraries-and-facilities">Libraries &amp; facilities</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/museums-and-collections">Museums &amp; collections</a>
+      </li>
+      <li class="last">
+        <a href="http://www.cam.ac.uk/email-and-phone-search">Email &amp; phone search</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="campl-row campl-page-header campl-section-page">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12">
+      <div class="campl-content-container ">
+
+        <div class="campl-breadcrumb" id="breadcrumb"><ul class="campl-unstyled-list campl-horizontal-navigation clearfix"><li class="first-child"><a href="/">Home</a></li><li><a href="/undergrad">Undergraduate Mathematics</a></li><li><a href="/undergrad/catam">CATAM</a></li></ul></div>
+                          
+        
+        <h1 class="campl-page-title">
+          Faculty of Mathematics                  </h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap">
+        <div class="region region-horizontal-navigation">
+    <div id="block-menu-block-1" class="block block-menu-block">
+
+  
+  
+  
+  <div>
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <div class="campl-wrap clearfix campl-local-navigation"><div class="campl-local-navigation-container"><ul class="campl-unstyled-list"><li class="first leaf menu-mlid-290"><a href="/">Home</a></li>
+<li class="expanded active-trail menu-mlid-412"><a href="/undergrad" title="" class="active-trail campl-selected">Current Students</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first expanded active-trail menu-mlid-70661"><a href="/undergrad" class="active-trail">Undergraduate Mathematics</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed active-trail menu-mlid-70661"><a href="/undergrad" class="active-trail">Undergraduate Mathematics overview</a></li>
+<li class="expanded menu-mlid-70757"><a href="/undergrad/course">Course Information</a><ul class="menu"><li class="first leaf menu-mlid-71817"><a href="https://www.maths.cam.ac.uk/system/files/triposguide_v2.pdf" title="">Mathematical Tripos Guide (pdf)</a></li>
+<li class="leaf menu-mlid-71818"><a href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/coursesia.pdf" title="">Part IA (pdf)</a></li>
+<li class="leaf menu-mlid-71819"><a href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/coursesib.pdf" title="">Part IB (pdf)</a></li>
+<li class="leaf menu-mlid-71820"><a href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/coursesii.pdf" title="">Part II (pdf)</a></li>
+<li class="leaf menu-mlid-71821"><a href="https://www.maths.cam.ac.uk/undergrad/course/schedules.pdf" title="">Schedules (pdf)</a></li>
+<li class="leaf menu-mlid-71822"><a href="https://www.maths.cam.ac.uk/system/files/text_1.pdf" title="">Mathematics with Physics (pdf)</a></li>
+<li class="leaf menu-mlid-70915"><a href="/undergrad/course/material">Course Materials</a></li>
+<li class="last leaf menu-mlid-71919"><a href="/lecturelists" title="">Lecture list</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-70762"><a href="/undergrad/catam" class="active-trail">CATAM</a><ul class="menu"><li class="first leaf active-trail active menu-mlid-70939 campl-current-page"><a href="/undergrad/catam/news" class="active-trail active">News</a></li>
+<li class="leaf menu-mlid-70947"><a href="/undergrad/catam/FAQ">FAQ</a></li>
+<li class="leaf menu-mlid-71087"><a href="/matlab">MATLAB</a></li>
+<li class="leaf menu-mlid-71995"><a href="/undergrad/catam/part-ia-lectures-computational-projects-catam">Part IA lectures on Computational Projects</a></li>
+<li class="leaf menu-mlid-70950"><a href="/undergrad/catam/IB">Part IB Computational Projects Manual (July 2016 Edition)</a></li>
+<li class="last leaf menu-mlid-70933"><a href="/undergrad/catam/II">Part II Computational Projects Manual (July 2016 Edition)</a></li>
+</ul></li>
+<li class="leaf menu-mlid-70755"><a href="/undergrad/examplesheets">Examples Sheets</a></li>
+<li class="leaf menu-mlid-70760"><a href="/undergrad/pastpapers">Past Examination Papers</a></li>
+<li class="leaf menu-mlid-70761"><a href="/facultyoffice/supervisorsguide">Supervisions</a></li>
+<li class="leaf menu-mlid-70753"><a href="/undergrad/studyskills">Study Skills</a></li>
+<li class="leaf menu-mlid-71811"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf menu-mlid-72015"><a href="/postgrad/mathiii/information-part-ii-students-wishing-continue-part-iii">Information for Part II students wishing to continue to Part III</a></li>
+</ul></li>
+<li class="expanded menu-mlid-70867"><a href="/part-iii-current">Part III (MMath/MASt)</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-70867"><a href="/part-iii-current">Part III (MMath/MASt) overview</a></li>
+<li class="expanded menu-mlid-71997"><a href="/partiiiguide">Guide to Courses</a><ul class="menu"><li class="first leaf menu-mlid-71998"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-14">Algebra</a></li>
+<li class="leaf menu-mlid-71999"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-13">Analysis</a></li>
+<li class="leaf menu-mlid-72012"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-12">Applied and Computational Analysis</a></li>
+<li class="leaf menu-mlid-72009"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-11">Astrophysics</a></li>
+<li class="leaf menu-mlid-72000"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-10">Combinatorics</a></li>
+<li class="leaf menu-mlid-72013"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-9">Continuum Mechanics</a></li>
+<li class="leaf menu-mlid-72001"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-8">Geometry and Topology</a></li>
+<li class="leaf menu-mlid-72002"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-7">Logic</a></li>
+<li class="leaf menu-mlid-72003"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-6">Number Theory</a></li>
+<li class="leaf menu-mlid-72007"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-5">Particle Physics, Quantum Fields and Strings</a></li>
+<li class="leaf menu-mlid-72011"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-4">Philosophy of Physics</a></li>
+<li class="leaf menu-mlid-72004"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-3">Probability</a></li>
+<li class="leaf menu-mlid-72010"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-2">Quantum Computation, Information and Foundations</a></li>
+<li class="leaf menu-mlid-72008"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-1">Relativity and Gravitation</a></li>
+<li class="last leaf menu-mlid-72005"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-0">Statistics</a></li>
+</ul></li>
+<li class="expanded menu-mlid-72035"><a href="/postgrad/mathiii/part-iii-additional-academic-support">Additional Academic Support</a><ul class="menu"><li class="first leaf menu-mlid-72036"><a href="/postgrad/mathiii/support/timeline.html">Timeline of Events</a></li>
+<li class="last leaf menu-mlid-72043"><a href="/postgrad/mathiii/support/timelineexplanations.html">Timeline of Events: Explanations</a></li>
+</ul></li>
+<li class="leaf menu-mlid-72040"><a href="/postgrad/mathiii/part-iii-essays">Essays</a></li>
+<li class="last leaf menu-mlid-72041"><a href="/postgrad/mathiii/part-iii-mathematical-tripos-examination-papers">Past Exam Papers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-71827"><a href="/postgraduate-information-current-students">Postgraduate</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-71827"><a href="/postgraduate-information-current-students">Postgraduate overview</a></li>
+<li class="leaf menu-mlid-71828"><a href="/part-iii-current" title="">MMath/MASt</a></li>
+<li class="expanded menu-mlid-71829"><a href="/postgrad/mphil/currentstudents.html" title="">M.Phil.</a><ul class="menu"><li class="first last leaf menu-mlid-70882"><a href="/postgrad/mphil/currentstudents.html">Current Students</a></li>
+</ul></li>
+<li class="leaf menu-mlid-71830"><a href="/postgrad/phd-degree">Ph.D.</a></li>
+<li class="last expanded menu-mlid-71831"><a href="/postgrad/cca/cca-staff-and-student-portal">CCA</a><ul class="menu"><li class="first leaf menu-mlid-71958"><a href="/postgrad/cca/cca-staff-and-student-portal/cca-student-directory">Student Directory</a></li>
+<li class="leaf menu-mlid-71959"><a href="/postgrad/cca/research/cca-student-thesis-topics">Current Student Thesis Topics</a></li>
+<li class="leaf menu-mlid-71960"><a href="/postgrad/cca/research-cambridge-centre-analysis/cca-student-papers">Student Publications</a></li>
+<li class="last leaf menu-mlid-71961"><a href="/postgrad/cca/raven/acknowledgements">EPSRC Acknowledgements</a></li>
+</ul></li>
+</ul></li>
+<li class="leaf menu-mlid-70679"><a href="/lecturelists">Lecture List</a></li>
+<li class="leaf menu-mlid-71816"><a href="/undergradnst" title="">Mathematics for NST</a></li>
+<li class="leaf menu-mlid-71948"><a href="http://www.maths.cam.ac.uk/facultyboard" title="Faculty Board and Committees">Faculty Board and Committees</a></li>
+<li class="expanded menu-mlid-70683"><a href="/studentreps">Student Representatives</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-70683"><a href="/studentreps">Student Representatives overview</a></li>
+<li class="leaf menu-mlid-70747"><a href="/tripos-specific-resources">Lecture Notes and Example Sheets</a></li>
+<li class="leaf menu-mlid-70898"><a href="/who-we-are">Current reps</a></li>
+<li class="leaf menu-mlid-70897"><a href="/role-student-representatives">Role of the reps</a></li>
+<li class="last leaf menu-mlid-70896"><a href="/feedback-2">Feedback</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-71971"><a href="/careers" title="">Careers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-413"><a href="/undergraduate-admissions" title="">Prospective Students</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-71982"><a href="/undergraduate-admissions">Undergraduate Admissions</a></li>
+<li class="leaf menu-mlid-70913"><a href="/undergrad/admissions/openday">Undergraduate Open Days</a></li>
+<li class="leaf menu-mlid-71677"><a href="/undergraduate-study-mathematics-cambridge">Undergraduate Study</a></li>
+<li class="leaf menu-mlid-71678"><a href="/part-iii-prospective">Part III (MMath/MASt)</a></li>
+<li class="leaf menu-mlid-70665"><a href="/postgrad">Postgraduate Study</a></li>
+<li class="leaf menu-mlid-70682"><a href="/undergradnst">Mathematics for Natural Sciences Tripos (NST)</a></li>
+<li class="leaf menu-mlid-70656"><a href="/women-maths-1">Women in Maths</a></li>
+<li class="last leaf menu-mlid-71972"><a href="/careers" title="">Careers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-414"><a href="/research" title="">Research</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-428"><a href="/research">Overview</a></li>
+<li class="leaf menu-mlid-426"><a href="http://www.damtp.cam.ac.uk/research/" title="">Applied Mathematics and Theoretical Physics</a></li>
+<li class="leaf menu-mlid-427"><a href="https://www.dpmms.cam.ac.uk/research/" title="">Pure Mathematics and Mathematical Statistics</a></li>
+<li class="last leaf menu-mlid-71973"><a href="/seminars">Seminars</a></li>
+</ul></li>
+<li class="expanded menu-mlid-801"><a href="/careers" title="">Opportunities</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-70659"><a href="/careers">Careers for Mathematicians</a></li>
+<li class="leaf menu-mlid-70660"><a href="/collaboration">Industrial Collaboration</a></li>
+<li class="last leaf menu-mlid-70675"><a href="/vacancies">Vacancies</a></li>
+</ul></li>
+<li class="expanded menu-mlid-415"><a href="/about/community" title="">Outreach</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-70770"><a href="/about/community">Cambridge Mathematics Outreach and Community Activities</a></li>
+<li class="leaf menu-mlid-70847"><a href="/millennium-mathematics-project-mmp">The Millennium Mathematics Project (MMP)</a></li>
+<li class="leaf menu-mlid-70951"><a href="/underground-mathematics">Underground Mathematics - CMEP</a></li>
+<li class="leaf menu-mlid-70844"><a href="/step-preparation-support-widening-participation">STEP preparation support - widening participation</a></li>
+<li class="last leaf menu-mlid-70845"><a href="/maths-open-day-cambridge-science-festival">Maths Open Day at the Cambridge Science Festival </a></li>
+</ul></li>
+<li class="expanded menu-mlid-416"><a href="/internal">Internal</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-416"><a href="/internal">Internal overview</a></li>
+<li class="leaf menu-mlid-797"><a href="/internal/admin" title="Administration">Administration</a></li>
+<li class="leaf menu-mlid-439"><a href="http://things.maths.cam.ac.uk/computing/" title="">Computing and IT</a></li>
+<li class="leaf menu-mlid-436"><a href="/internal/email_lists">Email Lists</a></li>
+<li class="leaf menu-mlid-838"><a href="/internal/facilities-cms">Facilities at the CMS</a></li>
+<li class="leaf menu-mlid-70678"><a href="/facultyboard">Faculty Board</a></li>
+<li class="leaf menu-mlid-70676"><a href="/facultyoffice">Faculty Documentation</a></li>
+<li class="leaf menu-mlid-70668"><a href="/degreecommittee">Degree Committee</a></li>
+<li class="leaf menu-mlid-70795"><a href="/facultyboard/mathsdos">Directors of Studies in Mathematics</a></li>
+<li class="last leaf menu-mlid-440"><a href="/internal/ref" title="">REF (Research Excellence Framework)</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-800"><a href="/about/contacts" title="">About Us</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-418"><a href="/about/contacts">Contact</a></li>
+<li class="leaf menu-mlid-70673"><a href="/friends" title="">Friends and Alumni</a></li>
+<li class="leaf menu-mlid-805"><a href="/about/history">History</a></li>
+<li class="leaf menu-mlid-806"><a href="http://www.cms.cam.ac.uk/visiting/" title="">How to Find Us</a></li>
+<li class="leaf menu-mlid-841"><a href="/news">News</a></li>
+<li class="leaf menu-mlid-839"><a href="/faculty-mathematics-people-list" title="">People</a></li>
+<li class="leaf menu-mlid-811"><a href="/departments">The Departments</a></li>
+<li class="last leaf menu-mlid-70663"><a href="/about">Mathematics in Cambridge</a></li>
+</ul></li>
+</ul></div></div></div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  </div>
+
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap clearfix campl-page-sub-title campl-recessed-sub-title">
+              <div class="campl-column3 campl-spacing-column">
+          &nbsp;
+        </div>
+      
+      <div class="campl-column9">
+        <div class="campl-content-container clearfix contextual-links-region">
+                    <h1 class="campl-sub-title">CATAM News </h1>
+                  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="campl-row campl-content
+    campl-recessed-content">
+    <div class="campl-wrap clearfix">
+              <div class="campl-column3">
+          <div class="campl-tertiary-navigation">
+              <div class="region region-left-navigation">
+    <div id="block-menu-block-2" class="block block-menu-block">
+
+  
+  
+  
+  <div>
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <div class="campl-tertiary-navigation-structure"><ul class="campl-unstyled-list campl-vertical-breadcrumb"><li class="leaf menu-mlid-290"><a href="/">Faculty of Mathematics<span class="campl-vertical-breadcrumb-indicator"></span></a></li><li class="first expanded active-trail menu-mlid-412"><a href="/undergrad" title="" class="active-trail">Current Students<span class="campl-vertical-breadcrumb-indicator"></span></a></li><li class="first expanded active-trail menu-mlid-70661"><a href="/undergrad" class="active-trail active-trail">Undergraduate Mathematics<span class="campl-vertical-breadcrumb-indicator"></span></a></li></ul><ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation"><li class="first expanded active-trail menu-mlid-70762"><a href="/undergrad/catam" class="active-trail active-trail">CATAM</a><ul class="campl-unstyled-list campl-vertical-breadcrumb-children"><li class="first leaf active-trail active menu-mlid-70939 campl-selected"><a href="/undergrad/catam/news" class="active-trail active-trail active">News</a></li>
+<li class="leaf menu-mlid-70947"><a href="/undergrad/catam/FAQ">FAQ</a></li>
+<li class="leaf menu-mlid-71087"><a href="/matlab">MATLAB</a></li>
+<li class="leaf menu-mlid-71995"><a href="/undergrad/catam/part-ia-lectures-computational-projects-catam">Part IA lectures on Computational Projects</a></li>
+<li class="leaf menu-mlid-70950"><a href="/undergrad/catam/IB">Part IB Computational Projects Manual (July 2016 Edition)</a></li>
+<li class="last leaf menu-mlid-70933"><a href="/undergrad/catam/II">Part II Computational Projects Manual (July 2016 Edition)</a></li>
+</ul></li>
+<li class="expanded menu-mlid-70757"><a href="/undergrad/course">Course Information</a></li>
+<li class="leaf menu-mlid-70755"><a href="/undergrad/examplesheets">Examples Sheets</a></li>
+<li class="leaf menu-mlid-70760"><a href="/undergrad/pastpapers">Past Examination Papers</a></li>
+<li class="leaf menu-mlid-70761"><a href="/facultyoffice/supervisorsguide">Supervisions</a></li>
+<li class="leaf menu-mlid-70753"><a href="/undergrad/studyskills">Study Skills</a></li>
+<li class="leaf menu-mlid-71811"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf menu-mlid-72015"><a href="/postgrad/mathiii/information-part-ii-students-wishing-continue-part-iii">Information for Part II students wishing to continue to Part III</a></li>
+</ul></div></div>
+  </div>
+
+</div>
+<div id="block-block-5" class="block block-block">
+
+  
+  
+  
+  <div>
+    <div class="campl-tertiary-navigation-structure">
+<ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation"><li class="leaf "><a href="/raven/login">Login</a></li>
+</ul></div>
+  </div>
+
+</div>
+  </div>
+          </div>
+        </div>
+                            <div class="campl-column9 campl-main-content" id="page-content">
+
+          <div class="">
+
+            
+                                      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+  
+  
+  
+  <div>
+    <div id="node-86532" class="node node-page clearfix" about="/undergrad/catam/news" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="CATAM News" class="rdf-meta element-hidden"></span>
+  
+      <div class="content campl-content-container">
+      
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><!--#set var="title" value="News" --><!--#set var="bctitle" value="News" --><!--#include virtual=".prepend.html" --><!--The CATAM Director is in charge of this page's content--><!--No spaces allowed in a href tag contents eg a href="no-spaces-here"> --><!-- <head> --><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
+<!--//--><![CDATA[// ><!--
+
+
+//--><!]]>
+</script><!-- </head><p><body><br />
+Here is a special equation:<br />
+\[ e^{i\pi}+1=0\]<br />
+The five most important mathematical constants, all in one!<br />
+</body> --><p>Read CATAM News for up-to-date information about the Computational Projects and changes to the `Desktop Services' / `Managed Cluster Service' (DS/MCS) network facilities.</p>
+<p><a id="contents" name="contents"> </a></p>
+<hr align="left" class="top-small" color="purple" width="60%" /><h2 class="catamp"><a id="contents" name="contents">Headlines</a></h2>
+<p><a id="contents" name="contents"></a></p>
+<!--          Table Of Contents Start          --><p> </p>
+<p><a id="contents" name="contents"></a><strong><a href="#general">General</a> | <a href="#partib">Part IB</a> | <a href="/sites/www.maths.cam.ac.uk/files/pre2014/undergrad/catam/news/#partii">Part II</a> | <a href="/undergrad/catam/news/#LessRecent">Old Perennials</a></strong></p>
+<p><strong><a id="General" name="general">General items:</a></strong></p>
+<!--
+<p><p><code>21/04/16:</code> <a href="/undergrad/catam/news/#21-April-2016D"> Advisors on duty in Easter Term</a><br />
+<code>08/01/16:</code> <a href="/undergrad/catam/news/#8-January-2016D"> Advisors on duty in Lent Term </a><br />
+-->
+<!--
+    
+    <code><p>28/12/13:</code> <a href="/undergrad/catam/news/#28-December-2013"><br />
+    A <strong>draft</strong> <em>Brief LaTeX Guide for CATAM</em> is available<br />
+    </a> </p>
+<p>    <code>12/09/13:</code> <a href="/undergrad/catam/news/#12-September-2013"><br />
+    Updating an expiring MATLAB license<br />
+    </a><br /> <br />
+-->
+<p> </p>
+<p> </p>
+<p><strong><a id="IBspecific" name="partib">Part IB Projects:</a></strong></p>
+<p><code>14/10/16:</code><a href="/undergrad/catam/news/#14-October-2016">Introduction to LaTeX: Lecture and Labs</a><br /><code>29/07/16:</code> <a href="/undergrad/catam/news/#29-July-2016IB">Part IB Manual online</a></p>
+<!--
+<p><p><code>06/04/16:</code><a href="/undergrad/catam/news/#6-April-2016IB">Paper and electronic submission of Part IB Additional CATAM Projects</a><br />
+<code>09/01/16:</code> <a href="/undergrad/catam/news/#9-January-2016">Paper submission of Part IB Core Projects</a><br />
+<code>09/01/16:</code> <a href="/undergrad/catam/news/#9-January-2016E">Electronic submission of Part IB Core Project files</a><br />
+<code>05/12/15:</code> <a href="/undergrad/catam/news/#5-December-2015">Minor Correction to Part IB Project 2.1</a><br />
+<code>21/08/15:</code> <a href="/undergrad/catam/news/#21-August-2015">Modification to Part IB Project 2.2</a></p>
+<p><code>24/06/15:</code> <a href="/undergrad/catam/news/#24-June-2015">Optional introductory CATAM project available</a><br />
+-->
+<!--
+ 
+    <code><p>17/10/14:</code> <a href="/undergrad/catam/news/#17-October-2014"><br />
+    Model answer to the Part IB Introductory Project available<br />
+    </a></p>
+<p>    <code>10/10/14:</code><a href="/undergrad/catam/news/#10-October-2014"><br />
+    Introductory Project: Lecture on 20 October 2014<br />
+    </a></p>
+<p>-->
+<p> </p>
+<p> </p>
+<p><strong><a id="IIspecific" name="partii">Part II Projects:</a></strong></p>
+<p><code>14/10/16:</code><a href="/undergrad/catam/news/#14-October-2016">Introduction to LaTeX: Lecture and Labs</a><br /><code>26/07/16:</code> <a href="/undergrad/catam/news/#26-July-2016II">Part II Manual online</a></p>
+<!--
+<p><p><code>06/04/16:</code><a href="/undergrad/catam/news/#6-April-2016II">Paper and electronic submission of Part II CATAM Projects</a><br />
+<code>21/12/15:</code> <a href="/undergrad/catam/news/#21-December-2015">Minor amendments to Part II Project 5.4</a><br />
+<code>08/10/15:</code> <a href="#8-October-2015"> Correction to introductory remarks in Part II project 17.1 </a><br />
+<code>27/08/15:</code> <a href="/undergrad/catam/news/#27-August-2015">Minor clarifications to Part II Project 5.4</a><br />
+-->
+<!--
+     <code><p>05/10/14:</code><a href="/undergrad/catam/news/#5-October-2014"><br />
+    Introduction to LaTeX: Lecture and Labs<br />
+    </a></p>
+<p>-->
+<p> </p>
+<p><strong><a id="LessRecent" name="LessRecent"></a></strong></p>
+<p><a id="LessRecent" name="LessRecent"> </a></p>
+<p><a id="LessRecent" name="LessRecent"><strong>Less recent, but still relevant:</strong></a></p>
+<p><a id="LessRecent" name="LessRecent"></a></p>
+<!--    <code><p>05/04/11:</code> <a href="/undergrad/catam/news/#5-April-2011"><br />
+    Use of inbuilt MATLAB routines<br />
+    </a><br /> --> 
+<!--
+    <code><p>20/05/09:</code> <a href="/undergrad/catam/news/#20-May-2009"><br />
+    MATLAB installation instructions for Windows<br />
+    </a><br />
+--> <code>27/03/08:</code> <a href="/undergrad/catam/news/#27-March-2008b">Warning - cached pages</a><br /><code>31/01/07:</code> <a href="/undergrad/catam/news/#31-January-2007">Make sure you get through to the CATAM Helpline</a>
+<!--
+    <code><p>30/09/04:</code> <a href="/undergrad/catam/news/#30Sept04b"><br />
+    Routines you may use<br />
+    </a><br />
+--><br /><code>22/04/04:</code> <a href="/undergrad/catam/news/#22Apr04">File security</a>
+<!--
+    <div class="catamtops"><p><a href="/undergrad/catam/news/#contents">top</a></div>
+<p>-->
+<!--
+     Other items from old years removed.
+     Files and links kept in news09-10.html
+--><!--          Table Of Contents End            --><!-- ================================================================= --><hr align="left" class="top-small" color="purple" width="60%" /><h2 class="catamp">Details</h2>
+<p class="top-up"> </p>
+<h4><a name="14-October-2016" id="14-October-2016">14 October 2016: Introduction to LaTeX: Lecture and Labs </a></h4>
+<p>Part IB and Part II students are invited to attend a one-hour lecture by Dr Stephen Eglen, <strong>Introduction to LaTeX</strong>. <em>LaTeX</em> is a document typesetting system that excels at typesetting mathematical and scientific manuscripts. This lecture is to help those students who wish to use LaTeX to typeset their CATAM submissions. (Note: it is <em>not</em> compulsory to learn LaTeX == you are free to choose your own program, such as Libre Office or Microsoft Word, for your CATAM submissions.)</p>
+<p>Lab sessions will be held after the lecture to get hands-on experience with LaTeX. The lecture and labs are aimed at those who have no prior experience of LaTeX.</p>
+<p>The lecture will be given in MR3 on the following date:</p>
+<p><strong>Thursday 10 November 1-2pm</strong></p>
+<p>Further information is <a href="https://github.com/sje30/rpc2015/blob/master/latex.md" target="_blank">available here</a>.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="29-July-2016IB" id="29-July-2016IB">29th July 2016: Part IB Manual online</a></h4>
+<p>The Manual containing the Part IB Projects for 2016-17 is now <a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/">available online</a>. If perchance you note any misprints, we would be grateful if you could draw them to our attention.</p>
+<p>However familiar you already are with computing, you will need to read the <a href="http://things.maths.cam.ac.uk/catam/IB/IBintro.pdf">Introduction</a> to the Manual before starting either on the Introductory Project 0.1 (for which a solution will be posted early in the Michaelmas Term), or on the Core Projects 1.1 and 1.2 (which are due to be submitted at the beginning of the Lent Term). Please note that you are required to submit your project reports both as hard-copy and <em>electronically</em>. In particular you will be asked to submit your write-ups electronically in Portable Document Format (PDF) form. Please see the <a href="http://things.maths.cam.ac.uk/catam/IB/IBintro.pdf">Introduction</a> to the Manual for more details.</p>
+<p>Please note that while there are no quality marks, i.e. alphas and betas, for CATAM, the maximum contribution to the final <em>merit</em> mark is roughly the same (averaging over the alpha weightings) as for a 16-lecture course.</p>
+<p>Please also make sure you familiarise yourself with the section on <em>Unfair Means, Plagiarism and Guidelines for Collaboration</em> in the <a href="http://things.maths.cam.ac.uk/catam/IB/IBintro.pdf">Introduction</a> to the Manual.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<div class="catamtops"> </div>
+<h4><a name="26-July-2016II" id="26-July-2016II">26th July 2016: Part II Manual online</a></h4>
+<p>The Manual containing the Part II Projects for 2016-17 is now <a href="http://www.maths.cam.ac.uk/undergrad/catam/II/">available online</a>. If perchance you note any misprints, we would be grateful if you could draw them to our attention.</p>
+<p>However familiar you feel you already are with the Computational Projects course, you will need to read the <a href="http://things.maths.cam.ac.uk/catam/II/IIintro.pdf">Introduction</a> to the Manual. You are required to submit your project reports both as hard-copy and <em>electronically</em>. In particular you will be asked to submit your write-ups electronically in Portable Document Format (PDF) form. Please see the <a href="http://things.maths.cam.ac.uk/catam/II/IIintro.pdf">Introduction</a> to the Manual for more details.</p>
+<p>As was the case last year, while there are no quality marks, i.e. alphas and betas, for CATAM, the maximum contribution to the final <em>merit</em> mark is the same as the maximum for a 16-lecture course.</p>
+<p>Please also make sure you familiarise yourself with the section on <em>Unfair Means, Plagiarism and Guidelines for Collaboration</em> in the <a href="http://things.maths.cam.ac.uk/catam/II/IIintro.pdf#nameddest=section.5&amp;view=Fit">Introduction</a> to the Manual.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<!--
+<h4><p><a name="21-April-2016D">21st April 2016: Advisors on duty in Easter Term</a></h4>
+<p>An advisor will be on duty in the CATAM room, GL.04, from 2pm until 4pm on Thursday 21 April and Friday 22 April.</p>
+<p>On Monday 25 April, Tuesday 26 April and Wednesday 27 April there will be an advisor on duty from 10am until 4pm since Part IB and Part II students will be preparing and submitting their projects.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="6-April-2016II">6th April 2016: Paper and electronic submission of Part II CATAM Projects </a></h4>
+<p>Paper submission of all Part II Projects will take place in room EL.09 in Pavilion E of the CMS between 10am and 4pm on Wednesday 27 April 2016. There will be directions to EL.09 (the same room as for last year) from the entrance to the CMS. You must submit in person; someone else cannot submit your work for you.</p>
+<p>As explained in the Part II Manual you will need to sign a <em>Submission Form</em> (an example was given in Appendix D of the Manual). You should download the current <a href="http://things.maths.cam.ac.uk/catam/II/SubmitII.pdf"><em>Part II Submission Form</em> by clicking on this link</a> (forms will also be available from the CMS reception on the morning of Wednesday 27 April 2016). Please print the form double-sided. Please also make sure that you understand what you are signing, and that you have fully filled in the <em>Declaration of Discussions and Exchanges</em> section. In the past a few students have failed to correctly fill in their `<em>Declaration of Discussions and Exchanges</em>'; this can lead to delays on the day or complications during the assessment.</p>
+<p>In order to preserve the academic integrity of CATAM, we must carry out checks to ensure work is not plagiarised. If one of the comparison programs that we use then identifies similarities, and/or if the Assessors notice similarities, this can lead to an <em>Examination Interview</em> and/or an <em>Investigative Meeting</em> (please see the Computational Projects Manual section on <em>Unfair Means, Plagiarism and Guidelines for Collaboration</em>, including that on <em>Oral Examinations</em> for more details).</p>
+<p>As also explained in the Part II Manual, you should leave a gap 11 cm wide by 5 cm deep in the top right-hand corner on the first page of each project write-up. This is for a sticky label, so that your candidate number (which you will be given on submission day) can be added to each project. Also, while you should write the project number clearly in the top left hand corner of the first page, your name or user identifier should not appear anywhere in the write-up (including programme listings, graphs, etc.), as the scripts are marked anonymously. In addition, please remember to print on only one side of the paper, to leave a margin at least 2 cm wide at the left, to number each page, table and graph, and not to use red or green text (although red and/or green lines on plots are acceptable).</p>
+<p>Students are required to submit electronic copies of their <b>project reports</b> (in PDF format) and their <b>programs</b> to the Project Assessors for checking, via the University's <a href="https://www.vle.cam.ac.uk/login/index.php"><b>Moodle site</b></a>. Files may be submitted up to the deadline of 4pm on Wednesday 27 April 2016. However electronic submission is already available and you are urged to perform it in advance. <a href="http://things.maths.cam.ac.uk/catam/II/SubmitII.html">Click here for further information</a>. Please note that you will <strong>need to know your Raven (or UIS) password</strong> in order to complete electronic submission. If you have forgotten your Raven or UIS password, then you will need to ask the <a href="http://www.ucs.cam.ac.uk/docs/faq/accounts/n3"> University Information Service</a> for a <a href="http://www.ucs.cam.ac.uk/accounts/forgotten-passwords">Password Reset Token.</a> You will then be able to reset your own password at <a href="https://password.csx.cam.ac.uk"> https://password.csx.cam.ac.uk</a>.</p>
+<p><strong>Please note that:</strong></p>
+<ul>
+<li><strong>For both paper submission and electronic submission the 4pm deadline on Wednesday 27 April 2016 will be strictly adhered to </strong>(unless there are <i>exceptional</i> circumstances, and your Director of Studies has obtained an extension for you).</li>
+<li>The system will send you an email each time you upload or modify a submission. Please do <strong>not</strong> email asking for confirmation that your electronic submission has been successful; if your files are not there we will notice and be in touch.</li>
+<li>It would help if you made your paper submission as early in the day as you can (unless you like long queues). You should make your electronic submission <strong>beforehand</strong>; advisors will be on duty in the CATAM MCS room from 10am until 4pm on submission day.</li>
+</ul>
+<p>&nbsp;</p>
+<div class="catamtops"><strong><a href="/undergrad/catam/news/#contents">top</a></strong></div>
+<p>&nbsp;</p>
+<h4><a name="6-April-2016IB">6th April 2016: Paper and electronic submission of Part IB Additional CATAM Projects </a></h4>
+<p>Paper submission of all Part IB Additional Projects will take place in room EL.09 in Pavilion E of the CMS between 10am and 4pm on Tuesday 26 April 2016. There will be directions to EL.09 (the same room as for the Core Submission) from the entrance to the CMS. You must submit in person; someone else cannot submit your work for you.</p>
+<p>As explained in the Part IB Manual you will need to sign a <em>Submission Form</em> (an example was given in Appendix D of the Manual). You should download the current <a href="http://things.maths.cam.ac.uk/catam/IB/SubmitIBEaster.pdf"><em>Part IB Submission Form</em> by clicking on this link</a> (forms will also be available from the CMS reception on the morning of Tuesday 26 April 2016). Please print the form double-sided. Please also make sure that you understand what you are signing, and that you have fully filled in the <em>Declaration of Discussions and Exchanges</em> section. In the past a few students have failed to correctly fill in their `<em>Declaration of Discussions and Exchanges</em>'; this can lead to delays on the day or complications during the assessment.</p>
+<p>n order to preserve the academic integrity of CATAM, we must carry out checks to ensure work is not plagiarised. If one of the comparison programs that we use then identifies similarities, and/or if the Assessors notice similarities, this can lead to an <em>Examination Interview</em> and/or an <em>Investigative Meeting</em> (please see the Computational Projects Manual section on <em>Unfair Means, Plagiarism and Guidelines for Collaboration</em>, including that on <em>Oral Examinations</em> for more details).</p>
+<p>As also explained in the Part IB Manual, you should leave a gap 11 cm wide by 5 cm deep in the top right-hand corner on the first page of each project write-up. This is for a sticky label, so that your candidate number (which you will be given on submission day) can be added to each project. Also, while you should write the project number clearly in the top left hand corner of the first page, your name or user identifier should not appear anywhere in the write-up (including programme listings, graphs, etc.), as the scripts are marked anonymously. In addition, please remember to print on only one side of the paper, to leave a margin at least 2 cm wide at the left, to number each page, table and graph, and not to use red or green text (although red and/or green lines on plots are acceptable).</p>
+<p>Part IB students are required to submit electronic copies of their <b>project reports</b> (in PDF format) and their <b>programs</b> to the Project Assessors for checking, via the University's <a href="https://www.vle.cam.ac.uk/login/index.php"><b>Moodle site</b></a>. Files may be submitted up to the deadline of 4pm on Tuesday 26 April 2016. However electronic submission is already available and you are urged to perform it in advance. <a href="http://things.maths.cam.ac.uk/catam/IB/SubmitIBEaster.html">Click here for further information</a>. Please note that you will <strong>need to know your Raven (or UIS) password</strong> in order to complete electronic submission. If you have forgotten your Raven or UIS password, then you will need to ask the <a href="http://www.ucs.cam.ac.uk/docs/faq/accounts/n3"> University Information Service</a> for a <a href="http://www.ucs.cam.ac.uk/accounts/forgotten-passwords">Password Reset Token.</a> You will then be able to reset your own password at <a href="https://password.csx.cam.ac.uk"> https://password.csx.cam.ac.uk</a>.</p>
+<p><strong>Please note that:</strong></p>
+<ul>
+<li><strong>For both paper submission and electronic submission the 4pm deadline on Tuesday 26 April 2016 will be strictly adhered to</strong> (unless there are <i>exceptional</i> circumstances, and your Director of Studies has obtained an extension for you).</li>
+<li>The system will send you an email each time you upload or modify a submission. Please do <strong>not</strong> email asking for confirmation that your electronic submission has been successful; if your files are not there we will notice and be in touch.</li>
+<li>It would help if you made your paper submission as early in the day as you can (unless you like long queues). You should make your electronic submission <strong>beforehand</strong>; advisors will be on duty in the CATAM MCS room from 10am until 4pm on submission day.</li>
+</ul>
+<p>&nbsp;</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p>&nbsp;</p>
+<h4><a name="9-January-2016">9th January 2016: Paper submission of Part IB Core Projects </a></h4>
+<p>Paper submission of Part IB Core Projects will take place in room EL.09 in Pavilion E of the CMS between 10am and 4pm on Tuesday 19th January 2016. There will be directions to EL.09 from the entrance to the CMS. You must submit in person; someone else cannot submit your work for you.</p>
+<p>As explained in the Part IB Manual you will need to sign a <em>Submission Form</em> (an example was given in Appendix D of the Manual). You should download the Core Projects <a href="http://things.maths.cam.ac.uk/catam/IB/SubmitIBLent.pdf"><em>Submission Form</em> by clicking on this link</a> (forms will also be available from the CMS reception on the morning of Tuesday 19th January 2016). Please print the form double-sided. Please also make sure that you understand what you are signing, and that you have fully filled in the `<em>Declaration of Discussions and Exchanges</em>' section. In the past a few students have failed to correctly fill in their `<em>Declaration of Discussions and Exchanges</em>'. If the comparison program that we use then identifies similarities, and/or if the Assessors notice similarities, this can lead to an <em>Examination Interview</em> and/or an <em>Investigative Meeting</em> (please see the Computational Projects Manual section on <em>Unfair Means, Plagiarism and Guidelines for Collaboration</em>, including that on <em>Oral Examinations</em> for more details).</p>
+<p>As also explained in the Part IB Manual, you should leave a gap 11 cm wide by 5 cm deep in the top right-hand corner on the first page of each project write-up. This is for a sticky label, so that your candidate number (which you will be given on submission day) can be added to each project. Also, while you should write the project number clearly in the top left hand corner of the first page, your name or user identifier should not appear anywhere in the write-up (including programme listings, graphs, etc.), as the scripts are marked anonymously. In addition, please remember to write or print on only one side of the paper, to leave a margin at least 2 cm wide at the left, to number each page, table and graph, not write in pencil or erasable pen, and not to use red or green ink (although red and/or green lines on plots are acceptable).</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p>&nbsp;</p>
+<h4><a name="9-January-2016E">9th January 2016: Electronic submission of Part IB Core Project files </a></h4>
+<p>Part IB students are required to submit electronic copies of their <b>project reports</b> (in PDF format) and their <b>programs</b> to the Project Assessors for checking. Files may be submitted up to the deadline of 4pm on 19th January 2016. However electronic submission is already available and you are urged to perform it as soon as possible. <a href="http://things.maths.cam.ac.uk/catam/IB/SubmitIBLent.html"> Click here for further information</a>. Please note that you will <strong>need to know your UIS or Desktop Services / Managed Cluster Services (DS/MCS) password</strong> in order to complete electronic submission (please note that your <em style="color:brown">DS/MCS password</em> is in principle different from your <em style="color:brown">Raven</em> or <em style="color:brown">Hermes passwords</em>). If you cannot remember your <em style="color:brown">DS/MCS password</em> but do know your <em style="color:brown">Raven password</em>, then you can quickly reset your own password at <a href="https://password.csx.cam.ac.uk"> https://password.csx.cam.ac.uk</a>. If you have forgotten your <em style="color:brown">Raven password</em> as well, then you will need to ask the <a href="http://www.ucs.cam.ac.uk/docs/faq/accounts/n3"> University Information Service</a> for a <a href="http://www.ucs.cam.ac.uk/accounts/forgotten-passwords">Password Reset Token.</a> <b><em>Resetting passwords can take time</em></b> so check that you know your MCS password well before submission day.</p>
+<p>&nbsp;</p>
+<p><strong>Please note that:</strong></p>
+<ul>
+<li><strong>For both paper submission and electronic submission the 4pm deadline will be strictly adhered to </strong>(unless there are <i>exceptional</i> circumstances, and your Director of Studies has obtained an extension for you).</li>
+<li>Please do <strong>not</strong> email asking for confirmation that your electronic submission has been successful; we do not have the resources to provide confirmation. However, if your files are not there we will notice and be in touch.</li>
+<li>It would help if you made your paper submission as early in the day as you can (unless you like long queues). You should make your electronic submission <strong>beforehand</strong>; advisors will be on duty in the CATAM MCS room from 10am until 4pm on submission day.</li>
+</ul>
+<p>&nbsp;</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p>&nbsp;</p>
+<h4><strong><a name="8-January-2016D">8th January 2016: Advisors on duty in Lent Term</a></strong></h4>
+<p>An advisor will be on duty in the CATAM MCS room, GL.04, from 2pm until 4pm for the week starting Monday 11th January and ending Friday 15th January.</p>
+<p>An advisor will also be on duty on Monday 18th January and Tuesday 19th January, from 10am until 4pm, since Part IB students will be preparing, and then submitting, their Core Projects.</p>
+<div class="catamtops"><strong><a href="/undergrad/catam/news/#contents">top</a></strong></div>
+<h4><strong><a name="21-December-2015">21 December 2015: Minor amendments to Part II Project 5.4</a></strong></h4>
+<p>Two minor amendments have been made to Project 5.4. It has been clarified that the assumed metric signature is (+,-,-,-), and in equation (7) a factor \( F_2(p_q,p_{\bar q}) \) has been included.</p>
+<div class="catamtops"><strong><a href="/undergrad/catam/news/#contents">top</a></strong></div>
+<h4><strong><a name="5-December-2015">05 December 2015: Minor Correction to Part IB Project 2.1</a></strong></h4>
+<p>The second paragraph of question 3 has been corrected to refer to \(u_o \). This replaces the original reference to \(v_0\).</p>
+<div class="catamtops"><strong><a href="#contents">top</a></strong></div>
+<h4><a name="8-October-2015">8th October 2015: Correction to introductory remarks in Part II project 17.1 </a></h4>
+<p>The introductory remarks in italics have been amended, removing the previously-stated restriction to values of \(k\) dividing \(n\).</p>
+<div class="catamtops"><a href="#contents">top</a></div>
+<h4><a name="27-August-2015">27 August 2015: Minor clarifications to Part II Project 5.4</a></h4>
+<p>Project 5.4 has been edited to introduce a number of clarifications. These changes do not affect the mathematical or computational requirements.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="21-August-2015">21st August 2015: Modification to Part IB Project 2.2</a></h4>
+<p>In the non-dimensionalisation following equation (4) a factor of 1/2 has been removed from the definition of \( \Phi \), resulting in changes to equations (6) and (8) and consequent adjustments later. You will not be disadvantaged if your work is completed on the basis of the original project definitions.</p>
+<p>&nbsp;</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="24-June-2015">24th June 2015: Optional introductory CATAM project available</a></h4>
+<p>An <a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/0pt1.pdf"><em>optional introductory non-examinable CATAM project</em></a> is available. Unlike the other projects there are no marks awarded for it and, also unlike other projects, you may collaborate and (if your College is willing) have a supervision on it. A model answer will be available a few weeks into Michaelmas term.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p>-->
+<!--
+
+<h4><p><a name="28-December-2013">28th December 2013:<br />
+A <strong>draft</strong> <em>Brief LaTeX Guide for CATAM</em> is available.<br />
+</a></h4>
+<p>
+A <strong>draft</strong> <em>Brief LaTeX Guide for CATAM</em> is<br />
+<a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/LaTeX/Brief-Guide.pdf"><br />
+available for download</a>. It is emphasised that this is a draft, so<br />
+may contain mistakes.
+</p>
+<p>The LaTeX source file, and supporting files, are<br />
+also <a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/LaTeX/Guide.zip">available<br />
+for download</a> as a <tt>zip</tt> file. Mac and Unix users should<br />
+already have an unzip utility, while Windows users can<br />
+download <a href="http://www.7-zip.org/">7-Zip</a> if they have not.
+</p>
+<p>
+The<br />
+main <a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/LaTeX/Brief-Guide.tex"><tt>Brief-Guide.tex</tt></a><br />
+file may be helpful as a template.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p>-->
+<!-- ================================================================= --><!--
+
+--><!--
+
+
+<h4><p><a name="9-January-2015E">9th January 2015:<br />
+  Electronic submission of Part IB Core Project files<br />
+</a></h4>
+<p>
+Part IB students are required to submit electronic copies of their<br />
+<b>project reports</b> (in PDF format) and their <b>programs</b> to the Project Assessors for<br />
+checking. Files may be submitted<br />
+up to the deadline of 4pm on 20th January 2015. However electronic<br />
+submission is already available and you<br />
+are urged to perform it as soon<br />
+as possible. <a href="/undergrad/catam/news/2015/SubmitIBLent.html">Click here for further<br />
+information</a>. Please note that you will <strong>need to know your<br />
+UIS or Desktop Services / Managed Cluster Services (DS/MCS) password</strong><br />
+in order to complete electronic submission (please note that your<br />
+<em style="color:brown">DS/MCS password</em> is in principle different from<br />
+your <em style="color:brown">Raven</em> or <em style="color:brown">Hermes<br />
+passwords</em>). If you cannot remember<br />
+your <em style="color:brown">DS/MCS password</em> but<br />
+do know your <em style="color:brown">Raven password</em>, then you can<br />
+quickly reset your own password at <a href="https://password.csx.cam.ac.uk"><br />
+ https://password.csx.cam.ac.uk</a>.<br />
+If you have forgotten<br />
+ your <em style="color:brown">Raven password</em> as well, then you<br />
+ will need to ask the <a href="http://www.ucs.cam.ac.uk/docs/faq/accounts/n3"><br />
+University Information Service</a> for a<br />
+<a href="http://www.ucs.cam.ac.uk/accounts/forgotten-passwords">Password<br />
+  Reset Token.</a><br />
+<b><em>Resetting passwords can take time</em></b> </p>
+<p>so check that you know your MCS<br />
+password well before submission day.
+</p>
+<p>
+Please note that:
+</p>
+<ul>
+<li> <strong>For both paper submission and electronic submission the 4pm<br />
+deadline will be strictly adhered to</strong> (unless there are<br />
+<i>exceptional</i> circumstances, and your Director of Studies has obtained an<br />
+extension for you).</p>
+<li> Please do <strong>not</strong> email asking for confirmation that your<br />
+  electronic submission has been successful; we do not have the<br />
+  resources to provide confirmation. However, if your files are not<br />
+  there we will notice and be in touch.</p>
+<li> It would help if you made your paper submission as early in the<br />
+day as you can (unless you like long queues). You should make your<br />
+electronic submission <strong>beforehand</strong>; advisors will be on<br />
+duty in the CATAM MCS room from 10am until 4pm on submission day.
+</ul>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="7-January-2015">7 January 2015: Correction to<br />
+  equation (9) of Part IB Project 2.1<br />
+</a></h4>
+<p>
+A correction has been made to the constant factor multiplying the integral in<br />
+equation (9). The factor, which was previously given as<br />
+\(\sqrt{2/\pi}\), is now given as \( 2/\sqrt{\pi} \).
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="16-December-2014">16 December 2014: Correction to<br />
+    Part IB Project 2.1<br />
+</a></h4>
+<p>
+A correction has been made to the boundary condition<br />
+specified by equation (6) in Question 1, which now reads
+</p>
+<blockquote><p>
+\[ \theta(x,t) \to \theta_0 \quad \mbox{or}<br />
+ \quad \frac{\partial\theta}{\partial x}(x,t) \to 0<br />
+ \ \quad \mbox{as  $x \to \infty$.} ~~~~~~~~\quad\quad\quad (6) \]
+</p>
+</blockquote>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="17-October-2014">17 October 2014: Model answer to the<br />
+  Part IB Introductory Project available</a></h4>
+<p>
+A model answer to the Part IB Introductory Project is now available<br />
+from the CATAM webpages. The link is<br />
+<a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/0pt1/Answer.pdf">http://www.maths.cam.ac.uk/undergrad/catam/IB/0pt1/Answer.pdf</a>.
+</p>
+<p>
+Please email typos, comments, errors and improvements to the model<br />
+answer to catam@maths.cam.ac.uk.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="10-October-2014">10 October 2014:<br />
+    Introductory Project: Lecture on 20 October 2014<br />
+</a></h4>
+<p>
+A lecture on<br />
+the <a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/0pt1.pdf"><br />
+Introductory Project</a> will be given for Part IB students at 9am on<br />
+Monday 20 October<br />
+2014 in Mill Lane, Lecture Room 3.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="18-September-2014-5.3">18 September 2014: Minor<br />
+    clarification to Part II Project 5.3<br />
+</a></h4>
+<p>
+In paragraph (c) of Section 6 the instruction to "draw or plot" has been<br />
+replaced by "plot" to clarify that computer-generated graphs are expected.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="18-September-2014-2.10">18 September 2014: Minor<br />
+    clarification to Part II Project 2.10<br />
+</a></h4>
+<p>
+It has been made clear that, whereas almost all graphs, including<br />
+labels, annotations, etc., need to be computer-generated, the sketch<br />
+requested in Question 1 is one of the relatively few cases where a<br />
+scanned hand-drawing is acceptable for electronic submission.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="18-September-2014">18 September 2014: Clarifications re<br />
+<i>Electronic Submission</i><br />
+</a></h4>
+<p>
+A number of minor edits have been made to both<br />
+the <a href="http://www.maths.cam.ac.uk/undergrad/catam/IB/IBintro.pdf">Part<br />
+IB Introduction</a> and<br />
+the <a href="http://www.maths.cam.ac.uk/undergrad/catam/II/IIintro.pdf">Part<br />
+II Introduction</a> to the CATAM Manuals concerning electronic<br />
+submission.
+</p>
+<ul>
+<li> A note has been added stating that if it will prove difficult for<br />
+  you to produce electronic write-ups, e.g. because of a disability,<br />
+  then you should contact<br />
+  the <a href="mailto:catam@maths.cam.ac.uk"><i>CATAM Helpline</i></a><br />
+  as early in the academic year as possible.</p>
+<li> It has been emphasised that hard-copy submissions and electronic<br />
+  submissions must be identical.</p>
+<li> It has been clarified that labels, annotations, etc. to graphs,<br />
+  as well as the graphs themselves, need to be computer-generated in<br />
+  almost all cases. In a very few projects, where a <i>sketch</i><br />
+  (or similar) is asked for, a scanned hand-drawing is<br />
+  acceptable. Such exceptions are noted explicitly in the project<br />
+  description.
+</ul>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="18-September-2014-1.8">18 September 2014: Minor<br />
+    clarification to Part II Project 1.8<br />
+</a></h4>
+<p>
+It has been made clear that, whereas almost all graphs, including<br />
+labels, annotations, etc., need to be computer-generated, the sketch<br />
+requested in Question 1 is one of the relatively few cases where a<br />
+scanned hand-drawing is acceptable for electronic submission.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="6-September-2014">6 September 2014: Minor correction to<br />
+    Part IB Project 1,1<br />
+</a></h4>
+<p>
+A minor correction has been made to equation numbering in Part<br />
+IB Core Project 1.1 to clarify references in the text to the first two<br />
+equations.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="17-August-2014">17 August 2014: Minor correction to<br />
+    Part II Project 15.1<br />
+</a></h4>
+<p>
+A minor addition has been made to the second sentence of Section 3,<br />
+which now begins
+</p>
+<blockquote><p>
+The <em>Euler test base</em> \( a\), for an odd integer \( N\), is to compute<br />
+\( a^{(N-1)/2}\) mod \( N\) and check if this is \( \pm 1\) and equal<br />
+to the <em>Jacobi</em> symbol ..</p>
+</blockquote>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="13-August-2014">13 August 2014: Minor correction to<br />
+    Part II Project 20.2<br />
+</a></h4>
+<p>
+In Question 4 the inequality \(\lambda \geqslant 1\) has been replaced<br />
+with \(\lambda \geqslant \frac{2}{3}\), so that the question now reads
+</p>
+<blockquote><p>
+<b>Question 4.</b>  Prove that for \(\lambda \geqslant \frac{2}{3}\)<br />
+the simulation is useless. Calculate the optimal value of \(\lambda\).
+</p>
+</blockquote>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<h4><a name="04-August-2014">4 August 2014: Minor clarifications to<br />
+    Part II Project 3.1<br />
+</a></h4>
+<p>
+Some [very] minor clarifications have been made to the text of Part II<br />
+Project 3.1.
+</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p><!== ================================================================= -->
+<!-- ================================================================= --><!--  DO NOT DELETE --><p> </p>
+<h4><a name="27-March-2008b" id="27-March-2008b">27th March 2008: Warning - cached pages</a></h4>
+<p>When checking the latest online version of a project before finalising your write-up, ensure that your computer has not 'cached', and is therefore displaying, the previous version that you accessed.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p><!-- ================================================================= --></p>
+<h4><a name="31-January-2007" id="31-January-2007">31st January 2007: Make sure you get through to the CATAM Helpline</a></h4>
+<p>When emailing the Helpline:</p>
+<p>(1) Always write from your University email address (@hermes or @cam)</p>
+<p>(2) If a project is involved, put it it the subject line: e.g., Part II Project 14.5. Otherwise make it clear how the email relates to CATAM, e.g. mention MATLAB.</p>
+<p>(3) Include a clear message in the body of the email, making clear the relevance to CATAM: e.g. I have attached the electronic versions of my Part IB Core CATAM Projects.</p>
+<p>(4) Only discuss one project and, ideally, only one question in each email.</p>
+<p>If for good reason you cannot achieve (1), be particularly careful about (2) and (3).</p>
+<p>At first sight the above may seen rather pedantic and unnecessary. However it is the cost of modern communications: the University estimates that it receives over 6 million messages per day of which at least 90% are spam. Most is filtered by the University's spam filter, which will remove emails with no message for example. What gets through to the Helpline still needs filtering, which is done ad hoc, mainly by reference to the sender's address and the subject line.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p><!-- ================================================================= --><!-- ================================================================= --></p>
+<h4><a name="22Apr04" id="22Apr04">22nd April 2004: File security</a></h4>
+<p>It is important that you keep backup copies of your project files on CD, memory stick or floppy disk to guard against loss by human error (accidental overwriting or deletion), or by hardware problems on your own computer or University/College fileservers.</p>
+<p>Do not leave copies of your project files behind on the local hard disk of Managed Cluster Services (MCS) or College computers. If someone took a copy of your work and incorporated it in one of their own programs, you might be accused of unfair collaboration by the Project Assessors.</p>
+<p>If you lose a memory stick or floppy disk containing your programs, please report it to the CATAM helpline.</p>
+<p>The Computing Service publish these notes on <a href="http://www.ucs.cam.ac.uk/desktop-services/accounts">file security on the MCS</a>.</p>
+<div class="catamtops"><a href="/undergrad/catam/news/#contents">top</a></div>
+<p><strong></strong></p>
+<!-- ================================================================= --><!-- ================================================================= --><!-- Created: Wed Apr  4 16:00:27 BST 2001 --><!-- hhmts start --><!-- Last modified: 17th July 2008 (automatic now!)--><!-- hhmts end --><!--#include virtual="/common/append.html" --><p></p>
+</div></div></div>    </div>
+  
+  
+  
+</div>
+  </div>
+
+</div>
+  </div>
+
+          </div>
+
+        </div>
+      
+      
+      
+      
+    </div>
+
+  </div>
+
+
+<div class="campl-row campl-global-footer">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-footer-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"
+             class="campl-scale-with-grid"/>
+
+        <p>&#169; 2016 University of Cambridge</p>
+        <ul class="campl-unstyled-list campl-global-footer-links">
+          <li>
+            <a href="http://www.cam.ac.uk/university-a-z">University A-Z</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/contact-the-university">Contact the University</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/accessibility">Accessibility</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/univ/information/foi/">Freedom of information</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/terms-and-conditions">Terms and conditions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+
+        <div class="link-list">
+          <h3><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></h3>
+          <ul class="campl-unstyled-list">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/about-the-university">About the University</a></h3>
+        <ul class="campl-unstyled-list campl-page-children">
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the University
+              and Colleges work</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+          </li>
+          <li>
+            <a href="http://map.cam.ac.uk">Map</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+          </li>
+          <li>
+            <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+          </li>
+          <li>
+            <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation last">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/research">Research at Cambridge</a></h3>
+        <ul class="campl-unstyled-list">
+          <li>
+            <a href="http://www.cam.ac.uk/research/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/features">Features</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/discussion">Discussion</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/spotlight-on">Spotlight on...</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/research-at-cambridge">About research at Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_5QeakBRO9Br4yQ9s_B9-DyXWCM00yUzwVsadgNYJlXM.js"></script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_otIGU3p2tmUTVRsTJhZYG_EzOT3aYBC_7sXF343boSc.js"></script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-67965669-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_3cHXfJzrrha6JF0mR7Jn3W3IKhfkhJOFR7O-pVBOmTw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cambridge_theme","theme_token":"h_eyevRLJGpuCgQwm0I5HKc359oQ6YzeoUGkRQTnmro","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/js\/teasers.js":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/js\/jquery.matchHeight-min.js":1,"profiles\/cambridge\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/custom.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/ios-orientationchange-fix.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/modernizr.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/css\/teasers.css":1,"profiles\/cambridge\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/www.maths.cam.ac.uk\/modules\/maths_css\/styles.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cambridge\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cambridge\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cambridge\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/notosans\/font.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/full-stylesheet.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/drupal.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+
+
+<!--[if lte IE 8]>
+</div>
+<![endif]-->
+
+</body>
+
+</html>

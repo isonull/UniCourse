@@ -1,0 +1,3 @@
+phi:Life lexicon:11:10:3:3:01110 10001 10001 01110
+Glider:Richard K. Guy:8:8:1:1:001 101 011
+aircraft carrier:Life lexicon:8:7:2:2:1100 1001 0011

@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" href="https://www.maths.cam.ac.uk/profiles/cambridge/themes/cambridge_theme/apple-touch-icon.png" type="image/png" />
+<meta name="description" content="Mathematics has been studied at Cambridge for a long time. The first figure of note is Robert Recorde (born about 1550) who is credited with the invention of the equality sign &quot;=&quot;." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.maths.cam.ac.uk/about/history" />
+<link rel="shortlink" href="https://www.maths.cam.ac.uk/node/86664" />
+<meta name="dcterms.title" content="The History of Mathematics in Cambridge" />
+<meta name="dcterms.creator" content="Administrator" />
+<meta name="dcterms.description" content="Mathematics has been studied at Cambridge for a long time. The first figure of note is Robert Recorde (born about 1550) who is credited with the invention of the equality sign &quot;=&quot;." />
+<meta name="dcterms.date" content="2015-09-23T16:32+01:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://www.maths.cam.ac.uk/about/history" />
+<meta name="google-site-verification" content="R7bKe4zJXRnbxCKdztfYfsfLMHwH4piwqwb7RdEGnvA" />
+
+  <title>The History of Mathematics in Cambridge | Faculty of Mathematics</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css__4rE469Z2XWRsse5XZiLhe7mD87RaKeeveL-wBeXHKI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_W0NDp-JvBwlSkt99RIMK8rqkJVW-vhEeb6HgHZ6xFcs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_s-KxP8hN6SJBkEDZU-bwgx2umZQJmxdg8JB83kSsP1o.css" media="all" />
+  <script type="text/javascript">document.documentElement.className += " js";</script>
+
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-86664 node-type-page campl-theme-5" >
+
+<!--[if lt IE 7]>
+<div class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<div class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<div class="lt-ie9">
+<![endif]-->
+
+<a href="#page-content" class="campl-skipTo">skip to content</a>
+
+
+<div class="campl-row campl-global-header">
+  <div class="campl-wrap clearfix">
+    <div class="campl-header-container campl-column8" id="global-header-controls">
+      <a href="http://www.cam.ac.uk" class="campl-main-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"/>
+      </a>
+
+      <ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix">
+        <li>
+          <a href="#study-with-us">Study at Cambridge</a>
+        </li>
+        <li>
+          <a href="#about-the-university">About the University</a>
+        </li>
+        <li>
+          <a href="http://www.cam.ac.uk/research" class="campl-no-drawer">Research at Cambridge</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="campl-column2">
+      <div class="campl-quicklinks">
+      </div>
+    </div>
+
+    <div class="campl-column2">
+
+      <div class="campl-site-search" id="site-search-btn">
+
+        <label for="header-search" class="hidden">Search site</label>
+
+        <div class="campl-search-input">
+          <form action="https://search.cam.ac.uk/web" method="get">
+            <input id="header-search" type="text" name="query" value="" placeholder="Search"/>
+
+            <input type="hidden" name="inst" value="MATHS"/><input type="hidden" name="tag" value="mathsfaculty"/>
+            <input type="image" class="campl-search-submit"
+                   src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search-header.png"/>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="campl-row campl-global-header campl-search-drawer">
+  <div class="campl-wrap clearfix">
+    <form class="campl-site-search-form" id="site-search-container" action="https://search.cam.ac.uk/web" method="get">
+      <div class="campl-search-form-wrapper clearfix">
+        <input type="text" class="text" name="query" value="" placeholder="Search"/>
+
+        <input type="hidden" name="inst" value="MATHS"/><input type="hidden" name="tag" value="mathsfaculty"/>
+        <input type="image" class="campl-search-submit"
+               src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search.png"/>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="campl-row campl-global-navigation-drawer">
+
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-home-link-container">
+      <a href="">Home</a>
+    </div>
+  </div>
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
+      <div class="campl-global-navigation-outer clearfix" id="study-with-us">
+        <ul class="campl-unstyled-list campl-global-navigation-header-container ">
+          <li><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/courses/">Courses</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/apply/">Applying</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/events/">Events and open days</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/finance/">Fees and finance</a>
+                </li>
+                <li>
+                  <a href="http://www.becambridge.com/">Student blogs and videos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/whycam/">Why Cambridge</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/studying/qualifdir/">Qualifications
+                    directory</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/apply/">How to apply</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/studentregistry/fees/">Fees and funding</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/faq/index.html">Frequently asked
+                    questions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list last">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="about-the-university">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="http://www.cam.ac.uk/about-the-university">About the University</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the
+                University and Colleges work</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/history">History</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/term-dates-and-calendars">Term dates and calendars</a>
+            </li>
+            <li class="last">
+              <a href="http://map.cam.ac.uk">Map</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/for-media">For media</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/video-and-audio">Video and audio</a>
+            </li>
+            <li>
+              <a href="http://webservices.admin.cam.ac.uk/faesearch/map.cgi">Find an expert</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/publications">Publications</a>
+            </li>
+            <li class="last">
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge">International Cambridge</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/news">News</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/public-engagement">Public engagement</a>
+            </li>
+            <li>
+              <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+            </li>
+            <li class="last">
+              <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="our-research">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="">Research at Cambridge</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
+      <li>
+        <a href="http://www.cam.ac.uk/for-staff">For staff</a>
+      </li>
+      <li>
+        <a href="http://www.admin.cam.ac.uk/students/gateway">For current students</a>
+      </li>
+      <li>
+        <a href="http://www.alumni.cam.ac.uk">For alumni</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/for-business">For business</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/colleges-and-departments">Colleges &amp; departments</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/libraries-and-facilities">Libraries &amp; facilities</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/museums-and-collections">Museums &amp; collections</a>
+      </li>
+      <li class="last">
+        <a href="http://www.cam.ac.uk/email-and-phone-search">Email &amp; phone search</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="campl-row campl-page-header campl-section-page">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12">
+      <div class="campl-content-container ">
+
+        <div class="campl-breadcrumb" id="breadcrumb"><ul class="campl-unstyled-list campl-horizontal-navigation clearfix"><li class="first-child"><a href="/">Home</a></li><li><a href="/about">Mathematics in Cambridge</a></li></ul></div>
+                          
+        
+        <h1 class="campl-page-title">
+          Faculty of Mathematics                  </h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap">
+        <div class="region region-horizontal-navigation">
+    <div id="block-menu-block-1" class="block block-menu-block">
+
+  
+  
+  
+  <div>
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <div class="campl-wrap clearfix campl-local-navigation"><div class="campl-local-navigation-container"><ul class="campl-unstyled-list"><li class="first leaf menu-mlid-290"><a href="/">Home</a></li>
+<li class="expanded menu-mlid-412"><a href="/undergrad" title="">Current Students</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-70661"><a href="/undergrad">Undergraduate Mathematics</a></li>
+<li class="leaf menu-mlid-70867"><a href="/part-iii-current">Part III (MMath/MASt)</a></li>
+<li class="leaf menu-mlid-71827"><a href="/postgraduate-information-current-students">Postgraduate</a></li>
+<li class="leaf menu-mlid-70679"><a href="/lecturelists">Lecture List</a></li>
+<li class="leaf menu-mlid-71816"><a href="/undergradnst" title="">Mathematics for NST</a></li>
+<li class="leaf menu-mlid-71948"><a href="http://www.maths.cam.ac.uk/facultyboard" title="Faculty Board and Committees">Faculty Board and Committees</a></li>
+<li class="leaf menu-mlid-70683"><a href="/studentreps">Student Representatives</a></li>
+<li class="last leaf menu-mlid-71971"><a href="/careers" title="">Careers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-413"><a href="/undergraduate-admissions" title="">Prospective Students</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-71982"><a href="/undergraduate-admissions">Undergraduate Admissions</a></li>
+<li class="leaf menu-mlid-70913"><a href="/undergrad/admissions/openday">Undergraduate Open Days</a></li>
+<li class="leaf menu-mlid-71677"><a href="/undergraduate-study-mathematics-cambridge">Undergraduate Study</a></li>
+<li class="leaf menu-mlid-71678"><a href="/part-iii-prospective">Part III (MMath/MASt)</a></li>
+<li class="leaf menu-mlid-70665"><a href="/postgrad">Postgraduate Study</a></li>
+<li class="leaf menu-mlid-70682"><a href="/undergradnst">Mathematics for Natural Sciences Tripos (NST)</a></li>
+<li class="leaf menu-mlid-70656"><a href="/women-maths-1">Women in Maths</a></li>
+<li class="last leaf menu-mlid-71972"><a href="/careers" title="">Careers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-414"><a href="/research" title="">Research</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-428"><a href="/research">Overview</a></li>
+<li class="leaf menu-mlid-426"><a href="http://www.damtp.cam.ac.uk/research/" title="">Applied Mathematics and Theoretical Physics</a></li>
+<li class="leaf menu-mlid-427"><a href="https://www.dpmms.cam.ac.uk/research/" title="">Pure Mathematics and Mathematical Statistics</a></li>
+<li class="last leaf menu-mlid-71973"><a href="/seminars">Seminars</a></li>
+</ul></li>
+<li class="expanded menu-mlid-801"><a href="/careers" title="">Opportunities</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-70659"><a href="/careers">Careers for Mathematicians</a></li>
+<li class="leaf menu-mlid-70660"><a href="/collaboration">Industrial Collaboration</a></li>
+<li class="last leaf menu-mlid-70675"><a href="/vacancies">Vacancies</a></li>
+</ul></li>
+<li class="expanded menu-mlid-415"><a href="/about/community" title="">Outreach</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-70770"><a href="/about/community">Cambridge Mathematics Outreach and Community Activities</a></li>
+<li class="leaf menu-mlid-70847"><a href="/millennium-mathematics-project-mmp">The Millennium Mathematics Project (MMP)</a></li>
+<li class="leaf menu-mlid-70951"><a href="/underground-mathematics">Underground Mathematics - CMEP</a></li>
+<li class="leaf menu-mlid-70844"><a href="/step-preparation-support-widening-participation">STEP preparation support - widening participation</a></li>
+<li class="last leaf menu-mlid-70845"><a href="/maths-open-day-cambridge-science-festival">Maths Open Day at the Cambridge Science Festival </a></li>
+</ul></li>
+<li class="expanded menu-mlid-416"><a href="/internal">Internal</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-416"><a href="/internal">Internal overview</a></li>
+<li class="leaf menu-mlid-797"><a href="/internal/admin" title="Administration">Administration</a></li>
+<li class="leaf menu-mlid-439"><a href="http://things.maths.cam.ac.uk/computing/" title="">Computing and IT</a></li>
+<li class="leaf menu-mlid-436"><a href="/internal/email_lists">Email Lists</a></li>
+<li class="leaf menu-mlid-838"><a href="/internal/facilities-cms">Facilities at the CMS</a></li>
+<li class="leaf menu-mlid-70678"><a href="/facultyboard">Faculty Board</a></li>
+<li class="leaf menu-mlid-70676"><a href="/facultyoffice">Faculty Documentation</a></li>
+<li class="leaf menu-mlid-70668"><a href="/degreecommittee">Degree Committee</a></li>
+<li class="leaf menu-mlid-70795"><a href="/facultyboard/mathsdos">Directors of Studies in Mathematics</a></li>
+<li class="last leaf menu-mlid-440"><a href="/internal/ref" title="">REF (Research Excellence Framework)</a></li>
+</ul></li>
+<li class="last expanded active-trail menu-mlid-800"><a href="/about/contacts" title="" class="active-trail campl-selected">About Us</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first expanded menu-mlid-418"><a href="/about/contacts">Contact</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-418"><a href="/about/contacts">Contact overview</a></li>
+<li class="last leaf menu-mlid-71854"><a href="/about/contacts/website-content-responsibilities">Website Content Responsibilities</a></li>
+</ul></li>
+<li class="expanded menu-mlid-70673"><a href="/friends" title="">Friends and Alumni</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-70673"><a href="/friends" title="">Friends and Alumni overview</a></li>
+<li class="leaf menu-mlid-70735"><a href="/alumni-weekend-2007">Alumni Weekend 2007</a></li>
+<li class="expanded menu-mlid-70784"><a href="/friends/newsletters">Asymptopia Newsletters</a><ul class="menu"><li class="first leaf menu-mlid-70997"><a href="/friends/newsletters/news21">Asymptopia March 2005</a></li>
+<li class="leaf menu-mlid-71007"><a href="/friends/newsletters/news20">Asymptopia September 2004</a></li>
+<li class="expanded menu-mlid-71009"><a href="/friends/newsletters/news19">Asymptopia April 2004</a><ul class="menu"><li class="first last leaf menu-mlid-71228"><a href="/asymptopia">Asymptopia</a></li>
+</ul></li>
+<li class="leaf menu-mlid-71005"><a href="/friends/newsletters/news17">Asymptopia March 2003</a></li>
+<li class="leaf menu-mlid-71008"><a href="/friends/newsletters/news16">Asymptopia September 2002</a></li>
+<li class="leaf menu-mlid-70999"><a href="/friends/newsletters/news15">Asymptopia June 2002</a></li>
+<li class="leaf menu-mlid-71011"><a href="/friends/newsletters/news14">Asymptopia March 2002</a></li>
+<li class="leaf menu-mlid-71012"><a href="/friends/newsletters/news13">Asymptopia December 2001</a></li>
+<li class="expanded menu-mlid-70996"><a href="/friends/newsletters/news12">Asymptopia September 2001</a><ul class="menu"><li class="first last leaf menu-mlid-71226"><a href="/progress">Progress</a></li>
+</ul></li>
+<li class="leaf menu-mlid-71003"><a href="/friends/newsletters/news11">Asymptopia June 2001</a></li>
+<li class="expanded menu-mlid-71013"><a href="/friends/newsletters/news10">Asymptopia February 2001</a><ul class="menu"><li class="first last leaf menu-mlid-71229"><a href="/friendsnewslettersnews10asymptopiahtml">Asymptopia February 2001</a></li>
+</ul></li>
+<li class="leaf menu-mlid-71010"><a href="/friends/newsletters/news7">Asymptopia June 2000</a></li>
+<li class="leaf menu-mlid-71006"><a href="/friends/newsletters/news6">Asymptopia February 2000</a></li>
+<li class="leaf menu-mlid-71002"><a href="/friends/newsletters/news5">Asymptopia September 1999</a></li>
+<li class="leaf menu-mlid-71004"><a href="/friends/newsletters/news4">Asymptopia March 1999</a></li>
+<li class="leaf menu-mlid-70994"><a href="/friends/newsletters/news3">NEWSLETTER July 1998</a></li>
+<li class="expanded menu-mlid-71000"><a href="/friends/newsletters/news2">NEWSLETTER December 1997</a><ul class="menu"><li class="first last leaf menu-mlid-71227"><a href="/university-cambridgecentre-mathematical-sciences-0">University of CambridgeCentre for Mathematical Sciences</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-70998"><a href="/friends/newsletters/news1">NEWSLETTER • June 1997</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-72042"><a href="/postgrad/mathiii/retrospective">Retrospective Award of Masters Degrees for Part III</a></li>
+</ul></li>
+<li class="leaf active menu-mlid-805 campl-current-page"><a href="/about/history" class="active">History</a></li>
+<li class="leaf menu-mlid-806"><a href="http://www.cms.cam.ac.uk/visiting/" title="">How to Find Us</a></li>
+<li class="expanded menu-mlid-841"><a href="/news">News</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-841"><a href="/news">News overview</a></li>
+<li class="last expanded menu-mlid-70670"><a href="/news" title="">News from The Faculty of Mathematics</a><ul class="menu"><li class="first leaf menu-mlid-70730"><a href="/adams-prize-winners-2014-15-announced">Adams Prize winners 2014-15 announced</a></li>
+<li class="leaf menu-mlid-70723"><a href="/andrew-chamblin-memorial-lecture-2015">Andrew Chamblin Memorial Lecture, 2015</a></li>
+<li class="leaf menu-mlid-70732"><a href="/applications-adams-prize-2015-2016">Applications for Adams Prize 2015-2016</a></li>
+<li class="leaf menu-mlid-70886"><a href="/cms-colloquia-and-isaac-newton-institute-seminars">CMS COLLOQUIA and ISAAC NEWTON INSTITUTE SEMINARS</a></li>
+<li class="leaf menu-mlid-70719"><a href="/cambridge-centre-analysis-cca-phd-degree">Cambridge Centre for Analysis (CCA) - Ph.D. Degree</a></li>
+<li class="leaf menu-mlid-70713"><a href="/certificate-advanced-study-mathematics-part-iii-announcement-1">Certificate of Advanced Study in Mathematics (Part III) : Announcement</a></li>
+<li class="leaf menu-mlid-70718"><a href="/dirac-lecture-2009">Dirac Lecture 2009</a></li>
+<li class="leaf menu-mlid-70715"><a href="/election-foreign-associates-prof-frank-kelly-and-prof-john-hinch-us-national-academy-engineering">Election as Foreign Associates of Prof. Frank Kelly and Prof. John Hinch to the US National Academy of Engineering</a></li>
+<li class="leaf menu-mlid-70728"><a href="/faculty-mathematics-nominations-student-membership">Faculty of Mathematics - Nominations for Student Membership</a></li>
+<li class="leaf menu-mlid-70720"><a href="/faculty-mathematics-achieves-bronze-athena-swan-award">Faculty of Mathematics Achieves Bronze Athena SWAN Award</a></li>
+<li class="leaf menu-mlid-70885"><a href="/general-lectures">General Lectures</a></li>
+<li class="leaf menu-mlid-70727"><a href="/mordell-lecture-2011">Mordell Lecture, 2011</a></li>
+<li class="leaf menu-mlid-70717"><a href="/news-faculty-mathematics">News from The Faculty of Mathematics</a></li>
+<li class="leaf menu-mlid-70731"><a href="/news-faculty-mathematics-1">News from The Faculty of Mathematics</a></li>
+<li class="leaf menu-mlid-70729"><a href="/previous-andrew-chamblin-memorial-lectures">Previous Andrew Chamblin Memorial Lectures</a></li>
+<li class="leaf menu-mlid-70783"><a href="/news/prizes">Prizes</a></li>
+<li class="leaf menu-mlid-70726"><a href="/professor-sir-michael-atiyah">Professor Sir Michael Atiyah</a></li>
+<li class="leaf menu-mlid-70722"><a href="/retrospective-award-mmath-and-mast-degrees-part-iii">Retrospective Award of MMath and MASt Degrees for Part III</a></li>
+<li class="leaf menu-mlid-70716"><a href="/rollo-davidson-lecture-2010">Rollo Davidson Lecture, 2010</a></li>
+<li class="leaf menu-mlid-70733"><a href="/news/smith-knight-rayleigh-knight-prizes-2017">Smith-Knight &amp;amp; Rayleigh-Knight Prizes 2017</a></li>
+<li class="leaf menu-mlid-70721"><a href="/student-success-mathematical-contest-modelling-2010">Student success in the Mathematical Contest in Modelling 2010</a></li>
+<li class="leaf menu-mlid-70724"><a href="/gk-batchelor-lecture-2009">The G.K. Batchelor Lecture for 2009</a></li>
+<li class="leaf menu-mlid-70714"><a href="/hardy-fellow-lecture-2004">The Hardy Fellow Lecture for 2004</a></li>
+<li class="leaf menu-mlid-70734"><a href="/mordell-lecture-2009">The Mordell Lecture for 2009</a></li>
+<li class="last leaf menu-mlid-70725"><a href="/rouse-ball-lecture-2015">The Rouse Ball Lecture for 2015</a></li>
+</ul></li>
+</ul></li>
+<li class="leaf menu-mlid-839"><a href="/faculty-mathematics-people-list" title="">People</a></li>
+<li class="leaf menu-mlid-811"><a href="/departments">The Departments</a></li>
+<li class="last expanded active-trail menu-mlid-70663"><a href="/about" class="active-trail">Mathematics in Cambridge</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed active-trail menu-mlid-70663"><a href="/about" class="active-trail">Mathematics in Cambridge overview</a></li>
+<li class="expanded menu-mlid-70767"><a href="/about/contacts">Contact Points for Mathematics in Cambridge</a><ul class="menu"><li class="first last leaf menu-mlid-70842"><a href="/faculty-mathematics-people-list">Faculty of Mathematics People List</a></li>
+</ul></li>
+<li class="expanded menu-mlid-70772"><a href="/about/raven">Internal Information about the Mathematics webpages</a><ul class="menu"><li class="first leaf menu-mlid-70851"><a href="/how-edit-mathematics-website-pages">How to edit the Mathematics website pages</a></li>
+<li class="leaf menu-mlid-70850"><a href="/how-make-page-accessible-only-raven-users">How to make a page accessible only to Raven users</a></li>
+<li class="leaf menu-mlid-70854"><a href="/including-comments">Including Comments</a></li>
+<li class="leaf menu-mlid-70849"><a href="/named-lectures">Named Lectures</a></li>
+<li class="last leaf menu-mlid-70852"><a href="/who-responsible-what-content">Who is responsible for what content</a></li>
+</ul></li>
+<li class="leaf menu-mlid-70695"><a href="/past-examination-papers">Past Examination Papers</a></li>
+<li class="leaf menu-mlid-70768"><a href="/about/privacy">Privacy Policy for the Faculty of Mathematics Website</a></li>
+<li class="leaf menu-mlid-70769"><a href="/about/faculty">The Faculty of Mathematics</a></li>
+<li class="last leaf active-trail active menu-mlid-70771"><a href="/about/history" class="active-trail active">The History of Mathematics in Cambridge</a></li>
+</ul></li>
+</ul></li>
+</ul></div></div></div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  </div>
+
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap clearfix campl-page-sub-title campl-recessed-sub-title">
+              <div class="campl-column3 campl-spacing-column">
+          &nbsp;
+        </div>
+      
+      <div class="campl-column9">
+        <div class="campl-content-container clearfix contextual-links-region">
+                    <h1 class="campl-sub-title">The History of Mathematics in Cambridge </h1>
+                  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="campl-row campl-content
+    campl-recessed-content">
+    <div class="campl-wrap clearfix">
+              <div class="campl-column3">
+          <div class="campl-tertiary-navigation">
+              <div class="region region-left-navigation">
+    <div id="block-menu-block-2" class="block block-menu-block">
+
+  
+  
+  
+  <div>
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <div class="campl-tertiary-navigation-structure"><ul class="campl-unstyled-list campl-vertical-breadcrumb"><li class="leaf menu-mlid-290"><a href="/">Faculty of Mathematics<span class="campl-vertical-breadcrumb-indicator"></span></a></li></ul><ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation"><li class="first expanded active-trail menu-mlid-800"><a href="/about/contacts" title="" class="active-trail">About Us</a><ul class="campl-unstyled-list campl-vertical-breadcrumb-children"><li class="first expanded active-trail menu-mlid-70663"><a href="/about" class="active-trail active-trail">Mathematics in Cambridge</a></li>
+<li class="expanded menu-mlid-418"><a href="/about/contacts">Contact</a></li>
+<li class="expanded menu-mlid-70673"><a href="/friends" title="">Friends and Alumni</a></li>
+<li class="leaf active menu-mlid-805 campl-selected"><a href="/about/history" class="active">History</a></li>
+<li class="leaf menu-mlid-806"><a href="http://www.cms.cam.ac.uk/visiting/" title="">How to Find Us</a></li>
+<li class="expanded menu-mlid-841"><a href="/news">News</a></li>
+<li class="leaf menu-mlid-839"><a href="/faculty-mathematics-people-list" title="">People</a></li>
+<li class="last leaf menu-mlid-811"><a href="/departments">The Departments</a></li>
+</ul></li>
+<li class="expanded menu-mlid-412"><a href="/undergrad" title="">Current Students</a></li>
+<li class="expanded menu-mlid-413"><a href="/undergraduate-admissions" title="">Prospective Students</a></li>
+<li class="expanded menu-mlid-414"><a href="/research" title="">Research</a></li>
+<li class="expanded menu-mlid-801"><a href="/careers" title="">Opportunities</a></li>
+<li class="expanded menu-mlid-415"><a href="/about/community" title="">Outreach</a></li>
+<li class="last expanded menu-mlid-416"><a href="/internal">Internal</a></li>
+</ul></div></div>
+  </div>
+
+</div>
+<div id="block-block-5" class="block block-block">
+
+  
+  
+  
+  <div>
+    <div class="campl-tertiary-navigation-structure">
+<ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation"><li class="leaf "><a href="/raven/login">Login</a></li>
+</ul></div>
+  </div>
+
+</div>
+  </div>
+          </div>
+        </div>
+                            <div class="campl-column9 campl-main-content" id="page-content">
+
+          <div class="">
+
+            
+                                      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+  
+  
+  
+  <div>
+    <div id="node-86664" class="node node-page clearfix" about="/about/history" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="The History of Mathematics in Cambridge" class="rdf-meta element-hidden"></span>
+  
+      <div class="content campl-content-container">
+      
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Mathematics has been studied at Cambridge for a long time. The first figure of note is <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Recorde.html">Robert Recorde</a> (born about 1550) who is credited with the invention of the equality sign "=". He wrote several textbooks in the form of dialogues, but his last book ends with the author being arrested for debt.</p>
+<p>Those with less antiquarian interests start their history a century or so later with <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Wallis.html">Wallis</a>, <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Barrow.html">Barrow</a> and <a href="http://www-history.mcs.st-and.ac.uk/Mathematicians/Newton.html">Newton</a>. (All three luminaries had interesting non-mathematical careers. Wallis broke codes for the parliamentary side in the civil war. Barrow was <q>noted for his strength and courage, and once when travelling in the East saved his ship by his own prowess from capture by pirates</q>. Newton took a very public part in the university's quarrel with King James II.)</p>
+<p>The spectacular success of Newton's work had the fortunate effect of establishing the prestige of mathematics in Britain and Cambridge and the unfortunate effect of blinding British mathematicians to progress in mathematics elsewhere. The parochial century that followed was not a very glorious period for Cambridge or British mathematics. However, it witnessed a slow but important change described in the next paragraph.</p>
+<p>Over the years, the syllabus of the Medieval university had lost its relevance and the disputation by which it was examined became a mere formality. Sometime around 1725, a voluntary examination was instituted to help order the better students. At first, the examination was oral and consisted of questions on mathematics and some philosophy. Later, the candidates wrote their answers but the questions were dictated and finally, in around 1790, the questions were printed. Thus was born the Cambridge Mathematical Tripos, the grandparent of every university examination in the world.</p>
+<p>The examinations were held in January in the Senate House — <q>a building which happens to be a very beautiful one, with a marble floor and a highly ornamental ceiling; and as it is on the model of a Grecian temple, and as temples had no chimneys, and as a stove or fire of any kind might disfigure the building, we are obliged to take the weather as it happens to be.</q> Sometimes the ink froze in the inkwells.</p>
+<p>Since the Mathematical Tripos was the only way in which students could show intellectual prowess, it was taken by many who went on to achieve distinction in other areas. A suitable example, given our present address, is provided by Thomas Clarkson who helped lead the fight against the slave trade. Even when examinations in other subjects became available, the Mathematical Tripos continued to produce people like Keynes and Bertrand Russell who gained eminence in very different fields.</p>
+<p>In the 1820s, a group of young mathematicians including Babbage (of the Analytical Engine) modernised the Tripos to take account of the work of continental mathematicians and the glory days of the examination began.</p>
+<p>The details changed but, as described by Galton, the examination lasted five and a half hours a day for eight days. Those in the top class were (and still are) called Wranglers in an echo of the old system of disputation. The candidates were listed in order of marks with the top candidate being 'Senior Wrangler' the next 'Second Wrangler' and so on. In one list that Galton was allowed to consult, the Senior Wrangler got more than 7,500 marks, the lowest Wrangler got about 1,500 marks and the lowest candidate to get honours (obtaining 'the wooden spoon') got 300 marks. Although the owner of the wooden spoon had 100 people above him, he in turn outclassed 300 'poll men' who failed or, more usually, did not attempt to obtain honours. (Galton was a poll man.)</p>
+<p>The Tripos became something of a national event with substantial betting on the outcome. When, in 1890, Miss Fawcett was placed 'above the Senior Wrangler' (i.e. beat all her male competitors) this, according to the Dictionary of National Biography, 'materially advanced the cause of higher education for women and naturally gave her mother the greatest satisfaction'.</p>
+<p>It may be doubted that a system in which the best students spent three years training to solve problems against the clock represented the ideal way to teach mathematics. However, this system was the nursery for the great flowering of British physics in the 19th century. Its products included Maxwell (2nd Wrangler), Kelvin (2nd Wrangler), Stokes (Senior Wrangler) and Rayleigh (Senior Wrangler). On the pure side it produced Sylvester (2nd Wrangler) and Cayley (Senior Wrangler). Pearson, the father of modern statistics, was a 3rd Wrangler.</p>
+<p>The 19th century Cambridge system concentrated on undergraduate teaching. Although good research was admired, it was not viewed as a professional duty and the university was not expected to provide support for it. A different view developed in France and then, still more strongly, in the great German universities. Over the course of the 20th century, Cambridge mathematics moved to align itself first with the German model of a research driven university and then with the successor model presented by the major (post 1950) US universities.</p>
+<p>Landmarks in this process include the publication of Hardy's <a href="http://www.cambridge.org/catalogue/catalogue.asp?isbn=0521092272"><em>A Course of Pure Mathematics</em></a> (still, as a glance at Amazon will show, a best seller after nearly a century) and the abolition of the order of merit in the Mathematical Tripos in 1909. Present day exams are hard but not ferocious.</p>
+<p>Under the old system, the best placed Wranglers could take a further exam in <q>some of the higher branches of mathematics</q> for a Smith's prize. When Kelvin found an interesting result in three dimensional calculus, he communicated it to Stokes who set it as a question in the Smith's prize exam. It is now known as Stokes' theorem. The Smith's prize exam evolved into the present <a href="/postgrad/mathiii/">Part III</a>, a one year postgraduate qualification taken by about 200 students from all over the world. From 1885, Smith's prizes (now supplemented by Rayleigh and Knight prizes) were given for an essay in mathematics instead. Today, this usually presents the student's own work after 4 terms of research. Past winners include Turing, Coxeter, Ingham, Hodge and Hoyle.</p>
+<p>Although a Faculty like that of the 1930's which included Dirac, G. I. Taylor, Sir Harold Jeffreys, Phillip Hall, Hardy, Littlewood and Mary Cartwright could hardly be faulted on the grounds of research, the supporting structure seems strange to modern eyes. The Faculty met from time to time to decide who should lecture on what, but there was no communal building and everyone worked in their own college.</p>
+<p>In about 1960, the Faculty was finally organised into departments. These were housed in a very lightly converted old printing house and offices formerly owned by CUP and then awaiting demolition to make way for a new road. After 40 years, it became clear that, not only was the road never going to be built, but the growth of the Faculty had rendered the premises grossly overcrowded.</p>
+<p>In an extraordinarily short time, enough money was raised to move both departments to splendid new buildings in the <a href="http://www.cms.cam.ac.uk/">Centre for Mathematical Sciences (CMS)</a> off Clarkson and Wilberforce Roads. (Wilberforce was another Cambridge anti-slavery campaigner.) Of the £61.4 million required for the whole building project, a total of £30.8 million, or 50%, came from private sources. Another £14 million came from public funds, and the rest from within Cambridge.</p>
+<p>Over the last hundred years, the Faculty has grown slowly but steadily and has become more and more international in its staff and students. We hope and expect that these trends will continue. As a result of these and other factors, some of which were discussed above, Cambridge has come to resemble other great mathematical centres much more than it used to. We think, however, that it retains its commitment to teaching at the undergraduate and graduate level together with a certain mild eccentricity.</p>
+<p>A search in the <a href="http://www-groups.dcs.st-and.ac.uk/~history/">Mactutor archives</a> for articles including the word 'Cambridge' will give a good idea of the mathematicians associated with Cambridge but does not include several important physicists. A search for articles including the word 'Wrangler' will give a good idea of the mathematicians who were undergraduates at Cambridge. The <a href="http://www.oxforddnb.com/">Oxford Dictionary of National Biography</a> web site can only be accessed by subscription but, if you can access it, a search for biographies including the word 'Wrangler' will reveal the place this distinction occupied in British life. (A search under 'Optime' gives some of those who attained honours at a lower standard.)</p>
+<h2>The reading of class lists in the Senate House</h2>
+<p>The Mathematical Tripos is the oldest written examination in this University, and very likely the oldest in any university in the world. Its origins date back to the 18th century, but we do not know exactly when the custom of publicly reading out the results began. The earliest reference to it that I have found is dated 1856; so we can be confident that the ceremony has been in existence for over 150 years.</p>
+<p>Until 1909 the list was read in order of merit, beginning with the Senior Wrangler, the candidate who had obtained most marks in the examination, and ending with the lowest-placed Junior Optime. (Incidentally, the tradition of presenting a giant wooden spoon to the lowest Junior Optime was never part of this ceremony; the spoon was made and decorated by his friends during the interval between publication of the results and the graduation ceremony, and presented to him when he received his degree.)</p>
+<p>In the second half of the nineteenth century, competition between candidates for the Senior Wranglership was intense, and often attracted attention outside the University, including betting on the outcome. However, some candidates could be over-confident. In 1880 the great J.J. Thomson, later Cavendish Professor of Physics and Master of Trinity, was so sure of success that he could not be bothered to come to the Senate House for the ceremony, but sent his gyp along instead. When the gyp returned to Trinity, J.J. asked him "Tell me, who was Second Wrangler this year?" - to which the reply was "You were, sir." Incidentally, the person who beat J.J. was no mere nonentity; he was Joseph Larmor of St John's, later Sir Joseph and for many years Lucasian Professor of Mathematics<a href="#_ftn1" name="_ftnref1" title="" id="_ftnref1">[1]</a>.</p>
+<p>When women were first admitted to the University, they were allowed to take University examinations but were not classed or admitted to degrees; their names appeared as interpolations on the list. Thus, if a woman was ranked among the Wranglers, she would be described as being "between the nth and (n+1)st Wrangler", for the appropriate value of n.</p>
+<p>In 1890 great consternation was caused when Miss Philippa Fawcett of Newnham was placed "above the Senior Wrangler" - the only time in the years down to 1909 that this happened.</p>
+<p>After 1909, reforms to the Tripos, introduced at the instigation of a group of dons among whom G.H. Hardy<a href="#_ftn2" name="_ftnref2" title="" id="_ftnref2">[2]</a> was prominent, meant that the list was no longer published in order of merit, but the Faculty continued the tradition of publicly reading the class-list. And when Part III became a separate examination in 1934, having previously been a mere Schedule to Part II, the reading of the Part III class-list was added to that of Part II. The final addition to the readings was made as recently as 2011, when the examination for the Master of Advanced Study in Mathematics formally became a separate examination from Part III, with its own list of successful candidates (although of course they still take exactly the same papers as the Part III candidates).</p>
+<p>For well over fifty years after the 1909 reforms, the class list for Part II contained a special note, not found in any other class list, to the effect that "the names in each class are printed in alphabetical order". However, they have not always been read in alphabetical order. I well remember the 1989 ceremony: to understand what follows, you need to know that, as with all class lists, the names are printed in three columns. The Chairman of Examiners for 1989 decided that he could keep his place in the list more easily if he read across the three columns, rather than down each column in turn. Unfortunately he didn't tell anyone he was going to do this. So when he began with the Wranglers, and the first name he read was Allan, there was no surprise; but when the second name he read was Hunt, one could feel the wave of panic spreading round the Senate House as those with names in the range B to G, who had been confident of getting Firsts, began to wonder if they could really all have missed out. But then, when the third name read was Plowman, everyone relaxed again, because it was clear that whatever the Chairman was doing he wasn't following alphabetical order.</p>
+<p><i>Starting in 2017, exam results will no longer be made public. Consequently, the custom of reading out the Mathematics class lists is ended. The above remarks were prepared by Professor Peter Johnstone, Chair of Part II examiners, and read by him in the Senate House prior to the last reading out of Part II and III class lists on 16 June, 2016.</i></p>
+<div> 
+<hr align="left" size="1" width="33%" /><div id="ftn1">
+<p><a href="#_ftnref1" name="_ftn1" title="" id="_ftn1">[1]</a> This anecdote has been attached to a number of other great men, including J.J.'s namesake William Thomson (later Lord Kelvin) in 1845, and Louis Mordell (who was actually Third Wrangler) in 1909; but J.J. Thomson seems the likeliest candidate.</p>
+</div>
+<div id="ftn2">
+<p><a href="#_ftnref2" name="_ftn2" title="" id="_ftn2">[2]</a> who had been Fourth Wrangler in 1898</p>
+</div>
+</div>
+<!--#include virtual="/common/append.html" --></div></div></div>    </div>
+  
+  
+  
+</div>
+  </div>
+
+</div>
+  </div>
+
+          </div>
+
+        </div>
+      
+      
+      
+      
+    </div>
+
+  </div>
+
+
+<div class="campl-row campl-global-footer">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-footer-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"
+             class="campl-scale-with-grid"/>
+
+        <p>&#169; 2016 University of Cambridge</p>
+        <ul class="campl-unstyled-list campl-global-footer-links">
+          <li>
+            <a href="http://www.cam.ac.uk/university-a-z">University A-Z</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/contact-the-university">Contact the University</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/accessibility">Accessibility</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/univ/information/foi/">Freedom of information</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/terms-and-conditions">Terms and conditions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+
+        <div class="link-list">
+          <h3><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></h3>
+          <ul class="campl-unstyled-list">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/about-the-university">About the University</a></h3>
+        <ul class="campl-unstyled-list campl-page-children">
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the University
+              and Colleges work</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+          </li>
+          <li>
+            <a href="http://map.cam.ac.uk">Map</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+          </li>
+          <li>
+            <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+          </li>
+          <li>
+            <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation last">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/research">Research at Cambridge</a></h3>
+        <ul class="campl-unstyled-list">
+          <li>
+            <a href="http://www.cam.ac.uk/research/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/features">Features</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/discussion">Discussion</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/spotlight-on">Spotlight on...</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/research-at-cambridge">About research at Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_5QeakBRO9Br4yQ9s_B9-DyXWCM00yUzwVsadgNYJlXM.js"></script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_otIGU3p2tmUTVRsTJhZYG_EzOT3aYBC_7sXF343boSc.js"></script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-67965669-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_3cHXfJzrrha6JF0mR7Jn3W3IKhfkhJOFR7O-pVBOmTw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cambridge_theme","theme_token":"yypTnj06DqREL71f-JebBjWKEqYdtdKcLD--AqUTHPU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/js\/teasers.js":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/js\/jquery.matchHeight-min.js":1,"profiles\/cambridge\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/custom.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/ios-orientationchange-fix.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/modernizr.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/css\/teasers.css":1,"profiles\/cambridge\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/www.maths.cam.ac.uk\/modules\/maths_css\/styles.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cambridge\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cambridge\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cambridge\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/notosans\/font.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/full-stylesheet.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/drupal.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+
+
+<!--[if lte IE 8]>
+</div>
+<![endif]-->
+
+</body>
+
+</html>

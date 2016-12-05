@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      dir="ltr" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="no-js">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" href="https://www.maths.cam.ac.uk/profiles/cambridge/themes/cambridge_theme/apple-touch-icon.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.maths.cam.ac.uk/undergrad/catam/II" />
+<link rel="shortlink" href="https://www.maths.cam.ac.uk/node/86433" />
+<meta name="dcterms.title" content="Part II Computational Projects Manual (July 2016 Edition)" />
+<meta name="dcterms.creator" content="Administrator" />
+<meta name="dcterms.date" content="2015-09-23T16:32+01:00" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.identifier" content="https://www.maths.cam.ac.uk/undergrad/catam/II" />
+<meta name="google-site-verification" content="R7bKe4zJXRnbxCKdztfYfsfLMHwH4piwqwb7RdEGnvA" />
+
+  <title>Part II Computational Projects Manual (July 2016 Edition) | Faculty of Mathematics</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css__4rE469Z2XWRsse5XZiLhe7mD87RaKeeveL-wBeXHKI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_W0NDp-JvBwlSkt99RIMK8rqkJVW-vhEeb6HgHZ6xFcs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/css/css_s-KxP8hN6SJBkEDZU-bwgx2umZQJmxdg8JB83kSsP1o.css" media="all" />
+  <script type="text/javascript">document.documentElement.className += " js";</script>
+
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-86433 node-type-page campl-theme-5" >
+
+<!--[if lt IE 7]>
+<div class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]>
+<div class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]>
+<div class="lt-ie9">
+<![endif]-->
+
+<a href="#page-content" class="campl-skipTo">skip to content</a>
+
+
+<div class="campl-row campl-global-header">
+  <div class="campl-wrap clearfix">
+    <div class="campl-header-container campl-column8" id="global-header-controls">
+      <a href="http://www.cam.ac.uk" class="campl-main-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"/>
+      </a>
+
+      <ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix">
+        <li>
+          <a href="#study-with-us">Study at Cambridge</a>
+        </li>
+        <li>
+          <a href="#about-the-university">About the University</a>
+        </li>
+        <li>
+          <a href="http://www.cam.ac.uk/research" class="campl-no-drawer">Research at Cambridge</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="campl-column2">
+      <div class="campl-quicklinks">
+      </div>
+    </div>
+
+    <div class="campl-column2">
+
+      <div class="campl-site-search" id="site-search-btn">
+
+        <label for="header-search" class="hidden">Search site</label>
+
+        <div class="campl-search-input">
+          <form action="https://search.cam.ac.uk/web" method="get">
+            <input id="header-search" type="text" name="query" value="" placeholder="Search"/>
+
+            <input type="hidden" name="inst" value="MATHS"/><input type="hidden" name="tag" value="mathsfaculty"/>
+            <input type="image" class="campl-search-submit"
+                   src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search-header.png"/>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="campl-row campl-global-header campl-search-drawer">
+  <div class="campl-wrap clearfix">
+    <form class="campl-site-search-form" id="site-search-container" action="https://search.cam.ac.uk/web" method="get">
+      <div class="campl-search-form-wrapper clearfix">
+        <input type="text" class="text" name="query" value="" placeholder="Search"/>
+
+        <input type="hidden" name="inst" value="MATHS"/><input type="hidden" name="tag" value="mathsfaculty"/>
+        <input type="image" class="campl-search-submit"
+               src="/profiles/cambridge/themes/cambridge_theme/images/interface/btn-search.png"/>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="campl-row campl-global-navigation-drawer">
+
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-home-link-container">
+      <a href="">Home</a>
+    </div>
+  </div>
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12 campl-global-navigation-mobile-list campl-global-navigation-list">
+      <div class="campl-global-navigation-outer clearfix" id="study-with-us">
+        <ul class="campl-unstyled-list campl-global-navigation-header-container ">
+          <li><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/courses/">Courses</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/apply/">Applying</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/events/">Events and open days</a>
+                </li>
+                <li>
+                  <a href="http://www.study.cam.ac.uk/undergraduate/finance/">Fees and finance</a>
+                </li>
+                <li>
+                  <a href="http://www.becambridge.com/">Student blogs and videos</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul
+            class="campl-global-navigation-container campl-unstyled-list campl-global-navigation-secondary-with-children">
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+              <ul class="campl-global-navigation-tertiary campl-unstyled-list">
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/whycam/">Why Cambridge</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/studying/qualifdir/">Qualifications
+                    directory</a>
+                </li>
+                <li>
+                  <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/apply/">How to apply</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/studentregistry/fees/">Fees and funding</a></li>
+                <li><a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/faq/index.html">Frequently asked
+                    questions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list last">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="about-the-university">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="http://www.cam.ac.uk/about-the-university">About the University</a></li>
+        </ul>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the
+                University and Colleges work</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/history">History</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/term-dates-and-calendars">Term dates and calendars</a>
+            </li>
+            <li class="last">
+              <a href="http://map.cam.ac.uk">Map</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/for-media">For media</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/video-and-audio">Video and audio</a>
+            </li>
+            <li>
+              <a href="http://webservices.admin.cam.ac.uk/faesearch/map.cgi">Find an expert</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/publications">Publications</a>
+            </li>
+            <li class="last">
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge">International Cambridge</a>
+            </li>
+          </ul>
+        </div>
+        <div class="campl-column4">
+          <ul class="campl-global-navigation-container campl-unstyled-list">
+            <li>
+              <a href="http://www.cam.ac.uk/news">News</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/public-engagement">Public engagement</a>
+            </li>
+            <li>
+              <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+            </li>
+            <li class="last">
+              <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="campl-global-navigation-outer clearfix" id="our-research">
+        <ul class="campl-global-navigation-header-container campl-unstyled-list">
+          <li><a href="">Research at Cambridge</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="campl-unstyled-list campl-quicklinks-list campl-global-navigation-container ">
+      <li>
+        <a href="http://www.cam.ac.uk/for-staff">For staff</a>
+      </li>
+      <li>
+        <a href="http://www.admin.cam.ac.uk/students/gateway">For current students</a>
+      </li>
+      <li>
+        <a href="http://www.alumni.cam.ac.uk">For alumni</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/for-business">For business</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/colleges-and-departments">Colleges &amp; departments</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/libraries-and-facilities">Libraries &amp; facilities</a>
+      </li>
+      <li>
+        <a href="http://www.cam.ac.uk/museums-and-collections">Museums &amp; collections</a>
+      </li>
+      <li class="last">
+        <a href="http://www.cam.ac.uk/email-and-phone-search">Email &amp; phone search</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="campl-row campl-page-header campl-section-page">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column12">
+      <div class="campl-content-container ">
+
+        <div class="campl-breadcrumb" id="breadcrumb"><ul class="campl-unstyled-list campl-horizontal-navigation clearfix"><li class="first-child"><a href="/">Home</a></li><li><a href="/undergrad">Undergraduate Mathematics</a></li><li><a href="/undergrad/catam">CATAM</a></li></ul></div>
+                          
+        
+        <h1 class="campl-page-title">
+          Faculty of Mathematics                  </h1>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap">
+        <div class="region region-horizontal-navigation">
+    <div id="block-menu-block-1" class="block block-menu-block">
+
+  
+  
+  
+  <div>
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <div class="campl-wrap clearfix campl-local-navigation"><div class="campl-local-navigation-container"><ul class="campl-unstyled-list"><li class="first leaf menu-mlid-290"><a href="/">Home</a></li>
+<li class="expanded active-trail menu-mlid-412"><a href="/undergrad" title="" class="active-trail campl-selected">Current Students</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first expanded active-trail menu-mlid-70661"><a href="/undergrad" class="active-trail">Undergraduate Mathematics</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed active-trail menu-mlid-70661"><a href="/undergrad" class="active-trail">Undergraduate Mathematics overview</a></li>
+<li class="expanded menu-mlid-70757"><a href="/undergrad/course">Course Information</a><ul class="menu"><li class="first leaf menu-mlid-71817"><a href="https://www.maths.cam.ac.uk/system/files/triposguide_v2.pdf" title="">Mathematical Tripos Guide (pdf)</a></li>
+<li class="leaf menu-mlid-71818"><a href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/coursesia.pdf" title="">Part IA (pdf)</a></li>
+<li class="leaf menu-mlid-71819"><a href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/coursesib.pdf" title="">Part IB (pdf)</a></li>
+<li class="leaf menu-mlid-71820"><a href="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/coursesii.pdf" title="">Part II (pdf)</a></li>
+<li class="leaf menu-mlid-71821"><a href="https://www.maths.cam.ac.uk/undergrad/course/schedules.pdf" title="">Schedules (pdf)</a></li>
+<li class="leaf menu-mlid-71822"><a href="https://www.maths.cam.ac.uk/system/files/text_1.pdf" title="">Mathematics with Physics (pdf)</a></li>
+<li class="leaf menu-mlid-70915"><a href="/undergrad/course/material">Course Materials</a></li>
+<li class="last leaf menu-mlid-71919"><a href="/lecturelists" title="">Lecture list</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-70762"><a href="/undergrad/catam" class="active-trail">CATAM</a><ul class="menu"><li class="first leaf menu-mlid-70939"><a href="/undergrad/catam/news">News</a></li>
+<li class="leaf menu-mlid-70947"><a href="/undergrad/catam/FAQ">FAQ</a></li>
+<li class="leaf menu-mlid-71087"><a href="/matlab">MATLAB</a></li>
+<li class="leaf menu-mlid-71995"><a href="/undergrad/catam/part-ia-lectures-computational-projects-catam">Part IA lectures on Computational Projects</a></li>
+<li class="leaf menu-mlid-70950"><a href="/undergrad/catam/IB">Part IB Computational Projects Manual (July 2016 Edition)</a></li>
+<li class="last leaf active-trail active menu-mlid-70933 campl-current-page"><a href="/undergrad/catam/II" class="active-trail active">Part II Computational Projects Manual (July 2016 Edition)</a></li>
+</ul></li>
+<li class="leaf menu-mlid-70755"><a href="/undergrad/examplesheets">Examples Sheets</a></li>
+<li class="leaf menu-mlid-70760"><a href="/undergrad/pastpapers">Past Examination Papers</a></li>
+<li class="leaf menu-mlid-70761"><a href="/facultyoffice/supervisorsguide">Supervisions</a></li>
+<li class="leaf menu-mlid-70753"><a href="/undergrad/studyskills">Study Skills</a></li>
+<li class="leaf menu-mlid-71811"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf menu-mlid-72015"><a href="/postgrad/mathiii/information-part-ii-students-wishing-continue-part-iii">Information for Part II students wishing to continue to Part III</a></li>
+</ul></li>
+<li class="expanded menu-mlid-70867"><a href="/part-iii-current">Part III (MMath/MASt)</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-70867"><a href="/part-iii-current">Part III (MMath/MASt) overview</a></li>
+<li class="expanded menu-mlid-71997"><a href="/partiiiguide">Guide to Courses</a><ul class="menu"><li class="first leaf menu-mlid-71998"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-14">Algebra</a></li>
+<li class="leaf menu-mlid-71999"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-13">Analysis</a></li>
+<li class="leaf menu-mlid-72012"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-12">Applied and Computational Analysis</a></li>
+<li class="leaf menu-mlid-72009"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-11">Astrophysics</a></li>
+<li class="leaf menu-mlid-72000"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-10">Combinatorics</a></li>
+<li class="leaf menu-mlid-72013"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-9">Continuum Mechanics</a></li>
+<li class="leaf menu-mlid-72001"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-8">Geometry and Topology</a></li>
+<li class="leaf menu-mlid-72002"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-7">Logic</a></li>
+<li class="leaf menu-mlid-72003"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-6">Number Theory</a></li>
+<li class="leaf menu-mlid-72007"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-5">Particle Physics, Quantum Fields and Strings</a></li>
+<li class="leaf menu-mlid-72011"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-4">Philosophy of Physics</a></li>
+<li class="leaf menu-mlid-72004"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-3">Probability</a></li>
+<li class="leaf menu-mlid-72010"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-2">Quantum Computation, Information and Foundations</a></li>
+<li class="leaf menu-mlid-72008"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-1">Relativity and Gravitation</a></li>
+<li class="last leaf menu-mlid-72005"><a href="/current-students-master-mathematics-master-advanced-studypart-iii-mathematical-tripos/part-iii-0">Statistics</a></li>
+</ul></li>
+<li class="expanded menu-mlid-72035"><a href="/postgrad/mathiii/part-iii-additional-academic-support">Additional Academic Support</a><ul class="menu"><li class="first leaf menu-mlid-72036"><a href="/postgrad/mathiii/support/timeline.html">Timeline of Events</a></li>
+<li class="last leaf menu-mlid-72043"><a href="/postgrad/mathiii/support/timelineexplanations.html">Timeline of Events: Explanations</a></li>
+</ul></li>
+<li class="leaf menu-mlid-72040"><a href="/postgrad/mathiii/part-iii-essays">Essays</a></li>
+<li class="last leaf menu-mlid-72041"><a href="/postgrad/mathiii/part-iii-mathematical-tripos-examination-papers">Past Exam Papers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-71827"><a href="/postgraduate-information-current-students">Postgraduate</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-71827"><a href="/postgraduate-information-current-students">Postgraduate overview</a></li>
+<li class="leaf menu-mlid-71828"><a href="/part-iii-current" title="">MMath/MASt</a></li>
+<li class="expanded menu-mlid-71829"><a href="/postgrad/mphil/currentstudents.html" title="">M.Phil.</a><ul class="menu"><li class="first last leaf menu-mlid-70882"><a href="/postgrad/mphil/currentstudents.html">Current Students</a></li>
+</ul></li>
+<li class="leaf menu-mlid-71830"><a href="/postgrad/phd-degree">Ph.D.</a></li>
+<li class="last expanded menu-mlid-71831"><a href="/postgrad/cca/cca-staff-and-student-portal">CCA</a><ul class="menu"><li class="first leaf menu-mlid-71958"><a href="/postgrad/cca/cca-staff-and-student-portal/cca-student-directory">Student Directory</a></li>
+<li class="leaf menu-mlid-71959"><a href="/postgrad/cca/research/cca-student-thesis-topics">Current Student Thesis Topics</a></li>
+<li class="leaf menu-mlid-71960"><a href="/postgrad/cca/research-cambridge-centre-analysis/cca-student-papers">Student Publications</a></li>
+<li class="last leaf menu-mlid-71961"><a href="/postgrad/cca/raven/acknowledgements">EPSRC Acknowledgements</a></li>
+</ul></li>
+</ul></li>
+<li class="leaf menu-mlid-70679"><a href="/lecturelists">Lecture List</a></li>
+<li class="leaf menu-mlid-71816"><a href="/undergradnst" title="">Mathematics for NST</a></li>
+<li class="leaf menu-mlid-71948"><a href="http://www.maths.cam.ac.uk/facultyboard" title="Faculty Board and Committees">Faculty Board and Committees</a></li>
+<li class="expanded menu-mlid-70683"><a href="/studentreps">Student Representatives</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-70683"><a href="/studentreps">Student Representatives overview</a></li>
+<li class="leaf menu-mlid-70747"><a href="/tripos-specific-resources">Lecture Notes and Example Sheets</a></li>
+<li class="leaf menu-mlid-70898"><a href="/who-we-are">Current reps</a></li>
+<li class="leaf menu-mlid-70897"><a href="/role-student-representatives">Role of the reps</a></li>
+<li class="last leaf menu-mlid-70896"><a href="/feedback-2">Feedback</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-71971"><a href="/careers" title="">Careers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-413"><a href="/undergraduate-admissions" title="">Prospective Students</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-71982"><a href="/undergraduate-admissions">Undergraduate Admissions</a></li>
+<li class="leaf menu-mlid-70913"><a href="/undergrad/admissions/openday">Undergraduate Open Days</a></li>
+<li class="leaf menu-mlid-71677"><a href="/undergraduate-study-mathematics-cambridge">Undergraduate Study</a></li>
+<li class="leaf menu-mlid-71678"><a href="/part-iii-prospective">Part III (MMath/MASt)</a></li>
+<li class="leaf menu-mlid-70665"><a href="/postgrad">Postgraduate Study</a></li>
+<li class="leaf menu-mlid-70682"><a href="/undergradnst">Mathematics for Natural Sciences Tripos (NST)</a></li>
+<li class="leaf menu-mlid-70656"><a href="/women-maths-1">Women in Maths</a></li>
+<li class="last leaf menu-mlid-71972"><a href="/careers" title="">Careers</a></li>
+</ul></li>
+<li class="expanded menu-mlid-414"><a href="/research" title="">Research</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-428"><a href="/research">Overview</a></li>
+<li class="leaf menu-mlid-426"><a href="http://www.damtp.cam.ac.uk/research/" title="">Applied Mathematics and Theoretical Physics</a></li>
+<li class="leaf menu-mlid-427"><a href="https://www.dpmms.cam.ac.uk/research/" title="">Pure Mathematics and Mathematical Statistics</a></li>
+<li class="last leaf menu-mlid-71973"><a href="/seminars">Seminars</a></li>
+</ul></li>
+<li class="expanded menu-mlid-801"><a href="/careers" title="">Opportunities</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-70659"><a href="/careers">Careers for Mathematicians</a></li>
+<li class="leaf menu-mlid-70660"><a href="/collaboration">Industrial Collaboration</a></li>
+<li class="last leaf menu-mlid-70675"><a href="/vacancies">Vacancies</a></li>
+</ul></li>
+<li class="expanded menu-mlid-415"><a href="/about/community" title="">Outreach</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-70770"><a href="/about/community">Cambridge Mathematics Outreach and Community Activities</a></li>
+<li class="leaf menu-mlid-70847"><a href="/millennium-mathematics-project-mmp">The Millennium Mathematics Project (MMP)</a></li>
+<li class="leaf menu-mlid-70951"><a href="/underground-mathematics">Underground Mathematics - CMEP</a></li>
+<li class="leaf menu-mlid-70844"><a href="/step-preparation-support-widening-participation">STEP preparation support - widening participation</a></li>
+<li class="last leaf menu-mlid-70845"><a href="/maths-open-day-cambridge-science-festival">Maths Open Day at the Cambridge Science Festival </a></li>
+</ul></li>
+<li class="expanded menu-mlid-416"><a href="/internal">Internal</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first collapsed menu-mlid-416"><a href="/internal">Internal overview</a></li>
+<li class="leaf menu-mlid-797"><a href="/internal/admin" title="Administration">Administration</a></li>
+<li class="leaf menu-mlid-439"><a href="http://things.maths.cam.ac.uk/computing/" title="">Computing and IT</a></li>
+<li class="leaf menu-mlid-436"><a href="/internal/email_lists">Email Lists</a></li>
+<li class="leaf menu-mlid-838"><a href="/internal/facilities-cms">Facilities at the CMS</a></li>
+<li class="leaf menu-mlid-70678"><a href="/facultyboard">Faculty Board</a></li>
+<li class="leaf menu-mlid-70676"><a href="/facultyoffice">Faculty Documentation</a></li>
+<li class="leaf menu-mlid-70668"><a href="/degreecommittee">Degree Committee</a></li>
+<li class="leaf menu-mlid-70795"><a href="/facultyboard/mathsdos">Directors of Studies in Mathematics</a></li>
+<li class="last leaf menu-mlid-440"><a href="/internal/ref" title="">REF (Research Excellence Framework)</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-800"><a href="/about/contacts" title="">About Us</a><ul class="campl-unstyled-list local-dropdown-menu"><li class="first leaf menu-mlid-418"><a href="/about/contacts">Contact</a></li>
+<li class="leaf menu-mlid-70673"><a href="/friends" title="">Friends and Alumni</a></li>
+<li class="leaf menu-mlid-805"><a href="/about/history">History</a></li>
+<li class="leaf menu-mlid-806"><a href="http://www.cms.cam.ac.uk/visiting/" title="">How to Find Us</a></li>
+<li class="leaf menu-mlid-841"><a href="/news">News</a></li>
+<li class="leaf menu-mlid-839"><a href="/faculty-mathematics-people-list" title="">People</a></li>
+<li class="leaf menu-mlid-811"><a href="/departments">The Departments</a></li>
+<li class="last leaf menu-mlid-70663"><a href="/about">Mathematics in Cambridge</a></li>
+</ul></li>
+</ul></div></div></div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  </div>
+
+
+  <div class="campl-row campl-page-header">
+    <div class="campl-wrap clearfix campl-page-sub-title campl-recessed-sub-title">
+              <div class="campl-column3 campl-spacing-column">
+          &nbsp;
+        </div>
+      
+      <div class="campl-column9">
+        <div class="campl-content-container clearfix contextual-links-region">
+                    <h1 class="campl-sub-title">Part II Computational Projects Manual (July 2016 Edition) </h1>
+                  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="campl-row campl-content
+    campl-recessed-content">
+    <div class="campl-wrap clearfix">
+              <div class="campl-column3">
+          <div class="campl-tertiary-navigation">
+              <div class="region region-left-navigation">
+    <div id="block-menu-block-2" class="block block-menu-block">
+
+  
+  
+  
+  <div>
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <div class="campl-tertiary-navigation-structure"><ul class="campl-unstyled-list campl-vertical-breadcrumb"><li class="leaf menu-mlid-290"><a href="/">Faculty of Mathematics<span class="campl-vertical-breadcrumb-indicator"></span></a></li><li class="first expanded active-trail menu-mlid-412"><a href="/undergrad" title="" class="active-trail">Current Students<span class="campl-vertical-breadcrumb-indicator"></span></a></li><li class="first expanded active-trail menu-mlid-70661"><a href="/undergrad" class="active-trail active-trail">Undergraduate Mathematics<span class="campl-vertical-breadcrumb-indicator"></span></a></li></ul><ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation"><li class="first expanded active-trail menu-mlid-70762"><a href="/undergrad/catam" class="active-trail active-trail">CATAM</a><ul class="campl-unstyled-list campl-vertical-breadcrumb-children"><li class="first leaf menu-mlid-70939"><a href="/undergrad/catam/news">News</a></li>
+<li class="leaf menu-mlid-70947"><a href="/undergrad/catam/FAQ">FAQ</a></li>
+<li class="leaf menu-mlid-71087"><a href="/matlab">MATLAB</a></li>
+<li class="leaf menu-mlid-71995"><a href="/undergrad/catam/part-ia-lectures-computational-projects-catam">Part IA lectures on Computational Projects</a></li>
+<li class="leaf menu-mlid-70950"><a href="/undergrad/catam/IB">Part IB Computational Projects Manual (July 2016 Edition)</a></li>
+<li class="last leaf active-trail active menu-mlid-70933 campl-selected"><a href="/undergrad/catam/II" class="active-trail active-trail active">Part II Computational Projects Manual (July 2016 Edition)</a></li>
+</ul></li>
+<li class="expanded menu-mlid-70757"><a href="/undergrad/course">Course Information</a></li>
+<li class="leaf menu-mlid-70755"><a href="/undergrad/examplesheets">Examples Sheets</a></li>
+<li class="leaf menu-mlid-70760"><a href="/undergrad/pastpapers">Past Examination Papers</a></li>
+<li class="leaf menu-mlid-70761"><a href="/facultyoffice/supervisorsguide">Supervisions</a></li>
+<li class="leaf menu-mlid-70753"><a href="/undergrad/studyskills">Study Skills</a></li>
+<li class="leaf menu-mlid-71811"><a href="/careers" title="">Careers</a></li>
+<li class="last leaf menu-mlid-72015"><a href="/postgrad/mathiii/information-part-ii-students-wishing-continue-part-iii">Information for Part II students wishing to continue to Part III</a></li>
+</ul></div></div>
+  </div>
+
+</div>
+<div id="block-block-5" class="block block-block">
+
+  
+  
+  
+  <div>
+    <div class="campl-tertiary-navigation-structure">
+<ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation"><li class="leaf "><a href="/raven/login">Login</a></li>
+</ul></div>
+  </div>
+
+</div>
+  </div>
+          </div>
+        </div>
+                            <div class="campl-column9 campl-main-content" id="page-content">
+
+          <div class="">
+
+            
+                                      
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+  
+  
+  
+  <div>
+    <div id="node-86433" class="node node-page clearfix" about="/undergrad/catam/II" typeof="foaf:Document">
+
+  
+      <span property="dc:title" content="Part II Computational Projects Manual (July 2016 Edition)" class="rdf-meta element-hidden"></span>
+  
+      <div class="content campl-content-container">
+      
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><!--CATAM-Director@maths.cam.ac.uk is in charge of this page's content--><!--
+Page Responsibility: Catam Team
+Email: catam@maths
+Notes: Please contact the Catam Team about any needed edits to this page by
+appending .cam.ac.uk to thier email address.
+--><!--<TTMATHS><p>    Faculty of Mathematics: Part II Computational Projects Manual<br />
+</TTMATHS> -->
+<p><font color="red">Please note: this edition is valid only for the Part II academic year 2016-17.</font></p>
+<h2 class="catamp">Background</h2>
+<p>This is the on-line version of the Part II Computational Projects Manual for the academic year 2016-17.</p>
+<p>It is available in Portable Document Format (PDF): most computers will be able to read this format automatically, but if not then you should download <a href="http://get.adobe.com/uk/reader/">Adobe Reader</a>. In cases of difficulty, the CATAM advisors can help you display or print the files.</p>
+<p>Misprints that are discovered in the manual will be announced via <a href="/undergrad/catam/II/../news/">CATAM News</a>. The on-line version will be corrected, and so should be up to date. However, it should always be read in conjunction with CATAM News.</p>
+<p>The unit allocation for each project is given in brackets after its title. Some of the projects require data files, which <a href="/undergrad/catam/II/../data/">can be found here</a>. </p>
+<!-- The marks spreadsheet mentioned in  the Introduction can also be
+     found there.-->
+<h2 class="catamp">Complete Manual</h2>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II//IImanual.pdf"><strong>All Sections</strong></a></dd>
+</dl><h2 class="catamp">Manual by Section</h2>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/IIcontents.pdf"><strong>Contents</strong></a></dd>
+</dl><dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/IIintro.pdf"><strong>Introduction</strong></a></dd>
+</dl><dl><dt><strong>1. Numerical Methods</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/1pt1.pdf">1.1 Fourier Transforms of Bessel Functions</a> (6)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/1pt3.pdf">1.3 Parabolic Partial Differential Equations</a> (6)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/1pt6.pdf">1.6 Multigrid Methods</a> (10)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/1pt8.pdf">1.8 Hyperbolic Partial Differential Equations</a> (8)</dd>
+</dl></dd>
+</dl><dl><dt><strong>2. Waves</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/2pt2.pdf">2.2 Dispersion</a> (7)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/2pt7.pdf">2.7 Soliton Solutions of the KdV Equation</a> (7)</dd>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/2pt10.pdf">2.10 Phase and Group Velocity</a> (8)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/2pt11.pdf">2.11 Fisher's Equation for Population Dispersal Problems</a> (9)</dd> --></dl></dd>
+</dl><dl><dt><strong>3. Fluid and Solid Mechanics</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/3pt1.pdf">3.1 Boundary Layer Flow</a> (6)</dd>
+<!-- 		<dd><a href="http://things.maths.cam.ac.uk/catam/II/3pt6.pdf">3.6 Particle Drift in a Periodic Flow Field</a> (4)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/3pt8.pdf">3.8 Wind-forced Ocean Currents</a> (10)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/3pt9.pdf">3.9 Viscous Flow in a Collapsible Channel</a> (8)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/3pt10.pdf">3.10 Smoke rings</a> (8)</dd> --></dl></dd>
+</dl><dl><dt><strong>4. Dynamics</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/4pt3.pdf">4.3 The Rotating Top</a> (6)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/4pt5.pdf">4.5 Euler's Equations</a> (8)</dd> --></dl></dd>
+</dl><dl><dt><strong>5. Quantum Mechanics</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/5pt1.pdf">5.1 Band Structure</a> (8)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/5pt2.pdf">5.2 S-Wave Scattering</a> (7)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/5pt4.pdf">5.4 Monte Carlo Simulations in Particle Physics</a> (8)</dd> --></dl></dd>
+</dl><dl><dt><strong>6. Electromagnetism</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/6pt1.pdf">6.1 Diffraction Pattern due to a Current Strip</a> (7)</dd>
+</dl></dd>
+</dl><dl><dt><strong>7. Mathematical Methods</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/7pt3.pdf">7.3 Minimisation Methods</a> (8)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/7pt4.pdf">7.4 Airy Functions and Stokes’ Phenomenon</a> (9)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/7pt5.pdf">7.5 Padé Approximants</a> (8)</dd>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/7pt6.pdf">7.6 Insulation</a> (10)</dd>
+</dl></dd>
+</dl><!--
+
+  <dl><dt><FONT color=#2f4f2f><strong>8. Optimization Theory </strong></dt>
+</p>
+<dl>
+<dd></dd>
+</dl>
+</dl>
+</p>
+<p>--><dl><dt><strong>9. Operational Research</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/9pt1.pdf">9.1 Policy Improvement for a Markov Decision Process</a> (4)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/9pt3.pdf">9.3 Protein Comparison in Bioinformatics</a> (8)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/9pt4.pdf">9.4 Option Pricing in Mathematical Finance</a> (6)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/9pt5.pdf">9.5 The Google PageRank Algorithm</a> (5)</dd>
+</dl></dd>
+</dl><dl><dt><strong>10. Statistics</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/10pt3.pdf">10.3 Bootstrap Estimation of Standard Error</a> (5)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/10pt9.pdf">10.9 Markov Chain Monte Carlo</a> (6)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/10pt12.pdf">10.12 Analysis of Performance Data</a> (8)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/10pt15.pdf">10.15 Variable Selection and the Bias-Variance Tradeoff</a> (8)</dd> --></dl></dd>
+</dl><dl><dt><strong>11. Statistical Physics</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/11pt2.pdf">11.2 The Ising Model in One Dimension</a> (10)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/11pt4.pdf">11.4 Molecular Dynamics Simulation of a Classical Gas</a> (10)</dd> --></dl></dd>
+</dl><dl><dt><strong>12. Nonlinear Dynamics &amp; Dynamical Systems</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/12pt3.pdf">12.3 The Lorenz Equations</a> (10)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/12pt6.pdf">12.6 Chaos and Shadowing</a> (10)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/12pt8.pdf">12.8 A Nonlinear Map and the Dynamics of Hydrogen Atoms in Electric Fields</a> (7)</dd>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/12pt9.pdf">12.9 Differential Equations for Nonlinear Oscillators</a> (10)</dd>
+</dl></dd>
+</dl><dl><dt><strong>14. General Relativity</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/14pt1.pdf">14.1 Particle or Photon Orbits near a Black Hole</a> (8)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/14pt5.pdf">14.5 Cosmological Distances</a> (8)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/14pt6.pdf">14.6 Isolating Integrals for Geodesic Motion</a> (8)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/14pt7.pdf">14.7 Gravitational Radiation from Point Masses in a Keplerian Orbit</a> (8)</dd>
+</dl></dd>
+</dl><dl><dt><strong>15. Number Theory</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/15pt3.pdf">15.3 Positive Definite Binary Quadratic Forms </a> (9)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/15pt5.pdf">15.5 Reduction of Binary Quadratic Forms</a> (10)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/15pt6.pdf">15.6 Computing Roots Modulo p</a> (7)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/15pt10.pdf">15.10 The Continued Fraction Method for Factorisation</a> (8)</dd> --></dl></dd>
+</dl><dl><dt><strong>16. Algebra</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/16pt1.pdf">16.1 The Galois Group of a Polynomial</a> (7)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/16pt5.pdf">16.5 Permutation Groups</a> (7)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/16pt8.pdf">16.8 The Character Table of a Finite Group</a> (9)</dd>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/16pt9.pdf">16.9 Resultants and Resolvants</a> (8)</dd>
+</dl></dd>
+</dl><dl><dt><strong>17. Combinatorics</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/17pt1.pdf">17.1 Graph Colouring</a> (7)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/17pt3.pdf">17.3 Hamiltonian Cycles</a> (5)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/17pt4.pdf">17.4 Connectivity</a> (7)</dd>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/17pt5.pdf">17.5 Matchings</a> (6)</dd>
+</dl></dd>
+</dl><!--
+
+  <dl><dt><strong>18. Industrial Mathematics </strong></dt>
+</p>
+<dl>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/18pt2.pdf"> 18.2 Insulation</a> (10) </dd>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/18pt3.pdf"> 18.3 Locus of a Robotic Arm</a> (4) </dd>
+</dl>
+</dl>
+</p>
+<p>--><dl><dt><strong>19. Communication Theory</strong></dt>
+<dd>
+<dl><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/19pt1.pdf">19.1 Random Codes</a> (5)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/19pt2.pdf">19.2 Information Content of Natural Language</a> (4)</dd>
+</dl></dd>
+</dl><dl><dt><strong>20. Probability</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/20pt1.pdf">20.1 The Percolation Model</a> (7)</dd>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/20pt2.pdf">20.2 Importance Sampling and Fast Simulation</a> (5)</dd>
+<!--		<dd><a href="http:// things.maths.cam.ac.uk/catam/II/20pt5.pdf">20.5 Percolation and the Invasion Process</a> (9)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/20pt6.pdf">20.6 Loss Networks</a> (9)</dd> --></dl></dd>
+</dl><!--
+
+  <dl><dt><FONT color=#2f4f2f><strong>21. Applications of Mathematics</strong></dt>
+<p>  Contents moved to other sections (9 and 18)</p>
+</dl>
+</p>
+<p>--><!--
+
+  <dl><dt><FONT color=#2f4f2f><strong>22. Topology</strong></dt>
+</p>
+<dl>
+<dd><a href="http://things.maths.cam.ac.uk/catam/II/22pt1.pdf"> 22.1 Knot Polynomials</a> (6) </dd>
+</dl>
+</dl>
+</p>
+<p>--><dl><dt><strong>23. Astrophysics</strong></dt>
+<dd>
+<dl><dd><a href="http://things.maths.cam.ac.uk/catam/II/23pt1.pdf">23.1 Generating a Consistent Self-Gravitating System</a> (7)</dd>
+<!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/23pt5.pdf">23.5 Ionization of the Interstellar Gas near a Star</a> (8)</dd> --><!--		<dd><a href="http://things.maths.cam.ac.uk/catam/II/23pt6.pdf">23.6 Accretion Discs</a> (8)</dd> --><dd><a href="http://things.maths.cam.ac.uk/catam/II/23pt8.pdf">23.8 Chaos in the Encounter Map</a> (8)</dd>
+</dl></dd>
+</dl><p> </p>
+<hr /><p> </p>
+<p>This page was last modified in July 2016.</p>
+</div></div></div>    </div>
+  
+  
+  
+</div>
+  </div>
+
+</div>
+  </div>
+
+          </div>
+
+        </div>
+      
+      
+      
+      
+    </div>
+
+  </div>
+
+
+<div class="campl-row campl-global-footer">
+  <div class="campl-wrap clearfix">
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-footer-logo">
+        <img alt="University of Cambridge" src="/profiles/cambridge/themes/cambridge_theme/images/interface/main-logo-small.png"
+             class="campl-scale-with-grid"/>
+
+        <p>&#169; 2016 University of Cambridge</p>
+        <ul class="campl-unstyled-list campl-global-footer-links">
+          <li>
+            <a href="http://www.cam.ac.uk/university-a-z">University A-Z</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/contact-the-university">Contact the University</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/accessibility">Accessibility</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/univ/information/foi/">Freedom of information</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-this-site/terms-and-conditions">Terms and conditions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+
+        <div class="link-list">
+          <h3><a href="http://www.cam.ac.uk/study-at-cambridge">Study at Cambridge</a></h3>
+          <ul class="campl-unstyled-list">
+            <li>
+              <a href="http://www.study.cam.ac.uk/undergraduate/">Undergraduate</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/students/gradadmissions/prospec/">Graduate</a>
+            </li>
+            <li>
+              <a href="http://www.cam.ac.uk/about-the-university/international-cambridge/studying-at-cambridge">International
+                students</a>
+            </li>
+            <li>
+              <a href="http://www.ice.cam.ac.uk">Continuing education</a>
+            </li>
+            <li>
+              <a href="http://www.admin.cam.ac.uk/offices/education/epe/">Executive and professional education</a>
+            </li>
+            <li>
+              <a href="http://www.educ.cam.ac.uk">Courses in education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/about-the-university">About the University</a></h3>
+        <ul class="campl-unstyled-list campl-page-children">
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work">How the University
+              and Colleges work</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/about-the-university/visiting-the-university">Visiting the University</a>
+          </li>
+          <li>
+            <a href="http://map.cam.ac.uk">Map</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.admin.cam.ac.uk/whatson">Events</a>
+          </li>
+          <li>
+            <a href="http://www.jobs.cam.ac.uk">Jobs</a>
+          </li>
+          <li>
+            <a href="http://www.philanthropy.cam.ac.uk">Giving to Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="campl-column3 campl-footer-navigation last">
+      <div class="campl-content-container campl-navigation-list">
+        <h3><a href="http://www.cam.ac.uk/research">Research at Cambridge</a></h3>
+        <ul class="campl-unstyled-list">
+          <li>
+            <a href="http://www.cam.ac.uk/research/news">News</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/features">Features</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/discussion">Discussion</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/spotlight-on">Spotlight on...</a>
+          </li>
+          <li>
+            <a href="http://www.cam.ac.uk/research/research-at-cambridge">About research at Cambridge</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_5QeakBRO9Br4yQ9s_B9-DyXWCM00yUzwVsadgNYJlXM.js"></script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_otIGU3p2tmUTVRsTJhZYG_EzOT3aYBC_7sXF343boSc.js"></script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-67965669-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.maths.cam.ac.uk/sites/www.maths.cam.ac.uk/files/js/js_3cHXfJzrrha6JF0mR7Jn3W3IKhfkhJOFR7O-pVBOmTw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cambridge_theme","theme_token":"ZEYW0VsXUbk1R7j4XCuX32_lsgZRgCKJiz6gN3qPirk","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/js\/teasers.js":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/js\/jquery.matchHeight-min.js":1,"profiles\/cambridge\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/custom.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/ios-orientationchange-fix.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/libs\/modernizr.js":1,"profiles\/cambridge\/themes\/cambridge_theme\/js\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"profiles\/cambridge\/modules\/features\/cambridge_teasers\/css\/teasers.css":1,"profiles\/cambridge\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/www.maths.cam.ac.uk\/modules\/maths_css\/styles.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/cambridge\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cambridge\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cambridge\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/notosans\/font.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/full-stylesheet.css":1,"profiles\/cambridge\/themes\/cambridge_theme\/css\/drupal.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+
+
+<!--[if lte IE 8]>
+</div>
+<![endif]-->
+
+</body>
+
+</html>

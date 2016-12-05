@@ -1,0 +1,339 @@
+\documentclass[10pt,twoside,a4paper]{article}
+
+% Configure these parameters.
+% Name and email
+\newcommand{\studentname}{Joe Yan}
+\newcommand{\studentemail}{zy275@cam.ac.uk}
+
+% Date work done
+\newcommand{\svworkdate}{2016-11-14}
+
+% Details of supervision
+\newcommand{\svcourse}{CST Part IA: OOP}
+\newcommand{\svnumber}{2}
+\newcommand{\svdate}{2016-11-19}
+\newcommand{\svtime}{19:00}
+\newcommand{\svvenue}{Churchill 1C}
+\newcommand{\svrname}{Dr John Fawcett}
+\newcommand{\svrinit}{JKF}
+% End configuration
+
+\usepackage{a4}             % Adjust margins for A4 media
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyheadoffset[LO,LE,RO,RE]{0pt}
+\fancyfootoffset[LO,LE,RO,RE]{0pt}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LO,RE]{{\bfseries \studentname}\\\studentemail}
+\fancyhead[RO,LE]{{\bfseries \svcourse, SV~\svnumber}\\\svdate\ \svtime, \svvenue}
+\fancyfoot{}
+\fancyfoot[LO,RE]{For: \svrname}
+\fancyfoot[RO,LE]{\thepage\ / \pageref{LastPage}}
+\fancyfoot[C]{\today}
+
+\usepackage{lastpage}       % "n of m" page numbering
+\usepackage{lscape}         % Makes landscape easier
+%\usepackage{portland}      % Switch between portrait and landscape
+\usepackage{graphics}       % Graphics commands
+\usepackage{wrapfig}        % Wrapping text around figures
+\usepackage{epsfig}         % Embed encapsulated postscript
+\usepackage{rotating}       % Extra graphics rotation
+%\usepackage{tables}        % Tabular environments
+\usepackage{longtable}      % Page breaks within tables
+\usepackage{supertabular}   % Page breaks within tables
+\usepackage{multicol}       % Allows table cells to span cols
+\usepackage{multirow}       % Allows table cells to span rows
+\usepackage{texnames}       % Macros for common tex names
+%\usepackage{trees}         % Tree-like layout
+\usepackage{hhline}         % Horizontal lines in tables
+\usepackage{siunitx}        % Correct spacing of units
+
+\usepackage{listings}       % Source code listings
+\usepackage{array}          % Array environment
+\usepackage{hyperref}       % URL formatting
+\usepackage{amsmath}        % American Mathematical Society
+\usepackage{amssymb}        % Maths symbols
+\usepackage{amsthm}         % Theorems
+%\usepackage{mathpartir}    % Proofs and inference rules
+\usepackage{verbatim}       % Verbatim blocks
+\usepackage{ifthen}         % Conditional processing in tex
+\usepackage{xcolor}         % X11 colour names
+
+% control width and vertically align text in table cells
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% make hyperref links not-ugly
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\renewcommand{\oddsidemargin}{-20pt}
+\renewcommand{\evensidemargin}{-20pt}
+\renewcommand{\topmargin}{-30pt}
+\renewcommand{\textwidth}{410pt}
+\renewcommand{\marginparwidth}{100pt}
+
+\setlength{\parindent}{0em}
+\addtolength{\parskip}{1ex}
+
+\usepackage[draft]{changes}
+\setauthormarkup[left]{\textbf{[#1]}~}
+\definechangesauthor[\svrname]{\svrinit}{orange}
+\newcommand{\jkfadd}[1]{\added[\svrinit]{#1}}
+\newcommand{\jkfdel}[1]{\deleted[\svrinit]{#1}}
+\newcommand{\jkfrep}[2]{\replaced[\svrinit]{#1}{#2}}
+\newcommand{\jkfmar}[1]{\marginpar{\jkfadd{#1}}}
+
+\begin{document}
+
+\author{\studentname}
+\title{\svcourse, SV~\svnumber}
+\date{\svworkdate}
+
+\textbf{\svcourse, SV~\svnumber}\\
+\textbf{\studentname}\\
+\textbf{\svworkdate}\\
+
+\section{Example Sheet 1314 20A}
+The main difference between abstract classes and classes is that abstract classes can not be instantiated. So if we want to use an abstract classes, we must inherit from it first and provide implementations for all abstract methods. Note that abstracted classes do not necessarily contains abstract methods. However the class contains abstract methods must be abstract.\\
+The interface is different from class and abstract class that it can only contains abstract methods. (on other words it needs to be inherit to gain implementations either.) And interfaces cannot contains any fields which is different from both non-abstract or abstract classes.(It is purely abstract)
+
+\section{Example Sheet 1314 25B} 
+\begin{lstlisting}
+public interface OOPListQueueInterface {
+	OOPListQueue normalise();
+
+	boolean isEmpty();
+
+	OOPListQueue enqueue(int x);
+
+	OOPListQueue dequeue();
+
+}
+
+public class OOPListQueue implements OOPListQueueInterface {
+	private OOPLinkedList listA;
+	private OOPLinkedList listB;
+
+	public OOPListQueue() {
+		// TODO Auto-generated constructor stub
+		listA = new OOPLinkedList();
+		listB = new OOPLinkedList();
+	}
+
+	@Override
+	public OOPListQueue enqueue(int x) {
+		listB.add(x);
+		return this;
+	}
+
+	@Override
+	public OOPListQueue dequeue() {
+		if (this.isEmpty()) {
+		} else if (listA.isEmpty()) {
+			this.normalise();
+			listA.remove();
+		} else {
+			listA.remove();
+		}
+		return this;
+	}
+
+	@Override
+	public OOPListQueue normalise() {
+		listA = listA.append(listB.reverse());
+		listB.setEmpty();
+		return this;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return listA.isEmpty() && listB.isEmpty();
+	}
+}
+
+public class OOPLinkedList {
+	private OOPLinkedListElement head;
+
+	public OOPLinkedList() {
+		head = null;
+	}
+
+	public OOPLinkedList(OOPLinkedListElement h) {
+		head = h;
+	}
+
+	protected OOPLinkedList setHead(OOPLinkedListElement e) {
+		head = e;
+		return this;
+	}
+
+	protected OOPLinkedListElement getHead() {
+		return head;
+	}
+
+	public boolean isEmpty() {
+		return head == null;
+	}
+
+	public void setEmpty() {
+		head = null;
+	}
+
+	public OOPLinkedList add(int x) {
+		head = new OOPLinkedListElement(x, head);
+		return this;
+	}
+
+	public OOPLinkedList remove() {
+		if (head != null) {
+			// int i = head.getElement();
+			head = head.getNext();
+			return this;
+		} else {
+			return this;
+		}
+	}
+
+	public int get() throws Exception {
+		if (head == null)
+			throw new Exception("Empty OOPLinkedList.");
+		else
+			return head.getElement();
+	}
+
+	public int length() {
+		if (head == null)
+			return 0;
+		int len = 1;
+		OOPLinkedListElement p = head;
+		while (p.getNext() != null) {
+			++len;
+			p = p.getNext();
+		}
+		return len;
+	}
+
+	public OOPLinkedList reverse() {
+
+		int len = this.length();
+		OOPLinkedList reversedList = new OOPLinkedList();
+		int hh;
+		try {
+			for (int i = 0; i < len; ++i) {
+
+				hh = this.get();
+
+				reversedList.add(hh);
+				this.remove();
+			}
+		} catch (Exception e) {
+			System.out.println("This should never happen.");
+			e.printStackTrace();
+		}
+
+		head = reversedList.head;
+		return reversedList;
+
+	}
+
+	public OOPLinkedList append(OOPLinkedList tail) {
+
+		if (this.isEmpty())
+			return tail;
+		int originHeadElement;
+		try {
+			originHeadElement = this.get();
+			return (this.remove().append(tail)).add(originHeadElement);
+
+		} catch (Exception e) {
+			System.out.println("This should never happen.");
+			e.printStackTrace();
+		}
+		return null;
+	}
+}
+\end{lstlisting}
+
+\section{Example Sheet 1314 30C} 
+
+\begin{itemize}
+\item Checked exception is recoverable during runtime.
+\item It needs to be thrown in the method.
+\item It needs try and catch block when being called.
+\end{itemize}
+\begin{lstlisting}
+public class CheckedExcetion {
+	public int[] mArray;
+
+	public CheckedExcetion() {
+		mArray = new int[5];
+	}
+
+	public void setNOnes(int i) throws ArrayIndexOutOfBoundsException {
+		for (int j = 0; j < i; j++) {
+			mArray[j] = 1;
+		}
+	}
+
+	public static void main(String args[]) {
+		CheckedExcetion a = new CheckedExcetion();
+		int i = 6;
+		try {
+			a.setNOnes(i);
+		} catch (ArrayIndexOutOfBoundsException e) {
+			// TODO: handle exception
+			a.mArray = new int[i];
+		}
+	}
+}
+\end{lstlisting}
+
+\begin{itemize}
+\item Unchecked exception is not recoverable.
+\item It is a programming error.
+\end{itemize}
+
+\section{Example Sheet 1314 35C} 
+
+\begin{enumerate}
+\item[a,b.]
+\begin{lstlisting}
+public class MyClass implements Cloneable {
+	private String mName;
+	private int[] mData;
+
+	public MyClass(MyClass toCopy) {
+		this.mName = toCopy.mName;
+		this.mData = new int[toCopy.mData.length];
+		for (int i : mData) {
+			this.mData[i] = toCopy.mData[i];
+		}
+	}
+
+	public MyClass clone() throws CloneNotSupportedException {
+		MyClass clone = (MyClass) super.clone();
+		mData = mData.clone(); // However, if the mData is final, 
+				//a copy constructor must be used.
+		return clone;
+	}
+}
+\end{lstlisting}
+\item[c.]
+If we already build a clone constructor in the class and then we extend the class to a child class. Now the problem comes because the constructor of the parent type will not "know" we created a child class so we need to tell the parent constructor which type the object actually is (such as using instanceof).\\ Clone function will not have such problem we just need to write clone function for the child and the dynamic polymorphism will automatically find the clone we need. (Use super.clone() to pass the information for parent clone)\\
+Overall clone function is recommended for hierarchy OOP structure.
+\item[d.]
+Like the annotation in the code said, if the field is final after we use the super.clone then that final field is final and can no longer be changed! Now we need a clone constructor to give the final field value at the first time. 
+\end{enumerate}
+
+
+
+\end{document}
+

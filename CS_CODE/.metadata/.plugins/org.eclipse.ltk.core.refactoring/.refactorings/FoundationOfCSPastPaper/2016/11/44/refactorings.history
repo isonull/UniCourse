@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FoundationOfCSPastPaper/test1.sml&apos; to &apos;2001Paper1Q6.sml&apos;" description="Rename resource &apos;test1.sml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="test1.sml" name="2001Paper1Q6.sml" stamp="1478181876968" updateReferences="true"/>
+</session>

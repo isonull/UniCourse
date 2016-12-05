@@ -1,0 +1,88 @@
+package S40;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+//(B) Write a Java class that can store 
+//a series of student names and their corresponding marks (percentages) for the year. 
+//Your class should use at least one Map and should be able to 
+//output a List of all students (sorted alphabetically); 
+//a List containing the names of the top P% of the year as well; 
+//and the median mark.
+
+public class MarksBoard {
+	private Map<String, Float> mMapName;
+	// hash fast to add new element but slow when doing sorting.
+	// tree slow to add new element but fast to request sorted list.
+
+	public MarksBoard() {
+		mMapName = new HashMap<>();
+	}
+
+	public boolean addStudent(String name, float score) {
+		if (mMapName.containsKey(name))
+			return false;
+		else {
+			mMapName.put(name, score);
+			return true;
+		}
+	}
+
+	public List<String> allStudents() {
+		List<String> students = new ArrayList<String>(mMapName.keySet());
+		Collections.sort(students);
+		return students;
+	}
+
+	public float getPercentageBoundary(float p) {
+		float size = mMapName.size();
+		int nth = (int) Math.ceil(size * p / 100);
+		ArrayList<Float> scoreList = new ArrayList<>(mMapName.values());
+		Collections.sort(scoreList);
+		return scoreList.get(nth);
+	}
+
+	public List<String> getTopPercentageStudents(float p) {
+		float n = mMapName.size();
+		float boundary = getPercentageBoundary(p);
+		ArrayList<String> nameList = new ArrayList<>();
+		for (java.util.Map.Entry<String, Float> pair : mMapName.entrySet()) {
+			if (pair.getValue().equals(boundary))
+				// 30.0>=30.0 gives me false here. This is not expected. Why?
+				nameList.add(pair.getKey());
+		}
+		Collections.sort(nameList);
+		return nameList;
+	}
+
+	public float getMedianMark() {
+		int size = mMapName.size();
+		int pos = size / 2;
+		ArrayList<Float> scoreList = new ArrayList<>(mMapName.values());
+		Collections.sort(scoreList);
+		if (size % 2 == 1) {
+			return scoreList.get(pos);
+		} else {
+			return (scoreList.get(pos) + scoreList.get(pos - 1)) / 2;
+		}
+	}
+
+	public static void main(String args[]) {
+		MarksBoard board = new MarksBoard();
+		board.addStudent("A", 1f);
+		board.addStudent("B", 10f);
+		board.addStudent("C", 20f);
+		board.addStudent("D", 30f);
+		board.addStudent("E", 44f);
+
+		System.out.println(board.getMedianMark());
+		System.out.println(30f >= 30f);
+		System.out.println(board.getPercentageBoundary(50f));
+		for (String name : board.getTopPercentageStudents(50f)) {
+			System.out.println(name);
+		}
+	}
+}
