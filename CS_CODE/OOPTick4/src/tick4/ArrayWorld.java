@@ -20,9 +20,9 @@ public class ArrayWorld extends World implements Cloneable {
 		mWorld = new boolean[getHeight()][getWidth()];
 
 		getPattern().initialise(this);
-		for (boolean[] b : mWorld) {
-			if (onlyContainsFalse(b)) {
-				b = mDeadRow;
+		for (int i = 0; i < mWorld.length; ++i) {
+			if (onlyContainsFalse(mWorld[i])) {
+				mWorld[i] = mDeadRow;
 			}
 		}
 	}
@@ -34,9 +34,9 @@ public class ArrayWorld extends World implements Cloneable {
 		mWorld = new boolean[getHeight()][getWidth()];
 
 		getPattern().initialise(this);
-		for (boolean[] b : mWorld) {
-			if (onlyContainsFalse(b)) {
-				b = mDeadRow;
+		for (int i = 0; i < mWorld.length; ++i) {
+			if (onlyContainsFalse(mWorld[i])) {
+				mWorld[i] = mDeadRow;
 			}
 		}
 	}
@@ -45,9 +45,12 @@ public class ArrayWorld extends World implements Cloneable {
 		super(w);
 		mDeadRow = w.mDeadRow;
 		mWorld = w.mWorld.clone();
-		for (boolean[] b : mWorld) {
-			if (onlyContainsFalse(b)) {
-				b = mDeadRow;
+
+		for (int i = 0; i < mWorld.length; ++i) {
+			if (onlyContainsFalse(mWorld[i])) {
+				mWorld[i] = mDeadRow;
+			} else {
+				mWorld[i] = mWorld[i].clone();
 			}
 		}
 	}
@@ -56,10 +59,13 @@ public class ArrayWorld extends World implements Cloneable {
 	public ArrayWorld clone() throws CloneNotSupportedException {
 		ArrayWorld n = (ArrayWorld) super.clone();
 		n.mWorld = this.mWorld.clone();
-		n.mDeadRow = this.mDeadRow.clone();
-		for (boolean[] b : n.mWorld) {
-			if (onlyContainsFalse(b)) {
-				b = mDeadRow;
+
+		n.mDeadRow = this.mDeadRow;
+		for (int i = 0; i < n.mWorld.length; ++i) {
+			if (onlyContainsFalse(mWorld[i])) {
+				n.mWorld[i] = mDeadRow;
+			} else {
+				n.mWorld[i] = mWorld[i].clone();
 			}
 		}
 		return n;

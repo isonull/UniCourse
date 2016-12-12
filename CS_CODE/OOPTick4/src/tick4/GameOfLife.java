@@ -63,7 +63,7 @@ public class GameOfLife {
 					} else {
 						mWorld = copyWorld(true);
 						mWorld.nextGeneration();
-						mCachedWorlds.add(mWorld.getGenerationCount(), copyWorld(true));
+						mCachedWorlds.add(mWorld.getGenerationCount(), mWorld);
 					}
 					print();
 				}
@@ -72,7 +72,7 @@ public class GameOfLife {
 					mWorld = mCachedWorlds.get(mWorld.getGenerationCount() - 1);
 					print();
 				} else {
-					System.out.println("No earlier generation");
+					print();
 				}
 			}
 
@@ -94,7 +94,7 @@ public class GameOfLife {
 				} else {
 					mWorld = new ArrayWorld(p);
 				}
-				mCachedWorlds.add(mWorld.getGenerationCount(), copyWorld(true));
+				mCachedWorlds.add(mWorld.getGenerationCount(), mWorld);
 				print();
 			}
 
