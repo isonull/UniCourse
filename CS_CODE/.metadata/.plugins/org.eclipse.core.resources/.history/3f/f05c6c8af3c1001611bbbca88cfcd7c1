@@ -1,0 +1,34 @@
+package tick5;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+
+public class GUILife extends JFrame {
+
+	private World mWorld;
+	private PatternStore mStore;
+	private ArrayList<World> mCachedWorlds;
+
+	public GUILife(PatternStore ps) {
+		super("Game of Life");
+		mStore = ps;
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(1024, 768);
+	}
+
+	public static void main(String[] args) {
+		PatternStore ps;
+		try {
+			ps = new PatternStore("http://www.cl.cam.ac.uk/teaching/1617/OOProg/ticks/life.txt");
+			GUILife gui = new GUILife(ps);
+			gui.setVisible(true);
+
+		} catch (IOException e) {
+			System.out.println("Error happens when loading the PatternStore data.");
+			e.printStackTrace();
+		}
+
+	}
+}

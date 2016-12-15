@@ -1,0 +1,81 @@
+package tick5;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+
+public class GUILife extends JFrame {
+
+	private World mWorld;
+	private PatternStore mStore;
+	private ArrayList<World> mCachedWorlds;
+
+	public GUILife(PatternStore ps) {
+		super("Game of Life");
+		mStore = ps;
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(1024, 768);
+	}
+
+	public void print() {
+		System.out.println("- " + mWorld.getGenerationCount());
+		for (int i = 0; i != mWorld.getHeight(); ++i) {
+			for (int j = 0; j != mWorld.getWidth(); ++j) {
+				System.out.print(mWorld.getCell(j, i) ? "#" : "_");
+			}
+			System.out.println("");
+		}
+	}
+
+	private World copyWorld(boolean useCloning) throws CloneNotSupportedException {
+		if (!useCloning) {
+			if (mWorld instanceof ArrayWorld) {
+				return new ArrayWorld((ArrayWorld) mWorld);
+			} else if (mWorld instanceof PackedWorld) {
+				return new PackedWorld((PackedWorld) mWorld);
+			}
+		} else {
+			return mWorld.clone();
+		}
+		return null;
+	}
+
+	private void moveBack() {
+
+	}
+
+	private void moveForward() {
+
+		try {
+			if (mWorld.getGenerationCount() < mCachedWorlds.size() - 1) {
+				mWorld = mCachedWorlds.get(mWorld.getGenerationCount() + 1);
+			} else {
+
+				mWorld = copyWorld(true);
+				mWorld.nextGeneration();
+				mCachedWorlds.add(mWorld.getGenerationCount(), mWorld);
+			}
+			print();
+
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	public static void main(String[] args) {
+		PatternStore ps;
+		try {
+			ps = new PatternStore("http://www.cl.cam.ac.uk/teaching/1617/OOProg/ticks/life.txt");
+			GUILife gui = new GUILife(ps);
+			gui.setVisible(true);
+
+		} catch (IOException e) {
+			System.out.println("Error happens when loading the PatternStore data.");
+			e.printStackTrace();
+		}
+
+	}
+}

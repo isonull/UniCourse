@@ -1,0 +1,20 @@
+package tick5;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class GUILife extends JFrame {
+	public GUILife() {
+		super("Game of Life");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(500, 400);
+		add(new JButton("Button 1"));
+		add(new JButton("Button 2"));
+	}
+
+	public static void main(String[] args) {
+		GUILife gui = new GUILife();
+		gui.setVisible(true);
+
+	}
+}

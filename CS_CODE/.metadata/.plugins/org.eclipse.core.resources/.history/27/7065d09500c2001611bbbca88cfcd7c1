@@ -1,0 +1,128 @@
+package tick5;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JComponent;
+import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.border.Border;
+import javax.swing.border.EtchedBorder;
+
+public class GUILife extends JFrame {
+
+	private World mWorld;
+	private PatternStore mStore;
+	private ArrayList<World> mCachedWorlds;
+
+	public GUILife(PatternStore ps) {
+		super("Game of Life");
+		mStore = ps;
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(1024, 768);
+
+		add(createPatternsPanel(), BorderLayout.WEST);
+		add(createControlPanel(), BorderLayout.SOUTH);
+		add(createGamePanel(), BorderLayout.CENTER);
+
+	}
+
+	private void addBorder(JComponent component, String title) {
+		Border etch = BorderFactory.createEtchedBorder(EtchedBorder.LOWERED);
+		Border tb = BorderFactory.createTitledBorder(etch, title);
+		component.setBorder(tb);
+	}
+
+	private JPanel createGamePanel() {
+		// TODO
+		return new JPanel(); // temporary return
+	}
+
+	private JPanel createPatternsPanel() {
+		JPanel patt = new JPanel();
+		JScrollPane scrollPane = new JScrollPane(new JList<Pattern>((Pattern[]) mStore.getPatternsNameSorted().toArray()));
+		addBorder(patt, "Patterns");
+		patt.add(scrollPane);
+		// TODO
+		return patt;
+	}
+
+	private JPanel createControlPanel() {
+		JPanel ctrl = new JPanel();
+		addBorder(ctrl, "Controls");
+		// TODO
+		GridLayout controlPanelLayout = new GridLayout(1, 0);
+		ctrl.setLayout(controlPanelLayout);
+		JButton playButton = new JButton("play");
+		JButton backButton = new JButton("back");
+		JButton forwardButton = new JButton("forward");
+
+		ctrl.add(playButton);
+		ctrl.add(backButton);
+		ctrl.add(forwardButton);
+		return ctrl;
+	}
+
+	public void print() {
+		System.out.println("- " + mWorld.getGenerationCount());
+		for (int i = 0; i != mWorld.getHeight(); ++i) {
+			for (int j = 0; j != mWorld.getWidth(); ++j) {
+				System.out.print(mWorld.getCell(j, i) ? "#" : "_");
+			}
+			System.out.println("");
+		}
+	}
+
+	private World copyWorld(boolean useCloning) throws CloneNotSupportedException {
+		if (!useCloning) {
+			if (mWorld instanceof ArrayWorld) {
+				return new ArrayWorld((ArrayWorld) mWorld);
+			} else if (mWorld instanceof PackedWorld) {
+				return new PackedWorld((PackedWorld) mWorld);
+			}
+		} else {
+			return mWorld.clone();
+		}
+		return null;
+	}
+
+	private void moveBack() {
+		if (mWorld.getGenerationCount() != 0) {
+			mWorld = mCachedWorlds.get(mWorld.getGenerationCount() - 1);
+			print();
+		} else {
+			print();
+		}
+	}
+
+	private void moveForward() throws CloneNotSupportedException {
+		if (mWorld.getGenerationCount() < mCachedWorlds.size() - 1) {
+			mWorld = mCachedWorlds.get(mWorld.getGenerationCount() + 1);
+		} else {
+			mWorld = copyWorld(true);
+			mWorld.nextGeneration();
+			mCachedWorlds.add(mWorld.getGenerationCount(), mWorld);
+		}
+		print();
+	}
+
+	public static void main(String[] args) {
+		PatternStore ps;
+		try {
+			ps = new PatternStore("/Users/zijunyan/Desktop/UniCourse/CS_CODE/OOPTick5/testPatterns");
+			GUILife gui = new GUILife(ps);
+			gui.setVisible(true);
+
+		} catch (IOException e) {
+			System.out.println("Error happens when loading the PatternStore data.");
+			e.printStackTrace();
+		}
+
+	}
+}

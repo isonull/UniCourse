@@ -1,0 +1,26 @@
+package tick5;
+
+import java.awt.BorderLayout;
+import java.awt.CardLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class GUILife extends JFrame {
+	public GUILife() {
+		super("Game of Life");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setSize(500, 400);
+		add(new JButton("Centre"));
+		add(new JButton("North"), CardLayout.SOUTH);
+		add(new JButton("South"), CardLayout.SOUTH);
+		add(new JButton("West"), BorderLayout.WEST);
+		add(new JButton("East"), BorderLayout.EAST);
+	}
+
+	public static void main(String[] args) {
+		GUILife gui = new GUILife();
+		gui.setVisible(true);
+
+	}
+}

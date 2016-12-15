@@ -2421,3 +2421,61 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2016-12-08 13:13:23.995
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-12-12 17:42:15.856 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/zijunyan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/zijunyan/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-12 17:42:21.233
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-12 17:42:21.992
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-12 17:45:13.677
+!MESSAGE 
+
+Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
+
+
+
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-12 17:45:13.774
+!MESSAGE 
+
+Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
+
+
+
+!SESSION 2016-12-12 19:08:05.717 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/zijunyan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/zijunyan/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-12-12 19:08:09.858
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2016-12-12 19:08:10.170
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-12 19:08:15.210
+!MESSAGE 
+
+Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
+
+
+
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-12-12 19:08:15.303
+!MESSAGE 
+
+Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
+
+
+
