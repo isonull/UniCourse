@@ -1,0 +1,67 @@
+%%
+%% This is file `changes.example2.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% changes.dtx  (with options: `example:2')
+%% 
+%% changes.dtx
+%% Copyright 2007 Ekkart Kleinod (ekkart@ekkart.de)
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or any later version.
+%% The latest version of this license is in
+%%  http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `maintained'.
+%% The current maintainer of this work is Ekkart Kleinod.
+%% 
+%% This work consists of the files
+%%  changes.drv
+%%  changes.dtx
+%%  changes.ins
+%%  README
+%% and the derived files
+%%  changes.sty
+%%  changes.pdf
+%%  changes.example1.tex
+%%  changes.example2.tex
+%%  changes.example3.tex
+%% 
+\documentclass[ngerman]{article}
+
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+
+ % draft = Ausgabe der Änderungen
+\usepackage[draft]{changes}
+
+\definechangesauthor{EK}{orange}
+
+\begin{document}
+
+ Dieses Beispiel zeigt die rudimentären Funktionen
+ unter Einbeziehung des babel-Pakets.
+
+ \listofchanges
+
+ Dieser Text ist nicht modifiziert.
+
+ Hier \added{füge} ich Text anonym \added{ein}.
+ Hier \deleted{lösche} ich anonym Text.
+ Und an dieser Stelle \replaced{ändere}{alt} ich anonym Text.
+ Anonyme \deleted[][Ja!]{Löschung} mit Anmerkung.
+
+ Hier \added[EK]{füge} ich Text als Autor "`EK"' \added[EK]{ein}.
+ Hier füge ich \added[EK][Weil ich es kann.]{Text}
+ als Autor "`EK"' mit Begründung ein.
+
+\end{document}
+%% Copyright 2007 Ekkart Kleinod
+%%
+%% End of file `changes.example2.tex'.

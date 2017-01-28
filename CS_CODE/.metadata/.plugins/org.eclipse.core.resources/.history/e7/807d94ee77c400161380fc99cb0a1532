@@ -1,0 +1,30 @@
+package test;
+
+public class PlayGround {
+
+	public int x = 6;
+
+	public static void addone(int t) {
+		++t;
+	}
+
+	public boolean equals(PlayGround p2) {
+		return this.x == p2.x;
+	}
+
+	public static void main(String args[]) {
+		int i = 0;
+		addone(i);
+		System.out.println(i);
+		PlayGround p1 = new PlayGround();
+		PlayGround p2 = new PlayGround();
+		Object o1 = (Object) p1;
+		Object o2 = (Object) p2;
+		Integer i1 = 300;
+		Integer i2 = 300;
+		System.out.println(i1 == i2);
+		System.out.println(i1.equals(i2));
+		System.out.println(p1.equals(p2));
+		System.out.println(o1.equals(o2));
+	}
+}

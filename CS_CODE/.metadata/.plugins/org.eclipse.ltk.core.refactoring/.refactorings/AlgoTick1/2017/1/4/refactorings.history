@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;AlgoTick1/src/tick1star&apos;&#x0A;- Original project: &apos;AlgoTick1&apos;&#x0A;- Destination element: &apos;AlgoTick1/src/tick1star&apos;&#x0A;- Original elements:&#x0A;     tick1.MaxCharHeap.java&#x0A;     tick1.EmptyHeapException.java&#x0A;     tick1.MaxCharHeapInterface.java" description="Copy compilation units" destination="/src&lt;tick1star" element1="/src&lt;tick1{MaxCharHeap.java" element2="/src&lt;tick1{EmptyHeapException.java" element3="/src&lt;tick1{MaxCharHeapInterface.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1485609029872" units="3" version="1.0"/>
+</session>

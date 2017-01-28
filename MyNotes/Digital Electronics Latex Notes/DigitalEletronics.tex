@@ -1,0 +1,372 @@
+\documentclass[a4paper]{article}
+
+\def\npart {IA}
+\def\nterm {Michaelmas}
+\def\nyear {2016}
+\def\nlecturer {x}
+\def\ncourse {Digital Electronics}
+\def\nauthor {Z.Yan}
+
+
+
+\input{header}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\section{Combinational Logic}
+\subsection{Boolean Algebra}
+\begin{itemize}
+\item[•] $a+b=b+a$ \hfill{communication}
+\item[•] $(a+b)+c=a+(b+c)$ \hfill{association}
+\item[•] $(a.b).c=a.(b.c)$
+\item[•] $a.(b+c+...)=(a.b)+(a.c)+...$ \hfill{Distribution}
+\item[•] $a+(b.c....)=(a+b).(a+c)....$
+\item[•] $a+(a.c)=a$ \hfill{Absorption}
+\item[•] $a.(a+c)=a$
+\item[•] $\overline{a+b}=\bar{a}.\bar{b}$\hfill{DeMorgan's theorem}
+\item[•] $\overline{a.b}=\bar{a}+\bar{b}$
+\end{itemize}
+
+\subsection{Logic Minimisation}
+
+3 important Techniques:\\
+\begin{itemize}
+\item Algebraic manipulation
+\item Karnaugh (K) mapping (a visual approach)
+\item Tabular approaches e.g. Quine-McCluskey Method
+\end{itemize} 
+
+\begin{defi}[Disjunctive normal form (DNF)]
+A boolean function expressed as the disjunction (ORing) of its minterms.
+\end{defi}
+\begin{defi}[Sum of product form (SOP)]
+A boolean function expressed as the ORing of ANDED variables. (not necessarily minterms)
+\end{defi}
+\begin{defi}[Conjunctive normal form (CNF)]
+A boolean function expressed as the conjunction (ANDing) of its maxterms.
+\end{defi}
+\begin{defi}[Sum of product form (SOP)]
+A boolean function expressed as the ANDing of ORED variables. (not necessarily maxterms)
+\end{defi}
+\begin{defi}[Maxterms]
+The disjunction of all the variables either in complement or uncomplemented form.
+\end{defi}
+
+\begin{defi}[Minterms]
+The conjunction of all the variables either in complement or uncomplemented form.
+\end{defi}
+
+\begin{defi}[Cover]
+A term is said to cover a minterm if that minterm is part of that term
+\end{defi}
+\begin{defi}[Prime implicant]
+A term that cannot be further combined
+\end{defi}
+\begin{defi}[Essential implicant]
+A implicant that covers a minterm that no other prime implicant covers
+\end{defi}
+\begin{defi}[Covering set]
+A minimum set of prime implicants required to cover all minterms
+\end{defi}
+
+Q-M method techniques:
+\begin{itemize}
+\item 
+\end{itemize}
+\section{Sequential Logic}
+\subsection{Memory Elements}
+\begin{defi}[Combinational logic]
+The output depends only on the condition of the latest inputs.
+\end{defi}
+
+\begin{defi}[Sequential logic]
+The output depends not only on the latest inputs, but also on the condition of earlier inputs. They contain memory elements.
+\begin{itemize}
+\item A memory stores data - usually one bit per element.
+\item A snapshot of the memory is called the state.
+\item A one bit memory is often called a bistable. i.e. It has 2 stable internal states.
+\item Flip-Flops and latches are particular implementations of bistable.
+\end{itemize}
+\end{defi}
+
+\begin{defi}[RS Latch]
+An RS Latch is a memory element with 2 inputs: Reset(R) and Set(S) and 2 outputs Q and $\bar{Q}$.\\
+\begin{tabular}{|c|c|c|}
+\hline 
+$SR$ & $Q'\bar{Q'}$ & comment \\ 
+\hline 
+00 & $Q\bar{Q}$ & hold \\ 
+\hline 
+01 & 01 & reset \\ 
+\hline 
+10 & 10 & set \\ 
+\hline 
+11 & 00 & illegal \\ 
+\hline 
+\end{tabular} 
+\end{defi}
+
+\begin{defi}[State transition table]
+An alternative way of viewing its operation.\\
+It can also be expressed in the form of state diagram.\\
+\begin{tabular}{|c|c|c|}
+\hline 
+current state & input & next state \\ 
+\hline 
+\end{tabular} 
+\end{defi}
+\begin{defi}[State Diagram]
+It shows the input conditions required to transition between states.
+\end{defi}
+
+\begin{defi}[Asynchronous operation]
+The output changes occur directly in the response to changes in the inputs.
+\end{defi}
+
+\begin{defi}[Synchronous operation]
+The output of a sequential circuit is constrained to change only ay a time specified by a global enabling signal. This signal is generally known as the system clock.
+\end{defi}
+
+The functions of clocks:
+\begin{itemize}
+\item It is a square wave signal at a particular frequency.
+\item It imposes order on the state changes.
+\item Allows lots of states to appear to update simultaneously.
+\end{itemize}
+
+\begin{defi}[Transparent D Latch]
+Its output state is only permitted to change when a valid enable signal (which can be the system clock) is present.\\
+\begin{tabular}{|c|c|c|}
+\hline 
+D EN & $Q'\bar{Q'}$ & comment \\ 
+\hline 
+x0 & $QQ'$ & RS hold \\ 
+\hline 
+01 & 01 & RS reset \\ 
+\hline 
+11 & 10 & RS set \\ 
+\hline 
+\end{tabular} \\
+The complement function ensures that R and S can never be 1 at the same time.
+\end{defi}
+
+\begin{defi}[Master-Slave D Flip-Flop]
+The outputs changes only on the either rising (positive going) or falling edges (negative going) of the clock (i.e. enable) signal.
+\end{defi}
+
+\begin{defi}[J-K Flip-Flop]
+Differ from the D Flip-flop by the illegal state replaced by a toggle state.\\
+\begin{tabular}{|c|c|c|}
+\hline 
+$JK$ & $Q\bar{Q'}$ & comment \\ 
+\hline 
+00 & $Q\bar{Q}$ & hold \\ 
+\hline 
+01 & 01 & reset \\ 
+\hline 
+10 & 10 & set \\ 
+\hline 
+11 & $\bar{Q}Q$ & toggle \\ 
+\hline 
+\end{tabular} 
+\end{defi}
+
+\begin{defi}[T Flip-Flop]
+This is essentially a J-K Flip-Flop with its J and K inputs connected together and renamed as the T input.\\
+\begin{tabular}{|c|c|c|}
+\hline 
+$T$ & $Q\bar{Q'}$ & comment \\ 
+\hline 
+0 & $Q\bar{Q}$ & hold \\ 
+\hline 
+1 & $\bar{Q}Q$ & toggle \\ 
+\hline 
+\end{tabular} 
+\end{defi}
+
+\begin{defi}[Setup time]
+Is the minimum duration that the date must remain stable on the FF input before the clock edge.
+\end{defi}
+
+\begin{defi}[Hold time]
+Is the minimum duration that the data must remain stable one the FF input after the clock edge.
+\end{defi}
+
+\begin{defi}[Propagation delay]
+Is the time between the clock edge changes and the output changes.
+\end{defi}
+
+\begin{defi}[Counter]
+\ 
+\begin{itemize}
+\item A clocked sequential circuit that goes through a predetermined sequence of states.
+\item A commonly used counter is an n-bit binary counter. This has n FFs and $2^n$ states which are passed through in the order $0,1,2...2^{n}-1,0,1...$
+\item Uses include:
+\begin{itemize}
+\item Counting
+\item Producing delays of a particular duration
+\item Sequencers for control logic in a processor
+\item Divide by m counter (a divider), as used in a digital watch.
+\end{itemize}
+\end{itemize}
+\end{defi}
+
+\begin{defi}[Ripple counter]
+\ 
+\begin{itemize}
+\item Can be made by cascading together negative edge triggered T-type FFs operating in toggle mode, i.e. T=1
+\item It is not clocked using the same clock. This is not a synchronous design.
+\item Output do not change at the same time, i.e. Synchronously. So hard to know when output is actually valid.
+\item Propagation delay builds up from stage to stage, limiting maximum clock speed before miscounting occurs.
+\item The counter output signals double the repetition period of the previous one. (known as dividers)
+\item To count not a power of 2:
+\begin{itemize}
+\item Use FFs having a Reset/Clear input
+\item Use an AND gate to detect the count of 10 and use its output to reset the FFs.
+\end{itemize}
+\end{itemize}
+\end{defi}
+
+\begin{defi}[modified state transition table]
+This table has additional columns that define the required FF inputs. (excitations as it is known)\\
+\begin{tabular}{|c|c|c|c|}
+\hline 
+current state & input & next state & FF inputs \\ 
+\hline 
+\end{tabular} 
+\end{defi}
+\begin{defi}[Characteristic table]
+\begin{tabular}{|c|c|}
+\hline 
+FF inputs & next state \\ 
+\hline 
+\end{tabular} 
+\end{defi}
+\begin{defi}[Excitation table]
+\begin{tabular}{|c|c|}
+\hline 
+current state next state & FF inputs \\ 
+\hline 
+\end{tabular} 
+\begin{note}
+This is vitally important in considering the do not care state when using the J-K FFs to build the sequential logic
+\end{note}
+\end{defi}
+
+\begin{defi}[Synchronous counter]
+\ 
+\begin{itemize}
+\item Write down the state transition table
+\item Determine the FF excitation (easy for D-Types)
+\item Determine the combinational logic necessary to generate the required FF excitation from the current states.
+\begin{wn}
+Remember to take into account any unused counts since these can be used as do not care states when determining the combinational logic circuits.
+\end{wn}
+\end{itemize}
+\end{defi}
+
+
+\begin{defi}[Shift register]
+\ 
+\begin{itemize}
+\item A shift register can be implemented using a chain of D-type FFs
+\item Has series input $D_{in}$ and parallel output $Q_0,Q_1$ and $Q_2$
+\item Data moves on position to the right on the application of each clock edge
+\item preset and clear inputs on the FFs can be utilised to provide a parallel date input feature.
+\item Date can then be clocked out through $Q_2$ in a serial fashion, i.e. We now have a parallel in, serial out arrangement
+\item Serial in, parallel out shift register arrangement can be used as the basis for a serial data link
+\end{itemize}
+\end{defi}
+
+\begin{defi}[Serial data link]
+\begin{itemize}
+\item One data bit at a time is sent across the serial data link
+\item Less wires are required than for a parallel data link
+\end{itemize}
+\end{defi}
+
+\subsection{Synchronous State Machines}
+
+\begin{defi}[Finite state machine (FSM)]
+A deterministic machine (circuit) that produces outputs which depend on its internal state and external inputs
+\end{defi}
+\begin{defi}[States]
+The set of internal memorised values, shown as circles on the state diagram
+\end{defi}
+\begin{defi}[Inputs]
+External stimuli, labelled as arcs on the state diagram
+\end{defi}
+\begin{defi}[outputs]
+Results from the FSM
+\end{defi}
+\begin{defi}[Moore machines]
+Outputs from Moore machines come directly from clocked FFs so:
+\begin{itemize}
+\item They have guaranteed timing characteristics
+\item They are glitch free
+\end{itemize}
+\end{defi}
+\begin{defi}[Mealy machine]
+Outputs from Mealy machine depends upon the timing of the inputs
+\end{defi}
+\begin{note}
+Any Mealy machine can be converted to a Moore machine and vice versa, though their timing properties will be different.
+\end{note}
+\begin{defi}[Self start]
+The FSM can eventually enter a known state from any of the unused states.
+\begin{itemize}
+\item If not, add additional logic to do this i.e. include unused states in the state transition table along with a valid next state
+\item Alternatively use asynchronous Clear and Preset FF inputs to set a known (used) sate at power up
+\end{itemize}
+\end{defi}
+
+\begin{defi}[State assignment]
+\begin{description}
+\item[Sequential state assignment]
+Simply assign the states in an increasing natural binary count using minimum FFs $\log_{2}m$
+\item[slide state assignment]
+By inspection we can see that we can use any of the FF outputs as the wanted output.
+\item[Shift register assignment]
+The FFs are connected together to form a shift register. In addition, the output from the final shift register in the chain is connected to the input of the first FF: consequently the data continuously cycles through the register
+\end{description}
+\begin{defi}[One hot state encoding]
+This is a shift register design style where only one FF at a time holds a 1
+\begin{itemize}
+\item Have 1 FF per state
+\item Result in simple fast state machines
+\item Outputs are generated by ORing together appropriate FF outputs
+\end{itemize}
+\begin{note}
+The one hot is easier to design but it results in more hardware compared with the sequential state assignment design
+\end{note}
+\end{defi}
+\end{defi}
+
+\begin{defi}[Redundant state]
+Sometimes when designing state machine it is possible that unnecessary states may be introduced.
+\begin{wn}[Elimination algorithm by table]
+This is a non-completed algorithm. It is possible to do some further simplification even after the algorithm finished!
+\end{wn}
+\end{defi}
+
+\begin{defi}[Generic array logic (GAL)]
+They are similar in concept to PALs, but have the option to make use of a D-types FF in the OR plane (one following each OR gate). In addition, the outputs from the D-types are also made available to the AND plane (in addition to the usual inputs)
+\begin{itemize}
+\item Consequently it becomes to possible to build programmable sequential logic circuits
+\end{itemize}
+\end{defi}
+
+\begin{defi}[Field Programmable gate array (FPGA)]
+\ 
+\begin{itemize}
+\item FPGA are the latest type of programmable logic
+\item Are a sea of programmable wiring and function blocks controlled by bits downloaded from memory
+\item Function units contain a 4-input 1-output look-up table with an optional D-FF in the output
+\end{itemize}
+\end{defi}
+
+\end{document}
+

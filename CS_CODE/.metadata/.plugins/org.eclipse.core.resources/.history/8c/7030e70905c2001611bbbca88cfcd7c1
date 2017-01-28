@@ -1,7 +1,0 @@
-package tick5;
-
-import javax.swing.JPanel;
-
-public class GamePanel extends JPanel {
-
-}

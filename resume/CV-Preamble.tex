@@ -161,15 +161,10 @@ BoldItalicFont=FreeSerifBoldItalic]
 % Headers and footers: Blank header, page number in footer.
 \ifnum\TypesetInDraftMode=0
 \newcommand{\HeaderText}{}
-\newcommand{\FooterText}{\UseHeaderFooterFont\hfill%
-{Page}~{\thepage}~of~\pageref{LastPage}%
-\hfill}
+\newcommand{\FooterText}{}
 \else
 \newcommand{\HeaderText}{}
-\newcommand{\FooterText}{\UseHeaderFooterFont%
-\hphantom{DRAFT~\Timestamp}\hfill%
-{Page}~{\thepage}~of~\pageref{LastPage}%
-\hfill{\color{red}DRAFT~\Timestamp}}
+\newcommand{\FooterText}{}
 \fi
 
 \makeatletter

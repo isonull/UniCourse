@@ -1,0 +1,254 @@
+\documentclass[10pt,twoside,a4paper]{article}
+
+% Configure these parameters.
+% Name and email
+\newcommand{\studentname}{Joe Yan}
+\newcommand{\studentemail}{zy275@cam.ac.uk}
+
+% Date work done
+\newcommand{\svworkdate}{2016-11-21}
+
+% Details of supervision
+\newcommand{\svcourse}{CST Part IA: OOP}
+\newcommand{\svnumber}{3}
+\newcommand{\svdate}{2016-11-26}
+\newcommand{\svtime}{19:00}
+\newcommand{\svvenue}{Churchill 1C}
+\newcommand{\svrname}{Dr John Fawcett}
+\newcommand{\svrinit}{JKF}
+% End configuration
+
+\usepackage{a4}             % Adjust margins for A4 media
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyheadoffset[LO,LE,RO,RE]{0pt}
+\fancyfootoffset[LO,LE,RO,RE]{0pt}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LO,RE]{{\bfseries \studentname}\\\studentemail}
+\fancyhead[RO,LE]{{\bfseries \svcourse, SV~\svnumber}\\\svdate\ \svtime, \svvenue}
+\fancyfoot{}
+\fancyfoot[LO,RE]{For: \svrname}
+\fancyfoot[RO,LE]{\thepage\ / \pageref{LastPage}}
+\fancyfoot[C]{\today}
+
+\usepackage{lastpage}       % "n of m" page numbering
+\usepackage{lscape}         % Makes landscape easier
+%\usepackage{portland}      % Switch between portrait and landscape
+\usepackage{graphics}       % Graphics commands
+\usepackage{wrapfig}        % Wrapping text around figures
+\usepackage{epsfig}         % Embed encapsulated postscript
+\usepackage{rotating}       % Extra graphics rotation
+%\usepackage{tables}        % Tabular environments
+\usepackage{longtable}      % Page breaks within tables
+\usepackage{supertabular}   % Page breaks within tables
+\usepackage{multicol}       % Allows table cells to span cols
+\usepackage{multirow}       % Allows table cells to span rows
+\usepackage{texnames}       % Macros for common tex names
+%\usepackage{trees}         % Tree-like layout
+\usepackage{hhline}         % Horizontal lines in tables
+\usepackage{siunitx}        % Correct spacing of units
+
+\usepackage{listings}       % Source code listings
+\usepackage{array}          % Array environment
+\usepackage{hyperref}       % URL formatting
+\usepackage{amsmath}        % American Mathematical Society
+\usepackage{amssymb}        % Maths symbols
+\usepackage{amsthm}         % Theorems
+%\usepackage{mathpartir}    % Proofs and inference rules
+\usepackage{verbatim}       % Verbatim blocks
+\usepackage{ifthen}         % Conditional processing in tex
+\usepackage{xcolor}         % X11 colour names
+
+% control width and vertically align text in table cells
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% make hyperref links not-ugly
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\renewcommand{\oddsidemargin}{-20pt}
+\renewcommand{\evensidemargin}{-20pt}
+\renewcommand{\topmargin}{-30pt}
+\renewcommand{\textwidth}{410pt}
+\renewcommand{\marginparwidth}{100pt}
+
+\setlength{\parindent}{0em}
+\addtolength{\parskip}{1ex}
+
+\usepackage[draft]{changes}
+\setauthormarkup[left]{\textbf{[#1]}~}
+\definechangesauthor[\svrname]{\svrinit}{orange}
+\newcommand{\jkfadd}[1]{\added[\svrinit]{#1}}
+\newcommand{\jkfdel}[1]{\deleted[\svrinit]{#1}}
+\newcommand{\jkfrep}[2]{\replaced[\svrinit]{#1}{#2}}
+\newcommand{\jkfmar}[1]{\marginpar{\jkfadd{#1}}}
+
+\begin{document}
+
+\author{\studentname}
+\title{\svcourse, SV~\svnumber}
+\date{\svworkdate}
+
+\textbf{\svcourse, SV~\svnumber}\\
+\textbf{\studentname}\\
+\textbf{\svworkdate}\\
+
+\section{Exercise 40}
+
+\begin{lstlisting}
+public class MarksBoard {
+	private Map<String, Float> mMapName;
+	// hash fast to add new element but slow when doing sorting.
+	// tree slow to add new element but fast to request sorted list.
+
+	public MarksBoard() {
+		mMapName = new HashMap<>();
+	}
+
+	public boolean addStudent(String name, float score) {
+		if (mMapName.containsKey(name))
+			return false;
+		else {
+			mMapName.put(name, score);
+			return true;
+		}
+	}
+
+	public List<String> allStudents() {
+		List<String> students = new ArrayList<String>(mMapName.keySet());
+		Collections.sort(students);
+		return students;
+	}
+
+	public float getPercentageBoundary(float p) {
+		if (p <= 0f)
+			return 100;
+		if (p > 100f)
+			return 0;
+		float size = mMapName.size();
+		int nth = (int) Math.ceil(size * p / 100);
+		ArrayList<Float> scoreList = new ArrayList<>(mMapName.values());
+		Collections.sort(scoreList);
+		return scoreList.get((int) size - nth);
+	}
+
+	public List<String> getTopPercentageStudents(float p) {
+		float n = mMapName.size();
+		float boundary = getPercentageBoundary(p);
+		ArrayList<String> nameList = new ArrayList<>();
+		for (java.util.Map.Entry<String, Float> pair : mMapName.entrySet()) {
+			if (pair.getValue() >= boundary)
+				nameList.add(pair.getKey());
+		}
+		Collections.sort(nameList);
+		return nameList;
+	}
+
+	public float getMedianMark() {
+		int size = mMapName.size();
+		int pos = size / 2;
+		ArrayList<Float> scoreList = new ArrayList<>(mMapName.values());
+		Collections.sort(scoreList);
+		if (size % 2 == 1) {
+			return scoreList.get(pos);
+		} else {
+			return (scoreList.get(pos) + scoreList.get(pos - 1)) / 2;
+		}
+	}
+}
+\end{lstlisting}
+
+\section{Exercise 47}
+
+\begin{lstlisting}
+public class IntPair implements Comparable<IntPair> {
+	private int first;
+	private int second;
+
+	public IntPair(int a, int b) {
+		first = a;
+		second = b;
+	}
+
+	@Override
+	public int compareTo(IntPair o) {
+		if (this.first > o.first) {
+			return 1;
+		} else if (this.first < o.first) {
+			return -1;
+		} else {
+			if (this.second > o.second) {
+				return 1;
+			} else if (this.second < o.second) {
+				return -1;
+			} else {
+				return 0;
+			}
+		}
+	}
+
+	public int first() {
+		return first;
+	}
+
+	public int second() {
+		return second;
+	}
+}
+
+public class ReadAndSort {
+	public static void main(String args[]) throws Exception {
+		try {
+			Reader r = new FileReader
+			("D:/Java_Workspace/OOPSV/src/S47B/test.txt");
+			BufferedReader b = new BufferedReader(r);
+			String firstLine = b.readLine();
+			String secondLine = b.readLine();
+			String[] firsts = firstLine.split(",");
+			String[] seconds = secondLine.split(",");
+			if (firsts.length != seconds.length)
+				throw new Exception("The data is not in pair!");
+			List<IntPair> data = new LinkedList<IntPair>();
+			for (int i = 0; i != firsts.length; ++i) {
+				data.add(new IntPair(Integer.parseInt(firsts[i]),
+				Integer.parseInt(seconds[i])));
+			}
+			Collections.sort(data);
+			for (IntPair pair : data) {
+				System.out.print(pair.first() + "  ");
+				System.out.println(pair.second());
+			}
+			b.close();
+		} catch (FileNotFoundException e) {
+			System.out.println("File not found!");
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("Exception happens when reading file.");
+			e.printStackTrace();
+		} catch (NumberFormatException e) {
+			System.out.println("Parsing to int failed.");
+		}
+	}
+}
+\end{lstlisting}
+\newpage
+\section{Exercise 49}
+\begin{itemize}
+\item The main purpose of the state pattern design is for several states which extends or implements the same base class are able to switch to each other swiftly. If I use a abstract base class and subclasses simply inherit from it the design will lose the flexibility in the state changing, I have to write something like 
+\begin{lstlisting}
+Academic someone = new lecturer();
+Academic someone = (professor) someone; // I guess complier will accept this?
+\end{lstlisting}
+which is clumsy.
+\item Also the trivial design is bad for encapsulation. Instead of using a context class accepting the request of function and change of state from package user, a abstract base class will explode the inner design to the user which is not expected. 
+\end{itemize}
+
+\end{document}
+
