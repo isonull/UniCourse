@@ -35,7 +35,6 @@ public class GUILife extends JFrame implements ListSelectionListener {
 		mStore = ps;
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setSize(1024, 768);
-
 		add(createPatternsPanel(), BorderLayout.WEST);
 		add(createControlPanel(), BorderLayout.SOUTH);
 		add(createGamePanel(), BorderLayout.CENTER);
@@ -81,10 +80,10 @@ public class GUILife extends JFrame implements ListSelectionListener {
 		mPlayButton.addActionListener(e -> runOrPause());
 		backButton.addActionListener(e -> moveBack());
 		forwardButton.addActionListener(e -> moveForward());
-
+		ctrl.add(forwardButton);
 		ctrl.add(mPlayButton);
 		ctrl.add(backButton);
-		ctrl.add(forwardButton);
+
 		return ctrl;
 	}
 
@@ -156,7 +155,13 @@ public class GUILife extends JFrame implements ListSelectionListener {
 			System.out.println(p.toString() + "is in wrong format");
 		}
 		mCachedWorlds.add(mWorld);
+		if (mPlaying) {
+			mTimer.cancel();
+			mPlaying = false;
+			mPlayButton.setText("Play");
+		}
 		((GamePanel) getContentPane().getComponent(2)).display(mWorld);
+
 	}
 
 	private void runOrPause() {
@@ -183,7 +188,6 @@ public class GUILife extends JFrame implements ListSelectionListener {
 			ps = new PatternStore("http://www.cl.cam.ac.uk/teaching/1617/OOProg/ticks/life.txt");
 			GUILife gui = new GUILife(ps);
 			gui.setVisible(true);
-
 		} catch (IOException e) {
 			System.out.println("Error happens when loading the PatternStore data.");
 			e.printStackTrace();

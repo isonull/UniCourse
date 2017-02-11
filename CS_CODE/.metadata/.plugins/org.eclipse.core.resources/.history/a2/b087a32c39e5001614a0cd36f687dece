@@ -1,5 +1,0 @@
-package tick1;
-
-public interface MaxCharHeapInterface {
-
-}

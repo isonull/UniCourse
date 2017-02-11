@@ -122,8 +122,4 @@ public class PatternStore {
 		return l;
 	}
 
-	public static void main(String args[]) throws IOException, PatternNotFound {
-		PatternStore p = new PatternStore(args[0]);
-	}
-
 }

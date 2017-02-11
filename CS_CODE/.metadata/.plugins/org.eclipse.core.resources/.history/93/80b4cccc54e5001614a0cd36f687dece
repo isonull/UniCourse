@@ -1,7 +1,0 @@
-package tick1;
-
-public class EmptyHeapException extends Exception {
-	public EmptyHeapException(String msg) {
-		super(msg);
-	}
-}

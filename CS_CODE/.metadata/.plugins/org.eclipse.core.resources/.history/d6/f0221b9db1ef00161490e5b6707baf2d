@@ -1,0 +1,59 @@
+package tick2star;
+
+public class LCSTopDownRecursive extends LCSFinder {
+	private String mRLCS = "";
+
+	public LCSTopDownRecursive(String s1, String s2) {
+		super(s1, s2);
+		if (mString1 == "" || mString2 == "") {
+			mTable = null;
+			return;
+		}
+		mTable = new int[s1.length()][s2.length()];
+		for (int[] is : mTable) {
+			for (int i = 0; i < s2.length(); ++i) {
+				is[i] = -1;
+			}
+		}
+	}
+
+	@Override
+	public int getLCSLength() {
+		return 0;
+	}
+
+	@Override
+	public String getLCSString() {
+		return null;
+	}
+
+	public int LCS(int end1, int end2) {
+		if (mTable[end1][end2] != -1) {
+			return mTable[end1][end2];
+		}
+
+		if (mString1.charAt(end1) == mString2.charAt(end2)) {
+			mRLCS += mString1.charAt(end1);
+			LCS(--end1, --end2);
+			if (end1 == 0 || end2 == 0) {
+				mTable[end1][end2] = 1;
+			} else {
+				mTable[end1][end2] = 1 + LCS(end1, end2);
+			}
+			return mTable[end1][end2];
+		} else {
+			mTable[end1][end2] = Math.max(LCS(end1 - 1, end2), LCS(end1, end2 - 1));
+			return mTable[end1][end2];
+		}
+
+	}
+
+	@SuppressWarnings("unused")
+	public static void main(String args[]) {
+		LCSTopDownRecursive ins = new LCSTopDownRecursive("aferafg", "gfdsgfv");
+
+		ins.LCS(7, 7);
+		System.out.println(ins.mRLCS);
+
+	}
+}
