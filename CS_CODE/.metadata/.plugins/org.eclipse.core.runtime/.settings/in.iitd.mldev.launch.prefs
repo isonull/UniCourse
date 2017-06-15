@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-in.iitd.mldev.smlExecutablePath=C\:\\Program Files (x86)\\SMLNJ\\bin\\sml.bat
+in.iitd.mldev.smlExecutablePath=/usr/local/smlnj/bin/sml

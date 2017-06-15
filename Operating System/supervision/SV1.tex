@@ -1,0 +1,187 @@
+\documentclass[10pt,twoside,a4paper]{article}
+
+% Configure these parameters.
+% Name and email
+\newcommand{\studentname}{Joe Yan}
+\newcommand{\studentemail}{zy275@cam.ac.uk}
+
+% Date work done
+\newcommand{\svworkdate}{2017-2-17}
+
+% Details of supervision
+\newcommand{\svcourse}{CST Part IA: Operating System}
+\newcommand{\svnumber}{1}
+\newcommand{\svdate}{2016-2-25}
+\newcommand{\svtime}{1700}
+\newcommand{\svvenue}{Churchill College}
+\newcommand{\svrname}{Lucas Sonnabend}
+\newcommand{\svrinit}{JKF}
+% End configuration
+
+\usepackage{a4}             % Adjust margins for A4 media
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyheadoffset[LO,LE,RO,RE]{0pt}
+\fancyfootoffset[LO,LE,RO,RE]{0pt}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LO,RE]{{\bfseries \studentname}\\\studentemail}
+\fancyhead[RO,LE]{{\bfseries \svcourse, SV~\svnumber}\\\svdate\ \svtime, \svvenue}
+\fancyfoot{}
+\fancyfoot[LO,RE]{For: \svrname}
+\fancyfoot[RO,LE]{\thepage\ / \pageref{LastPage}}
+\fancyfoot[C]{\today}
+
+\usepackage{lastpage}       % "n of m" page numbering
+\usepackage{lscape}         % Makes landscape easier
+%\usepackage{portland}      % Switch between portrait and landscape
+\usepackage{graphics}       % Graphics commands
+\usepackage{wrapfig}        % Wrapping text around figures
+\usepackage{epsfig}         % Embed encapsulated postscript
+\usepackage{rotating}       % Extra graphics rotation
+%\usepackage{tables}        % Tabular environments
+\usepackage{longtable}      % Page breaks within tables
+\usepackage{supertabular}   % Page breaks within tables
+\usepackage{multicol}       % Allows table cells to span cols
+\usepackage{multirow}       % Allows table cells to span rows
+\usepackage{texnames}       % Macros for common tex names
+%\usepackage{trees}         % Tree-like layout
+\usepackage{hhline}         % Horizontal lines in tables
+\usepackage{siunitx}        % Correct spacing of units
+
+\usepackage{listings}       % Source code listings
+\usepackage{array}          % Array environment
+\usepackage{hyperref}       % URL formatting
+\usepackage{amsmath}        % American Mathematical Society
+\usepackage{amssymb}        % Maths symbols
+\usepackage{amsthm}         % Theorems
+%\usepackage{mathpartir}    % Proofs and inference rules
+\usepackage{verbatim}       % Verbatim blocks
+\usepackage{ifthen}         % Conditional processing in tex
+\usepackage{xcolor}         % X11 colour names
+
+% control width and vertically align text in table cells
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% make hyperref links not-ugly
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\renewcommand{\oddsidemargin}{-20pt}
+\renewcommand{\evensidemargin}{-20pt}
+\renewcommand{\topmargin}{-30pt}
+\renewcommand{\textwidth}{410pt}
+\renewcommand{\marginparwidth}{100pt}
+
+\setlength{\parindent}{0em}
+\addtolength{\parskip}{1ex}
+
+\usepackage[draft]{changes}
+\setauthormarkup[left]{\textbf{[#1]}~}
+\definechangesauthor[\svrname]{\svrinit}{orange}
+\newcommand{\jkfadd}[1]{\added[\svrinit]{#1}}
+\newcommand{\jkfdel}[1]{\deleted[\svrinit]{#1}}
+\newcommand{\jkfrep}[2]{\replaced[\svrinit]{#1}{#2}}
+\newcommand{\jkfmar}[1]{\marginpar{\jkfadd{#1}}}
+
+\begin{document}
+
+\author{\studentname}
+\title{\svcourse, SV~\svnumber}
+\date{\svworkdate}
+
+\textbf{\svcourse, SV~\svnumber}\\
+\textbf{\studentname}\\
+\textbf{\svworkdate}\\
+
+\section{2008P1Q2}
+\begin{itemize}
+\item[(a)]
+\begin{itemize}
+\item[(i)] $2^{15}+2^{12}+2^{10}+2^8=38144$
+\item[(ii)] $-(2^{12}+2^{10}+2^8)=-5376$
+\item[(iii)] $- Inverse((1001 0101 0000 0000)_2 -1)=-(0110 1011 0000 0000)_2=-27392$
+\end{itemize}
+\item[(b)]
+$C=1$ Because $N+N>2^{16}-1$
+\\$V=1$ Because if we treat $N$ as a signed value, add N to N will change the sign. (i.e. Adding two negative number gives a positive number.)
+\end{itemize}
+
+\section{2011P2Q3}
+\begin{itemize}
+\item[(a)]
+\begin{itemize}
+\item[(i)] Access Control means the restriction to subjects of access to objects.
+\item[(ii)] Access Control List is storing a list of subjects and rights with each objects.
+\item[(iii)] Capacities are storing a list of objects and rights with each subjects.
+\end{itemize}
+\end{itemize}
+
+
+\section{2008P1Q8}
+\begin{itemize}
+\item[(a)]
+There are 5 process states: 1.Creation, 2.Ready, 3.Running, 4.Blocked, 5.Termination.
+\\Relation:1-2,2-3,3-2,3-4,3-5,4-2.
+\begin{itemize}
+\item[Creation]
+\begin{itemize}
+\item System initialization.
+\item Execution of a process creation call by a running process.
+\item A subject(user)'s request to create a new process.
+\item Initiation of a batch job. (Automatically following another job)
+\end{itemize}
+\item[Ready]
+\begin{itemize}
+\item After creation or taken some events ready to run in CPU but waiting for other processes.
+\item Current process run for a long time, OS pause it for a while leave CPU for other process.
+\end{itemize}
+\item[Running]
+\begin{itemize}
+\item Using the CPU at that instant.
+\end{itemize}
+\item[Blocked]
+\begin{itemize}
+\item Unable to run until some external event happens.
+\end{itemize}
+\item[Termination]
+\begin{itemize}
+\item Finished execution, normal exit.
+\item Error exit. (e.g. unhandled exception)
+\item Fatal exit. (e.g. try to access privileged unit or fetch memory without rights)
+\item Killed by other process.
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+\section{2007P1Q7}
+\begin{itemize}
+\item[(a)] Note $1024*1024*4096=2^{32}$.
+\\So there is a bijection between set of all 32-bit virtual address and set of all bytes in the memory.
+\\From the most to the least significant bit in the virtual address, assume following virtual memory address structure.
+\\P1 = first 10 bits. P2 = following 10 bits. Offset = the last 12 bits.
+\\The MMU first uses P1 to index into the first-level page table and obtain entry P1 which corresponding to a second-level page table. The MMU then use P2 to index into this second-level page table and obtain entry P2 which should be corresponding to some memory chunk with length 4096 bytes. If the Present/Absent bit is false then this is causing a page fault. Otherwise the page is in the memory, the page frame number is taken from the second-level page table is combined with Offset to construct the physical address which will be put on bus and send to memory.
+\item[(b)]
+-
+\begin{itemize}
+\item[Present bit] Whether the entry is a map to a valid physical address.
+\item[Read bit] Whether the process has the right to read the physical address mapped to.
+\item[Write bit]Whether the process has the right to write the physical address mapped to.
+\item[Execute bit]Whether the process has the right to execute the physical address mapped to.
+\end{itemize}
+\item[(c)]
+The paging address is one dimensional which goes from 0 to some maximum address.
+\\The segmentation can have two or more segments which have separated virtual address spaces.
+\\This can be implemented by restructuring the virtual address.
+\\Segment number - Page number - Offset
+\\The MMU will first map segment number to some page table (segment).
+\\Then it maps the page number to a physical address in that page table.
+\\After checking protection bits, the physical address will be sent to memory on the bus.
+\end{itemize}
+\end{document}

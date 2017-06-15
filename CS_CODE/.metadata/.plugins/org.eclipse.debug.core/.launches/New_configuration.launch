@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="in.iitd.mldev.launch.SmlLaunchType">
-<stringAttribute key="in.iitd.mldev.smlConfigFile" value=""/>
+<stringAttribute key="in.iitd.mldev.smlConfigFile" value="test.ml"/>
 <booleanAttribute key="in.iitd.mldev.smlConfigIsCm" value="false"/>
-<stringAttribute key="in.iitd.mldev.smlConfigProject" value=""/>
+<stringAttribute key="in.iitd.mldev.smlConfigProject" value="FoundationOfCSPastPaper"/>
 </launchConfiguration>
